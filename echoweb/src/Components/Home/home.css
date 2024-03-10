@@ -1,0 +1,263 @@
+.container-fluid{
+    max-width: 90%;
+}
+.carousel-text-adjust{
+top:45%;
+margin-left: 2%;
+}
+@media (max-width: 800px){
+  .carousel-text-adjust{
+    top:35%;
+    margin-left: 5%;
+    }
+}
+.how-it-works {
+    /* background-color: #f8f9fa; */
+    padding: 50px 0;
+}
+
+.how-it-works-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    /* margin-bottom: 50px; */
+}
+.banner {
+  font-size: 56px;
+  font-weight: 600;
+  color: rgba(29, 25, 28, 1);
+}
+
+.banner-underline {
+  position: absolute;
+  left: 0.3%;
+  bottom: 1px;
+  width: 46%; /* Adjust the width relative to the screen width */
+  height: 15px;
+  background: rgba(0, 87, 255, 0.5);
+  z-index: -1;
+}
+
+@media (max-width: 576px) {
+  .banner {
+      font-size: 26px; /* Adjust font size for extra small screens */
+  }
+
+  .banner-underline {
+      bottom: -5px; /* Adjust the position of the underline */
+      width: 56%; /* Adjust the width for extra small screens */
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .banner {
+      font-size: 32px; /* Adjust font size for small screens */
+  }
+
+  .banner-underline {
+      bottom: -5px; /* Adjust the position of the underline */
+      width: 50%; /* Adjust the width for small screens */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .banner {
+      font-size: 36px; /* Adjust font size for medium screens */
+  }
+
+  .banner-underline {
+      bottom: -5px; /* Adjust the position of the underline */
+      width: 56%; /* Adjust the width for medium screens */
+  }
+}
+@media (min-width: 993px) and (max-width: 1576px) {
+  .banner {
+      font-size: 40px; /* Adjust font size for medium screens */
+  }
+
+  .banner-underline {
+      bottom: -2px; /* Adjust the position of the underline */
+      width: 40%; /* Adjust the width for medium screens */
+  }
+}
+/* .banner {
+    padding: 30px 0 8px;
+    position: relative;
+    font-size: 56px;
+    font-weight: 600;
+    color: rgba(29, 25, 28, 1);
+  }
+  
+  .banner::before {
+    content: "";
+    position: absolute;
+    left: 2%;
+    bottom: 8px;
+    width: 390px;
+    height: 15px;
+    transform:  translateX(-8%);
+    background: rgba(0, 87, 255, 0.5);
+    z-index: -1;
+  } */
+  /* skew(-12deg) */
+   /* Popular workout css */
+
+
+
+  .workout-card-avatar-bordered {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    
+  }
+  /* .workout-card-avatar-large {
+    width: 50px;
+  } */
+
+  
+  .workout-card {
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden; /* Hide overflow content */
+    color: white;
+    border-radius: 28px;
+    
+}
+
+.workout-card-image {
+    background-size: cover;
+    background-position: center;
+    height: 150px; /* Set the height of the image */
+    position: relative;
+}
+  /* .workout-card-user {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  } */
+  /* .workout-card-category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+  } */
+  .workout-card-description {
+    position: absolute;
+    bottom: 1px;
+    left: 15px;
+    ;
+  }
+  .workout-card-description h2 {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .workout-card-description p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+  }
+  .workout-card-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index:2;
+    background: black;
+    opacity: 0;
+  }
+  .workout-card:hover{
+    opacity: 0.9;
+  }
+  .workout-card-features img {
+    width: 100px;
+  }
+  .workout-card-features h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .workout-card-features p {
+    font-size: 15px;
+    font-weight: lighter;
+  }
+
+  /* Employees CSS */
+  .banner-container {
+    position: relative;
+}
+
+.banner-employes {
+    font-size: 56px;
+    font-weight: 600;
+    color: rgba(29, 25, 28, 1);
+}
+
+.banner-employes-underline {
+    position: absolute;
+    left: 1%;
+    bottom: 1px;
+    width: 56%; /* Adjust the width relative to the screen width */
+    height: 15px;
+    background: rgba(0, 87, 255, 0.5);
+    z-index: -1;
+}
+
+@media (max-width: 576px) {
+    .banner-employes {
+        font-size: 26px; /* Adjust font size for extra small screens */
+    }
+
+    .banner-employes-underline {
+        bottom: -5px; /* Adjust the position of the underline */
+        width: 56%; /* Adjust the width for extra small screens */
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .banner-employes {
+        font-size: 32px; /* Adjust font size for small screens */
+    }
+
+    .banner-employes-underline {
+        bottom: -5px; /* Adjust the position of the underline */
+        width: 56%; /* Adjust the width for small screens */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .banner-employes {
+        font-size: 36px; /* Adjust font size for medium screens */
+    }
+
+    .banner-employes-underline {
+        bottom: -5px; /* Adjust the position of the underline */
+        width: 56%; /* Adjust the width for medium screens */
+    }
+}
+.employes-card:hover{
+  color: white;
+  background-color: #1D191C;
+  
+  .employes-card-quote{
+    color: #1D191C;
+    background-color: white;
+  }
+}
+
+/* Add more media queries for larger screens if needed */
+
+.scrolling-wrapper-flexbox {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.scrolling-wrapper-flexbox::-webkit-scrollbar {
+  display: none;
+}
+
+.scrolling-wrapper-flexbox .card {
+  flex: 0 0 auto;
+}
+
+
