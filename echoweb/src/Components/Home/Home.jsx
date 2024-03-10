@@ -66,8 +66,300 @@ const Home = () => {
 
                 <PopularCourses/>
                 
-    
     <PopularWorkout/>
+    <div class="">
+    <div class="row ">
+    <div class="col-md-5 col-12 ">
+        <div class="banner-container">
+            <h1 class="banner-employes ">What our Employees</h1>
+            <div class="banner-employes-underline"></div>
+        </div>
+        <h5 class="banner-employes ">saying about us</h5>
+    </div>
+<div className="col-md-5 col-12 mx-auto">
+<h5 class="text-secondary mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</h5>
+
+</div>
+</div>
+
+</div>
+<section style={{color: "#000"}}>
+  <div class=" py-5">
+
+    <div class="row scrolling-wrapper-flexbox">
+      <div class="col-10 col-md-5 col-lg-3 mb-3">
+        <div class="card rounded-4 employes-card" >
+          <div class="card-body py-4 mt-2">
+            
+            <h5 class="font-weight-bold" style={{fontSize:'18px'}}>Great Platform</h5>
+            
+            <div className="row ">
+                <div className="col-md-1">
+                <i class="fa-solid fa-quote-left p-1 rounded-circle employes-card-quote" ></i>
+           
+                </div>
+                <div className="col-md-10 ">
+                <p class="mb-2 border-bottom pb-2">
+              Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusmod tem incididunt ut labore consectetur eius tem incididunt ut labore cons .eiusme tem incididunt labore consecte.Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusm
+            </p>
+            <div class="d-flex flex-start mt-4">
+                      <a class="me-3" href="#">
+                        <img class="rounded-circle shadow-1-strong"
+                          src="./img/Employees/employe1.png" alt="avatar"
+                          width="60" height="60" />
+                      </a>
+                      <div class="flex-grow-1 flex-shrink-1">
+                        <div>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <p class="mb-1">
+                            Kyle Mayers
+                            </p>
+                          </div>
+                          <ul class="list-unstyled d-flex justify-content-start">
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+              </li>
+            </ul>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-md-5 col-lg-3 mb-3">
+        <div class="card rounded-4 employes-card" >
+          <div class="card-body py-4 mt-2">
+            
+            <h5 class="font-weight-bold" style={{fontSize:'18px'}}>Great Platform</h5>
+            
+            <div className="row ">
+                <div className="col-md-1">
+                <i class="fa-solid fa-quote-left p-1 rounded-circle employes-card-quote" ></i>
+           
+                </div>
+                <div className="col-md-10 ">
+                <p class="mb-2 border-bottom pb-2">
+              Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusmod tem incididunt ut labore consectetur eius tem incididunt ut labore cons .eiusme tem incididunt labore consecte.Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusm
+            </p>
+            <div class="d-flex flex-start mt-4">
+                      <a class="me-3" href="#">
+                        <img class="rounded-circle shadow-1-strong"
+                          src="./img/Employees/employe2.png" alt="avatar"
+                          width="60" height="60" />
+                      </a>
+                      <div class="flex-grow-1 flex-shrink-1">
+                        <div>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <p class="mb-1">
+                            Kyle Mayers
+                            </p>
+                          </div>
+                          <ul class="list-unstyled d-flex justify-content-start">
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+              </li>
+            </ul>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-md-5 col-lg-3 mb-3">
+        <div class="card rounded-4 employes-card" >
+          <div class="card-body py-4 mt-2">
+            
+            <h5 class="font-weight-bold" style={{fontSize:'18px'}}>Great Platform</h5>
+            
+            <div className="row ">
+                <div className="col-md-1">
+                <i class="fa-solid fa-quote-left p-1 rounded-circle employes-card-quote" ></i>
+           
+                </div>
+                <div className="col-md-10 ">
+                <p class="mb-2 border-bottom pb-2">
+              Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusmod tem incididunt ut labore consectetur eius tem incididunt ut labore cons .eiusme tem incididunt labore consecte.Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusm
+            </p>
+            <div class="d-flex flex-start mt-4">
+                      <a class="me-3" href="#">
+                        <img class="rounded-circle shadow-1-strong"
+                          src="./img/Employees/employe3.png" alt="avatar"
+                          width="60" height="60" />
+                      </a>
+                      <div class="flex-grow-1 flex-shrink-1">
+                        <div>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <p class="mb-1">
+                            Kyle Mayers
+                            </p>
+                          </div>
+                          <ul class="list-unstyled d-flex justify-content-start">
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+              </li>
+            </ul>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-md-5 col-lg-3 mb-3">
+        <div class="card rounded-4 employes-card" >
+          <div class="card-body py-4 mt-2">
+            
+            <h5 class="font-weight-bold" style={{fontSize:'18px'}}>Great Platform</h5>
+            
+            <div className="row ">
+                <div className="col-md-1">
+                <i class="fa-solid fa-quote-left p-1 rounded-circle employes-card-quote" ></i>
+           
+                </div>
+                <div className="col-md-10 ">
+                <p class="mb-2 border-bottom pb-2">
+              Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusmod tem incididunt ut labore consectetur eius tem incididunt ut labore cons .eiusme tem incididunt labore consecte.Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusm
+            </p>
+            <div class="d-flex flex-start mt-4">
+                      <a class="me-3" href="#">
+                        <img class="rounded-circle shadow-1-strong"
+                          src="./img/Employees/employe2.png" alt="avatar"
+                          width="60" height="60" />
+                      </a>
+                      <div class="flex-grow-1 flex-shrink-1">
+                        <div>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <p class="mb-1">
+                            Kyle Mayers
+                            </p>
+                          </div>
+                          <ul class="list-unstyled d-flex justify-content-start">
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+              </li>
+            </ul>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-md-5 col-lg-3 mb-3">
+        <div class="card rounded-4 employes-card" >
+          <div class="card-body py-4 mt-2">
+            
+            <h5 class="font-weight-bold" style={{fontSize:'18px'}}>Great Platform</h5>
+            
+            <div className="row ">
+                <div className="col-md-1">
+                <i class="fa-solid fa-quote-left p-1 rounded-circle employes-card-quote" ></i>
+           
+                </div>
+                <div className="col-md-10 ">
+                <p class="mb-2 border-bottom pb-2">
+              Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusmod tem incididunt ut labore consectetur eius tem incididunt ut labore cons .eiusme tem incididunt labore consecte.Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusm
+            </p>
+            <div class="d-flex flex-start mt-4">
+                      <a class="me-3" href="#">
+                        <img class="rounded-circle shadow-1-strong"
+                          src="./img/Employees/employe1.png" alt="avatar"
+                          width="60" height="60" />
+                      </a>
+                      <div class="flex-grow-1 flex-shrink-1">
+                        <div>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <p class="mb-1">
+                            Kyle Mayers
+                            </p>
+                          </div>
+                          <ul class="list-unstyled d-flex justify-content-start">
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+              </li>
+            </ul>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <div class="container-fluid">
   <div class="row">
