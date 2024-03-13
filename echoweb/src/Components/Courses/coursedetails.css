@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+    .coursedetailsmidborder{
+        border-right:1px solid #E2E2E2;
+    }
+}

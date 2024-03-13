@@ -7,6 +7,9 @@ import Footer from './Components/Footer/Footer';
 import Courses from './Components/Courses/Courses';
 import ContactUs from './Components/ContactUs/ContactUs';
 import CourseDetails from './Components/Courses/CourseDetails';
+import WorkoutDetails from './Components/Courses/WorkoutDetails';
+import CoursePayment from './Components/Courses/CoursePayment';
+import WorkoutStart from './Components/Courses/WorkoutStart';
 function App() {
   return (
     <>
@@ -28,6 +31,10 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/coursedetails" element={<CourseDetails />} />
+          <Route path="/workoutdetails" element={<WorkoutDetails />} />
+          <Route path="/coursepayment" element={<CoursePayment />} />
+          <Route path="/workoutstart" element={<WorkoutStart />} />
+
         </Route>
 
         

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const PopularWorkout = () => {
   return (
@@ -25,7 +26,7 @@ const PopularWorkout = () => {
                 <p>12 minutes | Intermediate</p>
               </div>
               {/* <img className="workout-card-user workout-card-avatar workout-card-avatar-large" src="https://github.com/lewagon/bootstrap-challenges/blob/master/11-Airbnb-search-form/images/anne.jpg?raw=true" alt="User" /> */}
-              <a className="workout-card-link" href="#"></a>
+              <Link className="workout-card-link" to='/workoutdetails'></Link>
               </div>
             </div>
           </div>
@@ -38,7 +39,7 @@ const PopularWorkout = () => {
                 <p>12 minutes | Intermediate</p>
               </div>
               {/* <img className="workout-card-user workout-card-avatar workout-card-avatar-large" src="https://github.com/lewagon/bootstrap-challenges/blob/master/11-Airbnb-search-form/images/anne.jpg?raw=true" alt="User" /> */}
-              <a className="workout-card-link" href="#"></a>
+              <Link className="workout-card-link" to='/workoutdetails'></Link>
               </div>
             </div>
           </div>
@@ -51,7 +52,7 @@ const PopularWorkout = () => {
                 <p>12 minutes | Intermediate</p>
               </div>
               {/* <img className="workout-card-user workout-card-avatar workout-card-avatar-large" src="https://github.com/lewagon/bootstrap-challenges/blob/master/11-Airbnb-search-form/images/anne.jpg?raw=true" alt="User" /> */}
-              <a className="workout-card-link" href="#"></a>
+              <Link className="workout-card-link" to='/workoutdetails'></Link>
               </div>
             </div>
           </div>
@@ -64,7 +65,7 @@ const PopularWorkout = () => {
                 <p>12 minutes | Intermediate</p>
               </div>
               {/* <img className="workout-card-user workout-card-avatar workout-card-avatar-large" src="https://github.com/lewagon/bootstrap-challenges/blob/master/11-Airbnb-search-form/images/anne.jpg?raw=true" alt="User" /> */}
-              <a className="workout-card-link" href="#"></a>
+              <Link className="workout-card-link" to='/workoutdetails'></Link>
               </div>
             </div>
           </div>
@@ -77,7 +78,7 @@ const PopularWorkout = () => {
                 <p>12 minutes | Intermediate</p>
               </div>
               {/* <img className="workout-card-user workout-card-avatar workout-card-avatar-large" src="https://github.com/lewagon/bootstrap-challenges/blob/master/11-Airbnb-search-form/images/anne.jpg?raw=true" alt="User" /> */}
-              <a className="workout-card-link" href="#"></a>
+              <Link className="workout-card-link" to='/workoutdetails'></Link>
               </div>
             </div>
           </div>
@@ -90,7 +91,7 @@ const PopularWorkout = () => {
                 <p>12 minutes | Intermediate</p>
               </div>
               {/* <img className="workout-card-user workout-card-avatar workout-card-avatar-large" src="https://github.com/lewagon/bootstrap-challenges/blob/master/11-Airbnb-search-form/images/anne.jpg?raw=true" alt="User" /> */}
-              <a className="workout-card-link" href="#"></a>
+              <Link className="workout-card-link" to='/workoutdetails'></Link>
               </div>
             </div>
           </div>
@@ -103,7 +104,7 @@ const PopularWorkout = () => {
                 <p>12 minutes | Intermediate</p>
               </div>
               {/* <img className="workout-card-user workout-card-avatar workout-card-avatar-large" src="https://github.com/lewagon/bootstrap-challenges/blob/master/11-Airbnb-search-form/images/anne.jpg?raw=true" alt="User" /> */}
-              <a className="workout-card-link" href="#"></a>
+              <Link className="workout-card-link" to='/workoutdetails'></Link>
               </div>
             </div>
           </div>
@@ -116,7 +117,7 @@ const PopularWorkout = () => {
                 <p>12 minutes | Intermediate</p>
               </div>
               {/* <img className="workout-card-user workout-card-avatar workout-card-avatar-large" src="https://github.com/lewagon/bootstrap-challenges/blob/master/11-Airbnb-search-form/images/anne.jpg?raw=true" alt="User" /> */}
-              <a className="workout-card-link" href="#"></a>
+              <Link className="workout-card-link" to='/workoutdetails'></Link>
               </div>
             </div>
           </div>

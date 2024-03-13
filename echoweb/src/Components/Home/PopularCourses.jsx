@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const PopularCourses = () => {
   return (
@@ -36,7 +37,7 @@ const PopularCourses = () => {
                 </div> */}
                                     </div>
                                     <div className="stats mt-2">
-                                        <div className="d-flex justify-content-between p-price my-2"><span><b>UI/UX Designer Course</b></span><span className="badge" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <div className="d-flex justify-content-between p-price my-2"><Link to='/coursedetails' style={{ textDecoration: 'none',color:'black' }}><b>UI/UX Designer Course</b></Link><span className="badge" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                                             Beginners
                                         </span>
                                         </div>
@@ -55,7 +56,7 @@ const PopularCourses = () => {
                 </div> */}
                                     </div>
                                     <div className="stats mt-2">
-                                        <div className="d-flex justify-content-between p-price my-2"><span><b>UI/UX Designer Course</b></span><span className="badge" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <div className="d-flex justify-content-between p-price my-2"><Link to='/coursedetails' style={{ textDecoration: 'none',color:'black' }}><b>UI/UX Designer Course</b></Link><span className="badge" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                                             Beginners
                                         </span>
                                         </div>
@@ -74,7 +75,7 @@ const PopularCourses = () => {
                 </div> */}
                                     </div>
                                     <div className="stats mt-2">
-                                        <div className="d-flex justify-content-between p-price my-2"><span><b>UI/UX Designer Course</b></span><span className="badge" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <div className="d-flex justify-content-between p-price my-2"><Link to='/coursedetails' style={{ textDecoration: 'none',color:'black' }}><b>UI/UX Designer Course</b></Link><span className="badge" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                                             Beginners
                                         </span>
                                         </div>
@@ -93,7 +94,7 @@ const PopularCourses = () => {
                 </div> */}
                                     </div>
                                     <div className="stats mt-2">
-                                        <div className="d-flex justify-content-between p-price my-2"><span><b>UI/UX Designer Course</b></span><span className="badge" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <div className="d-flex justify-content-between p-price my-2"><Link to='/coursedetails' style={{ textDecoration: 'none',color:'black' }}><b>UI/UX Designer Course</b></Link><span className="badge" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                                             Beginners
                                         </span>
                                         </div>
@@ -112,7 +113,7 @@ const PopularCourses = () => {
                 </div> */}
                                     </div>
                                     <div className="stats mt-2">
-                                        <div className="d-flex justify-content-between p-price my-2"><span><b>UI/UX Designer Course</b></span><span className="badge" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <div className="d-flex justify-content-between p-price my-2"><Link to='/coursedetails' style={{ textDecoration: 'none',color:'black' }}><b>UI/UX Designer Course</b></Link><span className="badge" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                                             Beginners
                                         </span>
                                         </div>
@@ -131,7 +132,7 @@ const PopularCourses = () => {
                 </div> */}
                                     </div>
                                     <div className="stats mt-2">
-                                        <div className="d-flex justify-content-between p-price my-2"><span><b>UI/UX Designer Course</b></span><span className="badge" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <div className="d-flex justify-content-between p-price my-2"><Link to='/coursedetails' style={{ textDecoration: 'none',color:'black' }}><b>UI/UX Designer Course</b></Link><span className="badge" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                                             Beginners
                                         </span>
                                         </div>
@@ -150,7 +151,7 @@ const PopularCourses = () => {
                 </div> */}
                                     </div>
                                     <div className="stats mt-2">
-                                        <div className="d-flex justify-content-between p-price my-2"><span><b>UI/UX Designer Course</b></span><span className="badge" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <div className="d-flex justify-content-between p-price my-2"><Link to='/coursedetails' style={{ textDecoration: 'none',color:'black' }}><b>UI/UX Designer Course</b></Link><span className="badge" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                                             Beginners
                                         </span>
                                         </div>
@@ -169,7 +170,7 @@ const PopularCourses = () => {
                 </div> */}
                                     </div>
                                     <div className="stats mt-2">
-                                        <div className="d-flex justify-content-between p-price my-2"><span><b>UI/UX Designer Course</b></span><span className="badge" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <div className="d-flex justify-content-between p-price my-2"><Link to='/coursedetails' style={{ textDecoration: 'none',color:'black' }}><b>UI/UX Designer Course</b></Link><span className="badge" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                                             Beginners
                                         </span>
                                         </div>

@@ -5,3 +5,13 @@
   /* font-size:1.14vw; */
   font-size: 18px;
 }
+.btn-info{
+  background-color: #1D191C;
+  border: none;
+  color: white;
+}
+.btn-info:hover{
+  background-color: #2b2a2a;
+  border: none;
+  color: white;
+}
