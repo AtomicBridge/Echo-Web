@@ -10,6 +10,15 @@ import CourseDetails from './Components/Courses/CourseDetails';
 import WorkoutDetails from './Components/Courses/WorkoutDetails';
 import CoursePayment from './Components/Courses/CoursePayment';
 import WorkoutStart from './Components/Courses/WorkoutStart';
+import Login from './Components/User/Login';
+import ForgotPassword from './Components/User/ForgotPassword';
+import ForgotPasswordOtp from './Components/User/ForgotPasswordOtp';
+import ForgotNewPassword from './Components/User/ForgotNewPassword';
+import SignUp from './Components/User/SignUp/SignUp';
+import SignUpOtp from './Components/User/SignUp/SignUpOtp';
+import SignUpAccountType from './Components/User/SignUp/SignUpAccountType';
+import UserSignUpProfile1 from './Components/User/SignUp/UserSignUpProfile1';
+import UserSignUpProfile2 from './Components/User/SignUp/UserSignUpProfile2';
 function App() {
   return (
     <>
@@ -37,6 +46,15 @@ function App() {
 
         </Route>
 
+        <Route path="/login" element={<Login/>} />
+        <Route path="/forgotpassword" element={<ForgotPassword/>} />
+        <Route path="/forgotpasswordotp" element={<ForgotPasswordOtp/>} />
+        <Route path="/forgotnewpassword" element={<ForgotNewPassword/>} />
+        <Route path="/signup" element={<SignUp/>} />
+        <Route path="/signupotp" element={<SignUpOtp/>} />
+        <Route path="/signupaccounttype" element={<SignUpAccountType/>} />
+        <Route path="/usersignupprofile1" element={<UserSignUpProfile1/>} />
+        <Route path="/usersignupprofile2" element={<UserSignUpProfile2/>} />
         
         
 

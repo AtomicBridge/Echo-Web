@@ -1,13 +1,26 @@
 import React, { useEffect, useState } from 'react'
 import "./header.css";
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 const Header = () => {
     const location = useLocation();
     const [currentURL, setCurrentURL] = useState(location.pathname);
-  
+    const [userlogged, setuserlogged] = useState(localStorage.getItem('loggedInUser'))
+  const navigate = useNavigate();
     useEffect(() => {
       setCurrentURL(location.pathname);
     }, [location.pathname]);
+    const navigatelogin =() =>{
+navigate('/login')
+    }
+    const navigatesignup =() =>{
+        navigate('/signup')
+            }
+            const handleLogout = () => {
+                // Remove data of 'loggedInUser' from localStorage
+                localStorage.removeItem('loggedInUser');
+                // Update the userlogged state to false
+                setuserlogged(false);
+            };
   return (
     <>
     { currentURL === '/' || currentURL === '/aboutus' || currentURL === '/courses' || currentURL === '/contactus'
@@ -35,14 +48,42 @@ const Header = () => {
                     <Link class="nav-link" to='/contactus'>Contact Us</Link>
                 </li>
             </ul>
-            <ul class="navbar-nav ms-auto">
+            {userlogged=== 'user'?<ul class="navbar-nav ms-auto">
+    <li class="nav-item my-2 mx-md-4 ">
+        <img className='mx-2' src="./img/Navbar/Group 5.png" alt="" />
+        <img src="./img/Navbar/Group 6.png" alt="" />
+    </li>
+    <li className="nav-item">
+  <div className="position-relative">
+    <img
+      src="./img/Navbar/Ellipse 2386.png"
+      className="dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+      alt=""
+      style={{ width: '48px', height: '48px', cursor: 'pointer' }}
+    />
+    <ul className="dropdown-menu px-2" style={{  left: '-100%' }}>
+      <li><button className="dropdown-item border-bottom px-2" onClick={() => navigatelogin()}> <img className='mb-1 ' src="./img/Navbar/Edit.png" alt="" /> Edit Profile</button></li>
+      <li><button className="dropdown-item border-bottom px-2" onClick={() => navigatelogin()}><img className='mb-1' src="./img/Navbar/Chart.png" alt="" /> Progress Tracking</button></li>
+      <li><button className="dropdown-item px-2" onClick={handleLogout}><img className='mb-1' src="./img/Navbar/Logout.png" alt="" /> Logout</button></li>
+      
+    </ul>
+  </div>
+</li>
+
+
+</ul>:
+<ul class="navbar-nav ms-auto">
     <li class="nav-item">
-        <button class="btn btn-outline-dark mx-md-2 rounded-pill  my-1" style={{height:'48px', width:'100px'}}>Login</button>
+        <button class="btn btn-outline-dark mx-md-2 rounded-pill  my-1" onClick={navigatelogin} style={{height:'48px', width:'100px'}}>Login</button>
     </li>
     <li class="nav-item">
-        <button class="btn btn-dark rounded-pill mx-md-2  my-1 " style={{height:'48px', width:'100px'}}>Sign Up</button>
+        <button class="btn btn-dark rounded-pill mx-md-2  my-1 "  onClick={navigatesignup} style={{height:'48px', width:'100px'}}>Sign Up</button>
     </li>
 </ul>
+}
+            
 
 
 
@@ -70,14 +111,40 @@ const Header = () => {
                         <Link class="nav-link" style={{color:'white'}} to='/contactus'>Contact Us</Link>
                     </li>
                 </ul>
+                {userlogged=== 'user'?<ul class="navbar-nav ms-auto">
+    <li class="nav-item my-2 mx-md-4 ">
+        <img className='mx-2' src="./img/Navbar/Group 5.png" alt="" />
+        <img src="./img/Navbar/Group 6.png" alt="" />
+    </li>
+    <li className="nav-item">
+  <div className="position-relative">
+    <img
+      src="./img/Navbar/Ellipse 2386.png"
+      className="dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+      alt=""
+      style={{ width: '48px', height: '48px', cursor: 'pointer' }}
+    />
+    <ul className="dropdown-menu px-2" style={{  left: '-100%' }}>
+      <li><button className="dropdown-item border-bottom px-2" onClick={() => navigatelogin()}> <img className='mb-1 ' src="./img/Navbar/Edit.png" alt="" /> Edit Profile</button></li>
+      <li><button className="dropdown-item border-bottom px-2" onClick={() => navigatelogin()}><img className='mb-1' src="./img/Navbar/Chart.png" alt="" /> Progress Tracking</button></li>
+      <li><button className="dropdown-item px-2" onClick={handleLogout}><img className='mb-1' src="./img/Navbar/Logout.png" alt="" /> Logout</button></li>
+      
+    </ul>
+  </div>
+</li>
+
+
+</ul>:
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <button class="btn btn-outline-light mx-md-2 rounded-pill my-1" style={{ height: '48px', width: '100px' }}>Login</button>
+                        <button class="btn btn-outline-light mx-md-2 rounded-pill my-1" onClick={navigatelogin} style={{ height: '48px', width: '100px' }}>Login</button>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-light rounded-pill mx-md-2 my-1" style={{ height: '48px', width: '100px' }}>Sign Up</button>
+                        <button class="btn btn-light rounded-pill mx-md-2 my-1" onClick={navigatesignup} style={{ height: '48px', width: '100px' }}>Sign Up</button>
                     </li>
-                </ul>
+                </ul>}
             </div>
         </div>
     </nav>
