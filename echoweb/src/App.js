@@ -19,6 +19,9 @@ import SignUpOtp from './Components/User/SignUp/SignUpOtp';
 import SignUpAccountType from './Components/User/SignUp/SignUpAccountType';
 import UserSignUpProfile1 from './Components/User/SignUp/UserSignUpProfile1';
 import UserSignUpProfile2 from './Components/User/SignUp/UserSignUpProfile2';
+import ProgressTracking from './Components/Progress Tracking/ProgressTracking';
+import ProgressTrackingCourseContent from './Components/Progress Tracking/ProgressTrackingCourseContent';
+import ProgressTrackingWorkoutContent from './Components/Progress Tracking/ProgressTrackingWorkoutContent';
 function App() {
   return (
     <>
@@ -43,6 +46,9 @@ function App() {
           <Route path="/workoutdetails" element={<WorkoutDetails />} />
           <Route path="/coursepayment" element={<CoursePayment />} />
           <Route path="/workoutstart" element={<WorkoutStart />} />
+          <Route path="/progresstracking" element={<ProgressTracking />} />
+          <Route path="/progresstrackingcoursecontent" element={<ProgressTrackingCourseContent />} />
+          <Route path="/progresstrackingworkoutcontent" element={<ProgressTrackingWorkoutContent />} />
 
         </Route>
 

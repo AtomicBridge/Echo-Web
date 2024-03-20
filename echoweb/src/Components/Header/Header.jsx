@@ -12,6 +12,9 @@ const Header = () => {
     const navigatelogin =() =>{
 navigate('/login')
     }
+    const navigateprogresstracking =() =>{
+        navigate('/progresstracking');
+            }
     const navigatesignup =() =>{
         navigate('/signup')
             }
@@ -65,7 +68,7 @@ navigate('/login')
     />
     <ul className="dropdown-menu px-2" style={{  left: '-100%' }}>
       <li><button className="dropdown-item border-bottom px-2" onClick={() => navigatelogin()}> <img className='mb-1 ' src="./img/Navbar/Edit.png" alt="" /> Edit Profile</button></li>
-      <li><button className="dropdown-item border-bottom px-2" onClick={() => navigatelogin()}><img className='mb-1' src="./img/Navbar/Chart.png" alt="" /> Progress Tracking</button></li>
+      <li><button className="dropdown-item border-bottom px-2" onClick={() => navigateprogresstracking()}><img className='mb-1' src="./img/Navbar/Chart.png" alt="" /> Progress Tracking</button></li>
       <li><button className="dropdown-item px-2" onClick={handleLogout}><img className='mb-1' src="./img/Navbar/Logout.png" alt="" /> Logout</button></li>
       
     </ul>
@@ -128,7 +131,7 @@ navigate('/login')
     />
     <ul className="dropdown-menu px-2" style={{  left: '-100%' }}>
       <li><button className="dropdown-item border-bottom px-2" onClick={() => navigatelogin()}> <img className='mb-1 ' src="./img/Navbar/Edit.png" alt="" /> Edit Profile</button></li>
-      <li><button className="dropdown-item border-bottom px-2" onClick={() => navigatelogin()}><img className='mb-1' src="./img/Navbar/Chart.png" alt="" /> Progress Tracking</button></li>
+      <li><button className="dropdown-item border-bottom px-2" onClick={() => navigateprogresstracking()}><img className='mb-1' src="./img/Navbar/Chart.png" alt="" /> Progress Tracking</button></li>
       <li><button className="dropdown-item px-2" onClick={handleLogout}><img className='mb-1' src="./img/Navbar/Logout.png" alt="" /> Logout</button></li>
       
     </ul>
