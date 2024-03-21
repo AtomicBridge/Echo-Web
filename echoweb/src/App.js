@@ -22,6 +22,8 @@ import UserSignUpProfile2 from './Components/User/SignUp/UserSignUpProfile2';
 import ProgressTracking from './Components/Progress Tracking/ProgressTracking';
 import ProgressTrackingCourseContent from './Components/Progress Tracking/ProgressTrackingCourseContent';
 import ProgressTrackingWorkoutContent from './Components/Progress Tracking/ProgressTrackingWorkoutContent';
+import Notifications from './Components/Inbox/Notifications';
+import Inbox from './Components/Inbox/Inbox';
 function App() {
   return (
     <>
@@ -49,6 +51,8 @@ function App() {
           <Route path="/progresstracking" element={<ProgressTracking />} />
           <Route path="/progresstrackingcoursecontent" element={<ProgressTrackingCourseContent />} />
           <Route path="/progresstrackingworkoutcontent" element={<ProgressTrackingWorkoutContent />} />
+          <Route path="/usernotifications" element={<Notifications />} />
+          <Route path="/userinbox" element={<Inbox />} />
 
         </Route>
 

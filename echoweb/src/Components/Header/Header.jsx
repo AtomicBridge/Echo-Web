@@ -12,6 +12,12 @@ const Header = () => {
     const navigatelogin =() =>{
 navigate('/login')
     }
+    const handlenotification =() =>{
+        navigate('/usernotifications')
+            }
+            const handleinbox =() =>{
+                navigate('/userinbox')
+                    }
     const navigateprogresstracking =() =>{
         navigate('/progresstracking');
             }
@@ -53,8 +59,8 @@ navigate('/login')
             </ul>
             {userlogged=== 'user'?<ul class="navbar-nav ms-auto">
     <li class="nav-item my-2 mx-md-4 ">
-        <img className='mx-2' src="./img/Navbar/Group 5.png" alt="" />
-        <img src="./img/Navbar/Group 6.png" alt="" />
+        <img className='mx-2' onClick={handleinbox} style={{cursor:'pointer'}} src="./img/Navbar/Group 5.png" alt="" />
+        <img onClick={ handlenotification} style={{cursor:'pointer'}} src="./img/Navbar/Group 6.png"  alt="" />
     </li>
     <li className="nav-item">
   <div className="position-relative">
@@ -116,8 +122,8 @@ navigate('/login')
                 </ul>
                 {userlogged=== 'user'?<ul class="navbar-nav ms-auto">
     <li class="nav-item my-2 mx-md-4 ">
-        <img className='mx-2' src="./img/Navbar/Group 5.png" alt="" />
-        <img src="./img/Navbar/Group 6.png" alt="" />
+        <img className='mx-2' onClick={handleinbox} style={{cursor:'pointer'}} src="./img/Navbar/Group 5.png" alt="" />
+        <img src="./img/Navbar/Group 6.png" onClick={ handlenotification} style={{cursor:'pointer'}} alt="" />
     </li>
     <li className="nav-item">
   <div className="position-relative">
