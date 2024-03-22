@@ -1,0 +1,75 @@
+.banner-container {
+    position: relative;
+}
+
+.banner-terms {
+    font-size: 56px;
+    font-weight: 600;
+    color: rgba(29, 25, 28, 1);
+}
+
+.banner-terms-underline {
+    position: absolute;
+    left: 32%;
+    bottom: 1px;
+    width: 25.5%; /* Adjust the width relative to the screen width */
+    height: 15px;
+    background: rgba(0, 87, 255, 0.5);
+    z-index: -1;
+}
+@media (max-width: 450px)  {
+    .banner-terms {
+        font-size: 26px; /* Adjust font size for extra small screens */
+    }
+
+    .banner-terms-underline {
+        bottom: -5px; /* Adjust the position of the underline */
+        width: 23%; /* Adjust the width for extra small screens */
+        left: 34%;
+        height: 10px;
+        bottom: 1px;
+    }
+}
+@media (min-width: 451px) and (max-width: 576px) {
+    .banner-terms {
+        font-size: 26px; /* Adjust font size for extra small screens */
+    }
+
+    .banner-terms-underline {
+        bottom: -5px; /* Adjust the position of the underline */
+        width: 19%; /* Adjust the width for extra small screens */
+        left: 37.3%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .banner-terms {
+        font-size: 32px; /* Adjust font size for small screens */
+    }
+
+    .banner-terms-underline {
+        bottom: -5px; /* Adjust the position of the underline */
+        width: 16%; /* Adjust the width for small screens */
+        left: 39%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .banner-terms {
+        font-size: 36px; /* Adjust font size for medium screens */
+    }
+
+    .banner-terms-underline {
+        bottom: -5px; /* Adjust the position of the underline */
+        width: 35%; /* Adjust the width for medium screens */
+        left: 26%;
+    }
+}
+@media (min-width: 993px) and (max-width: 1400px) {
+    
+
+    .banner-terms-underline {
+        left: 24%;
+        width: 36%;
+    }
+}

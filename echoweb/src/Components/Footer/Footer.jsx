@@ -33,16 +33,16 @@ const Footer = () => {
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h5 className=" mb-4 "><b>Quick Links</b></h5>
             <p>
-              <Link to='/' className="text-white">Home</Link>
+              <Link to='/' style={{textDecoration:'none'}} className="text-white">Home</Link>
             </p>
             <p>
-              <Link to='/aboutus' className="text-white">About Us</Link>
+              <Link to='/aboutus' style={{textDecoration:'none'}} className="text-white">About Us</Link>
             </p>
             <p>
-              <Link to='/contactus' className="text-white">Contact Us</Link>
+              <Link to='/contactus' style={{textDecoration:'none'}} className="text-white">Contact Us</Link>
             </p>
             <p>
-              <Link to='/courses' className="text-white">Our Courses</Link>
+              <Link to='/courses' style={{textDecoration:'none'}} className="text-white">Our Courses</Link>
             </p>
           </div>
 
@@ -52,8 +52,13 @@ const Footer = () => {
 
           <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
             <h5 className=" mb-4 "><b>Quick Access</b></h5>
-            <p>Privacy Policy</p>
-            <p>Terms of Use</p>
+            <p>
+              <Link to='/privacypolicy' style={{textDecoration:'none'}} className="text-white">Privacy Policy</Link>
+            </p>
+            <p>
+              <Link to='/termsandcondition' style={{textDecoration:'none'}} className="text-white">Terms of Use</Link>
+            </p>
+
             
           </div>
 

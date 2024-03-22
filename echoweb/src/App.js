@@ -24,6 +24,9 @@ import ProgressTrackingCourseContent from './Components/Progress Tracking/Progre
 import ProgressTrackingWorkoutContent from './Components/Progress Tracking/ProgressTrackingWorkoutContent';
 import Notifications from './Components/Inbox/Notifications';
 import Inbox from './Components/Inbox/Inbox';
+import TermsAndCondition from './Components/TermsAndCondition/TermsAndCondition';
+import PrivacyPolicy from './Components/TermsAndCondition/PrivacyPolicy';
+import EditProfile from './Components/User/Profile/EditProfile';
 function App() {
   return (
     <>
@@ -53,6 +56,9 @@ function App() {
           <Route path="/progresstrackingworkoutcontent" element={<ProgressTrackingWorkoutContent />} />
           <Route path="/usernotifications" element={<Notifications />} />
           <Route path="/userinbox" element={<Inbox />} />
+          <Route path="/termsandcondition" element={<TermsAndCondition />} />
+          <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+          <Route path="/edituserprofile" element={<EditProfile/>} />
 
         </Route>
 

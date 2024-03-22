@@ -21,6 +21,9 @@ navigate('/login')
     const navigateprogresstracking =() =>{
         navigate('/progresstracking');
             }
+            const navigateeditprofile =() =>{
+                navigate('/edituserprofile');
+                    }
     const navigatesignup =() =>{
         navigate('/signup')
             }
@@ -73,7 +76,7 @@ navigate('/login')
       style={{ width: '48px', height: '48px', cursor: 'pointer' }}
     />
     <ul className="dropdown-menu px-2" style={{  left: '-100%' }}>
-      <li><button className="dropdown-item border-bottom px-2" onClick={() => navigatelogin()}> <img className='mb-1 ' src="./img/Navbar/Edit.png" alt="" /> Edit Profile</button></li>
+      <li><button className="dropdown-item border-bottom px-2" onClick={() => navigateeditprofile()}> <img className='mb-1 ' src="./img/Navbar/Edit.png" alt="" /> Edit Profile</button></li>
       <li><button className="dropdown-item border-bottom px-2" onClick={() => navigateprogresstracking()}><img className='mb-1' src="./img/Navbar/Chart.png" alt="" /> Progress Tracking</button></li>
       <li><button className="dropdown-item px-2" onClick={handleLogout}><img className='mb-1' src="./img/Navbar/Logout.png" alt="" /> Logout</button></li>
       
@@ -136,7 +139,7 @@ navigate('/login')
       style={{ width: '48px', height: '48px', cursor: 'pointer' }}
     />
     <ul className="dropdown-menu px-2" style={{  left: '-100%' }}>
-      <li><button className="dropdown-item border-bottom px-2" onClick={() => navigatelogin()}> <img className='mb-1 ' src="./img/Navbar/Edit.png" alt="" /> Edit Profile</button></li>
+      <li><button className="dropdown-item border-bottom px-2" onClick={() => navigateeditprofile()}> <img className='mb-1 ' src="./img/Navbar/Edit.png" alt="" /> Edit Profile</button></li>
       <li><button className="dropdown-item border-bottom px-2" onClick={() => navigateprogresstracking()}><img className='mb-1' src="./img/Navbar/Chart.png" alt="" /> Progress Tracking</button></li>
       <li><button className="dropdown-item px-2" onClick={handleLogout}><img className='mb-1' src="./img/Navbar/Logout.png" alt="" /> Logout</button></li>
       
