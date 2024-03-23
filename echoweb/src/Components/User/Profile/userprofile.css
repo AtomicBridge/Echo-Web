@@ -8,6 +8,12 @@
     color: rgba(29, 25, 28, 1);
 }
 
+@media (min-width: 768px)  {
+    .profileborder{
+        border-right: 1px solid #E2E2E2 !important;
+        min-height: 650px;
+    }
+}
 .banner-terms-underline {
     position: absolute;
     left: 32%;
