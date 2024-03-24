@@ -27,6 +27,8 @@ import Inbox from './Components/Inbox/Inbox';
 import TermsAndCondition from './Components/TermsAndCondition/TermsAndCondition';
 import PrivacyPolicy from './Components/TermsAndCondition/PrivacyPolicy';
 import EditProfile from './Components/User/Profile/EditProfile';
+import InstructorSignUpProfile2 from './Components/CourseInstructor/InstructorSignUpProfile2';
+import TrainerSignUpProfile2 from './Components/Trainer/TrainerSignUpProfile2';
 function App() {
   return (
     <>
@@ -71,6 +73,9 @@ function App() {
         <Route path="/signupaccounttype" element={<SignUpAccountType/>} />
         <Route path="/usersignupprofile1" element={<UserSignUpProfile1/>} />
         <Route path="/usersignupprofile2" element={<UserSignUpProfile2/>} />
+        <Route path="/instructorsignupprofile2" element={<InstructorSignUpProfile2/>} />
+        <Route path="/trainersignupprofile2" element={<TrainerSignUpProfile2/>} />
+
         
         
 

@@ -9,13 +9,16 @@ const SignUpAccountType = () => {
     const handleContinue = () => {
         switch (selectedAccountType) {
             case 'user':
+                localStorage.setItem('accountType', 'user');
                 navigate('/usersignupprofile1');
                 break;
             case 'instructor':
-                // navigate('/instructorsignup');
+                localStorage.setItem('accountType', 'instructor');
+                navigate('/usersignupprofile1');
                 break;
             case 'trainer':
-                // navigate('/trainersignup');
+                localStorage.setItem('accountType', 'trainer');
+                navigate('/usersignupprofile1');
                 break;
             default:
                 // Handle default case or error

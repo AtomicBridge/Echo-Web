@@ -31,7 +31,20 @@ const Login = () => {
         localStorage.setItem('loggedInUser', 'user');
         // Navigate to the seller dashboard
         navigate('/');
-    } else {
+    }
+    else if (email === 'instructor' && password === 'instructor')
+    {
+      localStorage.setItem('loggedInUser', 'instructor');
+      // Navigate to the seller dashboard
+      navigate('/');
+    }
+    else if (email === 'trainer' && password === 'trainer')
+    {
+      localStorage.setItem('loggedInUser', 'trainer');
+      // Navigate to the seller dashboard
+      navigate('/');
+    }
+    else {
         // Handle other cases or show an error message
         alert('Invalid username or password');
     }

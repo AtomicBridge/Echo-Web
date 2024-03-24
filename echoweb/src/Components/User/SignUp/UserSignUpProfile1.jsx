@@ -7,6 +7,9 @@ const UserSignUpProfile1 = () => {
     const [location, setLocation] = useState('');
     const [description, setDescription] = useState('');
     const [avatar, setAvatar] = useState(null);
+    const [accounttype, setaccounttype] = useState(localStorage.getItem('accountType'))
+    // const [accounttypeinstructor, setaccounttypeinstructor] = useState(localStorage.getItem('accountType'))
+    // const [accounttypetutor, setaccounttypetutor] = useState(localStorage.getItem('accountType'))
     const navigate = useNavigate();
 
     // Function to handle file input change
@@ -26,7 +29,21 @@ const UserSignUpProfile1 = () => {
         // Check if all required fields are filled and avatar image is uploaded
         if (fullName && location && description && avatar) {
             // Navigate to the next step
-            navigate('/usersignupprofile2');
+            
+            switch (accounttype) {
+              case 'user':
+                navigate('/usersignupprofile2');
+                  break;
+              case 'instructor':
+                navigate('/instructorsignupprofile2');
+                  break;
+              case 'trainer':
+                navigate('/trainersignupprofile2');;
+                  break;
+              default:
+                  // Handle default case or error
+                  break;
+          }
         }
     };
 
