@@ -29,19 +29,18 @@ const Login = () => {
     // Check if username and password match the criteria for 'seller'
     if (email === 'user' && password === 'user') {
         localStorage.setItem('loggedInUser', 'user');
-        // Navigate to the seller dashboard
+        
         navigate('/');
     }
     else if (email === 'instructor' && password === 'instructor')
     {
       localStorage.setItem('loggedInUser', 'instructor');
-      // Navigate to the seller dashboard
-      navigate('/');
+      navigate('/instructorhome');
     }
     else if (email === 'trainer' && password === 'trainer')
     {
       localStorage.setItem('loggedInUser', 'trainer');
-      // Navigate to the seller dashboard
+    
       navigate('/');
     }
     else {

@@ -3,9 +3,7 @@ import { Link } from 'react-router-dom';
 import './instructorhome.css';
 import InstructorSidebar from './InstructorSidebar';
 import InstructoreHeader from './InstructoreHeader';
-
-const InstructorHome = () => {
-    
+const InstructorProgressTracking = () => {
   return (
     <>
       <div className="overflow-hidden">
@@ -16,9 +14,9 @@ const InstructorHome = () => {
           <div className="col-md-10">
             <InstructoreHeader/>
             <div className='container-fluid my-4'>
-              <h3 className='fw-bold'>My Courses</h3>
+              <h3 className='fw-bold'>Progress Tracking</h3>
               <div className='row'>
-              {[...Array(15)].map((_, index) => ( <div className="col-xl-4 col-lg-6">
+              {[...Array(18)].map((_, index) => ( <div className="col-xl-4 col-lg-6">
                 <div className="d-flex justify-content-center  my-3 mx-1">
         <div className="card p-3 bg-white border-0 shadow rounded-4 d-flex flex-row align-items-center w-100">
             <div className="about-product text-center">
@@ -27,7 +25,7 @@ const InstructorHome = () => {
             <div className="stats  flex-grow-1">
                 <div className="px-3">
                 <div className="d-flex justify-content-between p-price ">
-                    <Link to='/instructorcoursedetails' style={{ textDecoration: 'none', color:'black' }}>
+                    <Link to='/coursedetails' style={{ textDecoration: 'none', color:'black' }}>
                         <h6 className="mb-0"><b>UI/UX Designer Course</b></h6>
                     </Link>
                     <div className='d-flex justify-content-center'>
@@ -43,7 +41,7 @@ const InstructorHome = () => {
                     </div>
                     </div>
                     <div className="d-flex justify-content-between p-price mt-3">
-                        <span style={{fontSize:'14px'}}><b>$48</b></span>
+                        <span style={{fontSize:'13px'}}><b>$48</b></span>
                         <span style={{fontSize:'14px'}}><b>3 Month Course</b></span>
                     </div>
                 </div>
@@ -53,15 +51,15 @@ const InstructorHome = () => {
                 </div>))}
               </div>
             </div>
-            <Link to='/instructorcreatecourse' className="plus-img">
+            <div className="plus-img">
             <img className='img-fluid' src="./img/courseinstructor/home/plusimg.png" alt="plus" />
-          </Link>
+          </div>
           </div>
           
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default InstructorHome;
+export default InstructorProgressTracking

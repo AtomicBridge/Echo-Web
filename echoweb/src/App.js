@@ -29,6 +29,11 @@ import PrivacyPolicy from './Components/TermsAndCondition/PrivacyPolicy';
 import EditProfile from './Components/User/Profile/EditProfile';
 import InstructorSignUpProfile2 from './Components/CourseInstructor/InstructorSignUpProfile2';
 import TrainerSignUpProfile2 from './Components/Trainer/TrainerSignUpProfile2';
+import InstructorHome from './Components/CourseInstructor/Dashboard/InstructorHome';
+import InstructorProgressTracking from './Components/CourseInstructor/Dashboard/InstructorProgressTracking';
+import InstructorSettings from './Components/CourseInstructor/Dashboard/InstructorSettings';
+import InstructorCourseDetails from './Components/CourseInstructor/Dashboard/InstructorCourseDetails';
+import InstructorCreateCourse from './Components/CourseInstructor/Dashboard/InstructorCreateCourse';
 function App() {
   return (
     <>
@@ -75,6 +80,13 @@ function App() {
         <Route path="/usersignupprofile2" element={<UserSignUpProfile2/>} />
         <Route path="/instructorsignupprofile2" element={<InstructorSignUpProfile2/>} />
         <Route path="/trainersignupprofile2" element={<TrainerSignUpProfile2/>} />
+
+
+        <Route path="/instructorhome" element={<InstructorHome/>} />
+        <Route path="/instructorcoursedetails" element={<InstructorCourseDetails/>} />
+        <Route path="/instructorcreatecourse" element={<InstructorCreateCourse/>} />
+        <Route path="/instructorprogresstracking" element={<InstructorProgressTracking/>} />
+        <Route path="/instructorsettings" element={<InstructorSettings/>} />
 
         
         
