@@ -45,7 +45,67 @@ margin-right: 2px;
 padding-top: 100px;
 padding-bottom: 100px;
 }
+.instructordropzoneuploadimg {
+	width: 90%;
+	height: 230px;
+	border-radius: 16px;
+  
+  /* color: red; */
+}
+.instructoruploadimg-input {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+	opacity: 0;
+	position: absolute;
+  bottom: 10px;
+  right: 12%;
+}
+.instructoruploaded-image{
+width:100%;
+height: 230px;
+border-radius: 16px;
+}
+.instructordropzoneuploadimg-container {
+  position: relative;
+}
 
+.bottom-right-image {
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 12%;
+}
+.instructordropzoneuploadvideo {
+	width: 90%;
+	height: 230px;
+	border-radius: 16px;
+  
+  /* color: red; */
+}
+.instructoruploadvideo-input {
+  cursor: pointer;
+	position: relative;
+	top: -210px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	/* border: 1px solid red; */
+padding-top: 100px;
+padding-bottom: 100px;
+}
+.instructoruploaded-video{
+  width:100%;
+height: 230px;
+border-radius: 16px;
+}
+.instructoruploadassignment-input {
+	position: relative;
+opacity: 0;
+padding-top: 100px;
+padding-bottom: 100px;
+}
   .sidebarbtn {
     
     color: #9E9E9E; /* Change text color for active link */
@@ -66,12 +126,22 @@ padding-bottom: 100px;
   .uploadbookinput{
     background-color: #FAFAFA;
      height: 52px;
+     border-top-left-radius: 16px;
+     border-bottom-left-radius: 16px;
+     border-top-right-radius: 0px;
+     border-bottom-right-radius: 0px
   }
   .uploadbookbrowse{
     background-color: #FAFAFA;
      height: 52px;
-     padding-top: 11px;
+     padding-top: 12px;
+     border-top-right-radius: 16px;
+     border-bottom-right-radius: 16px;
+     border-top-left-radius: 0px;
+     border-bottom-left-radius: 0px;
+     font-weight: bold;
   }
+  
   @media (min-width: 768px) {
 
     .instructorcoursedetailsmidborder{
@@ -79,6 +149,19 @@ padding-bottom: 100px;
     }
     .instructorcreatecoursemidborder{
       border-right:1px solid #E2E2E2;
+      margin-right: 1%;
+  }
+  .instructorprogresstrackingmidborder{
+    border-right:1px solid #E2E2E2;
+    padding-right: 2%;
+    
+  }
+  .instructorprogresstrackingadjust{
+    padding-left: 2%;
+    
+  }
+  .paddingtoadjustmidcreatecourse{
+    padding-left: 40px;
   }
   }
   @media (max-width: 768px) {

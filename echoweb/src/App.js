@@ -34,6 +34,7 @@ import InstructorProgressTracking from './Components/CourseInstructor/Dashboard/
 import InstructorSettings from './Components/CourseInstructor/Dashboard/InstructorSettings';
 import InstructorCourseDetails from './Components/CourseInstructor/Dashboard/InstructorCourseDetails';
 import InstructorCreateCourse from './Components/CourseInstructor/Dashboard/InstructorCreateCourse';
+import InstructorCreateCourseDetails from './Components/CourseInstructor/Dashboard/InstructorCreateCourseDetails';
 function App() {
   return (
     <>
@@ -85,6 +86,7 @@ function App() {
         <Route path="/instructorhome" element={<InstructorHome/>} />
         <Route path="/instructorcoursedetails" element={<InstructorCourseDetails/>} />
         <Route path="/instructorcreatecourse" element={<InstructorCreateCourse/>} />
+        <Route path="/instructorcreatecoursedetails" element={<InstructorCreateCourseDetails/>} />
         <Route path="/instructorprogresstracking" element={<InstructorProgressTracking/>} />
         <Route path="/instructorsettings" element={<InstructorSettings/>} />
 

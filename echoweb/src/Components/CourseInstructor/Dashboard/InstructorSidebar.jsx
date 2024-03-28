@@ -39,10 +39,10 @@ const InstructorSidebar = () => {
               <hr />
               <ul className="nav nav-pills flex-column mb-auto">
               <li className="nav-item my-2">
-                  <Link to='/instructorhome' className={`nav-link rounded-3 sidebarbtn ${currentURL === '/instructorhome' || currentURL ==='/instructorcreatecourse' || currentURL ==='/instructorcoursedetails'? 'sidebarbtncolor' : ''}`} >
+                  <Link to='/instructorhome' className={`nav-link rounded-3 sidebarbtn ${currentURL === '/instructorhome' || currentURL ==='/instructorcreatecourse' || currentURL ==='/instructorcoursedetails' || currentURL ==='/instructorcreatecoursedetails'? 'sidebarbtncolor' : ''}`} >
                   <div className="d-flex justify-content-start">
                     <div>
-                    {currentURL === '/instructorhome'|| currentURL ==='/instructorcreatecourse' || currentURL ==='/instructorcoursedetails' ? <img src="./img/courseinstructor/header/Home (1).png" alt="" />:<img src="./img/courseinstructor/header/Home (2).png" alt="" />}
+                    {currentURL === '/instructorhome'|| currentURL ==='/instructorcreatecourse' || currentURL ==='/instructorcoursedetails' || currentURL ==='/instructorcreatecoursedetails' ? <img src="./img/courseinstructor/header/Home (1).png" alt="" />:<img src="./img/courseinstructor/header/Home (2).png" alt="" />}
                     </div>
                     <div style={{marginTop:'2px'}}>
                     <span className='sidebartext mx-2'>Home</span>

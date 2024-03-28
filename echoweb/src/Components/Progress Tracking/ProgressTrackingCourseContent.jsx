@@ -42,7 +42,10 @@ const ProgressTrackingCourseContent = () => {
     // const handleQuizAnswer = () => {
     //     setFileSelected(true);
     // };
-    const handleFileSelect = () => {
+    const [selectedDocumentFileName, setSelectedDocumentFileName] = useState(null);
+    const handleFileSelect = (event) => {
+        const file = event.target.files[0];
+    setSelectedDocumentFileName(file.name);
         setFileSelected(true);
     };
     const startvedio = () => {
@@ -312,9 +315,9 @@ const ProgressTrackingCourseContent = () => {
                     <div className="dropzone text-center d-flex flex-column justify-content-center align-items-center">
                         <div>
                             <img src="./img/progresstracking/Vector.png" className="upload-icon" alt="Upload Icon" />
-                            <span className="d-block">Upload Document</span>
+                            <span className="d-block">{selectedDocumentFileName ? selectedDocumentFileName :'Upload Document'}</span>
                         </div>
-                        <input type="file" className="upload-input" onChange={handleFileSelect} />
+                        <input type="file" className="upload-input" accept=".pdf,.doc,.docx,.txt" onChange={handleFileSelect} />
                     </div>
                 </div>
                 <h6 className='mt-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate placerat porta. Ut commodo nulla vitae eleifend sodales. Fusce ornare.</h6>
