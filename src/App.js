@@ -35,12 +35,15 @@ import InstructorSettings from './Components/CourseInstructor/Dashboard/Instruct
 import InstructorCourseDetails from './Components/CourseInstructor/Dashboard/InstructorCourseDetails';
 import InstructorCreateCourse from './Components/CourseInstructor/Dashboard/InstructorCreateCourse';
 import InstructorCreateCourseDetails from './Components/CourseInstructor/Dashboard/InstructorCreateCourseDetails';
+import InstructorNotifications from './Components/CourseInstructor/Inbox/InstructorNotifications';
+import InstructorInbox from './Components/CourseInstructor/Inbox/InstructorInbox';
+
 function App() {
   return (
     <>
     <Router>
       <Routes>
-        {/* Routes with Navbar and Footer */}
+        
         <Route
           path="/"
           element={
@@ -89,6 +92,9 @@ function App() {
         <Route path="/instructorcreatecoursedetails" element={<InstructorCreateCourseDetails/>} />
         <Route path="/instructorprogresstracking" element={<InstructorProgressTracking/>} />
         <Route path="/instructorsettings" element={<InstructorSettings/>} />
+        <Route path="/instructornotifications" element={<InstructorNotifications/>} />
+        <Route path="/instructorinbox" element={<InstructorInbox/>} />
+        
 
         
         

@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const InstructoreHeader = () => {
+  const navigate = useNavigate();
+  const handlenotification =() =>{
+    navigate('/instructornotifications')
+        }
+        const handleinbox =() =>{
+            navigate('/instructorinbox')
+                }
   return (
     <>
     <nav className="navbar navbar-expand-lg navbar-light">
@@ -99,8 +106,8 @@ const InstructoreHeader = () => {
                 </li>
     <li class="nav-item my-2 mx-md-4 ">
     
-        <img className='mx-2' style={{cursor:'pointer'}} src="./img/Navbar/Group 5.png" alt="" />
-        <img  style={{cursor:'pointer'}} src="./img/Navbar/Group 6.png"  alt="" />
+        <img className='mx-2' onClick={handleinbox} style={{cursor:'pointer'}} src="./img/Navbar/Group 5.png" alt="" />
+        <img onClick={ handlenotification} style={{cursor:'pointer'}} src="./img/Navbar/Group 6.png"  alt="" />
     </li>
     <li className="nav-item">
   <div className="position-relative">

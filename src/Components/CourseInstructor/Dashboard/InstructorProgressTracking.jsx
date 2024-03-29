@@ -163,16 +163,14 @@ const InstructorProgressTracking = () => {
                               <Link to='/coursedetails' style={{ textDecoration: 'none', color:'black' }}>
                                 <h6 className="mb-0"><b>UI/UX Designer Course</b></h6>
                               </Link>
-                              <div className='d-flex justify-content-center'>
+                              
                                 <div>
-                                  <span className="badge py-2 mx-4" style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+                                  <span className="badge py-2 " style={{ fontSize: '10px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', padding: '5px 10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                                     Beginners 
                                   </span>
                                 </div>
-                                <div className='mt-1'>
-                                  <i class="fa-solid fa-xl  fa-ellipsis-vertical"></i>
-                                </div>
-                              </div>
+                                
+                              
                             </div>
                             <div className="d-flex justify-content-between p-price mt-3">
                               <span style={{fontSize:'13px'}}><b>$48</b></span>

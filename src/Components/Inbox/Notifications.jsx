@@ -21,7 +21,7 @@ const Notifications = () => {
             {[...Array(5)].map((index) => (
               <div key={index} className="my-3 py-2 shadow rounded-4 w-100" style={{ marginLeft: '15px' }}>
                 <div className="d-flex justify-content-between p-price p-2">
-                  <div className="d-flex flex-start">
+                  <div className="d-flex flex-start w-100 mx-3">
                     <a className="me-3" href="#">
                       <img className="rounded-circle shadow-1-strong" src="./img/inbox/bell.png" alt="avatar" width="80" height="80" />
                     </a>
@@ -31,7 +31,7 @@ const Notifications = () => {
                           <p className="mb-1"><b>Title</b></p>
                           <div className='mt-1'><p>02 min ago</p></div>
                         </div>
-                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrsccsy's...</span>
+                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Loremb Ipsum has been the industrsccsy's...</span>
                       </div>
                     </div>
                   </div>
