@@ -18,7 +18,7 @@ const EditProfile = () => {
     const [shownewPassword, setShownewPassword] = useState(false);
     const [confirmnewpassword, setconfirmnewPassword] = useState('');
     const [showconfirmnewPassword, setShowconfirmnewPassword] = useState(false);
-    const [deleteaccountotp, setdeleteaccountotp] = useState(false)
+    const [deleteaccountotp, setdeleteaccountotp] = useState(false);
     const [avatar, setAvatar] = useState(null);
     const handleFileInputChange = (e) => {
       const file = e.target.files[0];

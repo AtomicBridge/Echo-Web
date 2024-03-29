@@ -143,7 +143,9 @@ padding-bottom: 100px;
   }
   
   @media (min-width: 768px) {
-
+.instructorcontactusmargin{
+  margin-top: 12vh;
+}
     .instructorcoursedetailsmidborder{
         border-left:1px solid #E2E2E2;
     }
