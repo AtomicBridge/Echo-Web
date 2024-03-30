@@ -41,7 +41,7 @@ const Login = () => {
     {
       localStorage.setItem('loggedInUser', 'trainer');
     
-      navigate('/');
+      navigate('/trainerhome');
     }
     else {
         // Handle other cases or show an error message

@@ -60,7 +60,7 @@ const InstructorCreateCourse = () => {
     // You can handle the selected file here as needed
   };
   const handlequizFileRemove = () => {
-    setSelectedassignmentFileName(null);
+    setSelectedquizFileName(null);
   };
   return (
     <>

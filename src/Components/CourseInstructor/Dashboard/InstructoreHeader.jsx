@@ -113,18 +113,18 @@ const InstructoreHeader = () => {
   <div className="position-relative">
     <img
       src="./img/courseinstructor/header/Ellipse 1.png"
-      className="dropdown-toggle"
-      data-bs-toggle="dropdown"
-      aria-expanded="false"
+      // className="dropdown-toggle"
+      // data-bs-toggle="dropdown"
+      // aria-expanded="false"
       alt=""
-      style={{ width: '48px', height: '48px', cursor: 'pointer' }}
+      style={{ width: '48px', height: '48px' }}
     />
-    <ul className="dropdown-menu px-2" style={{  left: '-100%' }}>
+    {/* <ul className="dropdown-menu px-2" style={{  left: '-100%' }}>
       <li><button className="dropdown-item border-bottom px-2" > <img className='mb-1 ' src="./img/Navbar/Edit.png" alt="" /> Edit Profile</button></li>
       <li><button className="dropdown-item border-bottom px-2"><img className='mb-1' src="./img/Navbar/Chart.png" alt="" /> Progress Tracking</button></li>
       <li><button className="dropdown-item px-2" ><img className='mb-1' src="./img/Navbar/Logout.png" alt="" /> Logout</button></li>
       
-    </ul>
+    </ul> */}
   </div>
 </li>
 

@@ -28,7 +28,7 @@ import TermsAndCondition from './Components/TermsAndCondition/TermsAndCondition'
 import PrivacyPolicy from './Components/TermsAndCondition/PrivacyPolicy';
 import EditProfile from './Components/User/Profile/EditProfile';
 import InstructorSignUpProfile2 from './Components/CourseInstructor/InstructorSignUpProfile2';
-import TrainerSignUpProfile2 from './Components/Trainer/TrainerSignUpProfile2';
+import TrainerSignUpProfile2 from './Components/WorkoutTrainer/TrainerSignUpProfile2';
 import InstructorHome from './Components/CourseInstructor/Dashboard/InstructorHome';
 import InstructorProgressTracking from './Components/CourseInstructor/Dashboard/InstructorProgressTracking';
 import InstructorSettings from './Components/CourseInstructor/Dashboard/InstructorSettings';
@@ -37,6 +37,10 @@ import InstructorCreateCourse from './Components/CourseInstructor/Dashboard/Inst
 import InstructorCreateCourseDetails from './Components/CourseInstructor/Dashboard/InstructorCreateCourseDetails';
 import InstructorNotifications from './Components/CourseInstructor/Inbox/InstructorNotifications';
 import InstructorInbox from './Components/CourseInstructor/Inbox/InstructorInbox';
+import TrainerHome from './Components/WorkoutTrainer/Dashboard/TrainerHome';
+import TrainerCourseDetails from './Components/WorkoutTrainer/Dashboard/TrainerCourseDetails';
+import TrainerCreateWorkout from './Components/WorkoutTrainer/Dashboard/TrainerCreateWorkout';
+import TrainerCreateWorkoutDetails from './Components/WorkoutTrainer/Dashboard/TrainerCreateWorkoutDetails';
 
 function App() {
   return (
@@ -95,6 +99,10 @@ function App() {
         <Route path="/instructornotifications" element={<InstructorNotifications/>} />
         <Route path="/instructorinbox" element={<InstructorInbox/>} />
         
+        <Route path="/trainerhome" element={<TrainerHome/>} />
+        <Route path="/trainercoursedetails" element={<TrainerCourseDetails/>} />
+        <Route path="/trainercreateworkout" element={<TrainerCreateWorkout/>} />
+        <Route path="/trainercreateworkoutdetails" element={<TrainerCreateWorkoutDetails/>} />
 
         
         
