@@ -41,8 +41,12 @@ import TrainerHome from './Components/WorkoutTrainer/Dashboard/TrainerHome';
 import TrainerCourseDetails from './Components/WorkoutTrainer/Dashboard/TrainerCourseDetails';
 import TrainerCreateWorkout from './Components/WorkoutTrainer/Dashboard/TrainerCreateWorkout';
 import TrainerCreateWorkoutDetails from './Components/WorkoutTrainer/Dashboard/TrainerCreateWorkoutDetails';
+import TrainerProgressTracking from './Components/WorkoutTrainer/Dashboard/TrainerProgressTracking';
+import { useState } from 'react';
 
 function App() {
+  const [userlogged, setuserlogged] = useState(localStorage.getItem('loggedInUser'));
+  console.log(userlogged);
   return (
     <>
     <Router>
@@ -65,19 +69,22 @@ function App() {
           <Route path="/coursedetails" element={<CourseDetails />} />
           <Route path="/workoutdetails" element={<WorkoutDetails />} />
           <Route path="/coursepayment" element={<CoursePayment />} />
+          <Route path="/termsandcondition" element={<TermsAndCondition />} />
+          <Route path="/privacypolicy" element={<PrivacyPolicy />} />
           <Route path="/workoutstart" element={<WorkoutStart />} />
+          
+          {userlogged === 'user' && <>
           <Route path="/progresstracking" element={<ProgressTracking />} />
           <Route path="/progresstrackingcoursecontent" element={<ProgressTrackingCourseContent />} />
           <Route path="/progresstrackingworkoutcontent" element={<ProgressTrackingWorkoutContent />} />
           <Route path="/usernotifications" element={<Notifications />} />
           <Route path="/userinbox" element={<Inbox />} />
-          <Route path="/termsandcondition" element={<TermsAndCondition />} />
-          <Route path="/privacypolicy" element={<PrivacyPolicy />} />
           <Route path="/edituserprofile" element={<EditProfile/>} />
+          </>}
 
         </Route>
 
-        <Route path="/login" element={<Login/>} />
+        <Route path="/login" element={<Login setuserlogged={setuserlogged}/>} />
         <Route path="/forgotpassword" element={<ForgotPassword/>} />
         <Route path="/forgotpasswordotp" element={<ForgotPasswordOtp/>} />
         <Route path="/forgotnewpassword" element={<ForgotNewPassword/>} />
@@ -90,20 +97,28 @@ function App() {
         <Route path="/trainersignupprofile2" element={<TrainerSignUpProfile2/>} />
 
 
+        {userlogged === 'instructor' && <>
         <Route path="/instructorhome" element={<InstructorHome/>} />
         <Route path="/instructorcoursedetails" element={<InstructorCourseDetails/>} />
         <Route path="/instructorcreatecourse" element={<InstructorCreateCourse/>} />
         <Route path="/instructorcreatecoursedetails" element={<InstructorCreateCourseDetails/>} />
         <Route path="/instructorprogresstracking" element={<InstructorProgressTracking/>} />
-        <Route path="/instructorsettings" element={<InstructorSettings/>} />
+        
         <Route path="/instructornotifications" element={<InstructorNotifications/>} />
         <Route path="/instructorinbox" element={<InstructorInbox/>} />
-        
+        </>}
+        {(userlogged === 'instructor' || userlogged === 'trainer') && (
+  <><Route path="/instructorsettings" element={<InstructorSettings/>} /></>
+)}
+
+        {userlogged === 'trainer' && <>
         <Route path="/trainerhome" element={<TrainerHome/>} />
         <Route path="/trainercoursedetails" element={<TrainerCourseDetails/>} />
         <Route path="/trainercreateworkout" element={<TrainerCreateWorkout/>} />
         <Route path="/trainercreateworkoutdetails" element={<TrainerCreateWorkoutDetails/>} />
-
+        <Route path="/trainerprogresstracking" element={<TrainerProgressTracking/>} />
+        </>
+}
         
         
 

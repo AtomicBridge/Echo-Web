@@ -5,7 +5,7 @@ import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 import { Link, useNavigate } from 'react-router-dom'
 import AuthenticateImage from './AuthenticateImage';
 
-const Login = () => {
+const Login = ({ setuserlogged }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
@@ -29,18 +29,19 @@ const Login = () => {
     // Check if username and password match the criteria for 'seller'
     if (email === 'user' && password === 'user') {
         localStorage.setItem('loggedInUser', 'user');
-        
+        setuserlogged('user');
         navigate('/');
     }
     else if (email === 'instructor' && password === 'instructor')
     {
       localStorage.setItem('loggedInUser', 'instructor');
+      setuserlogged('instructor');
       navigate('/instructorhome');
     }
     else if (email === 'trainer' && password === 'trainer')
     {
       localStorage.setItem('loggedInUser', 'trainer');
-    
+      setuserlogged('trainer');
       navigate('/trainerhome');
     }
     else {

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
 const InstructoreHeader = () => {
+  const [userlogged, setuserlogged] = useState(localStorage.getItem('loggedInUser'))
   const navigate = useNavigate();
   const handlenotification =() =>{
     navigate('/instructornotifications')
@@ -9,6 +10,14 @@ const InstructoreHeader = () => {
         const handleinbox =() =>{
             navigate('/instructorinbox')
                 }
+
+                const handleLogout = () => {
+                  // Remove data of 'loggedInUser' from localStorage
+                  localStorage.removeItem('loggedInUser');
+                  // Update the userlogged state to false
+                  setuserlogged(false);
+                  navigate('/login');
+              };
   return (
     <>
     <nav className="navbar navbar-expand-lg navbar-light">
@@ -54,15 +63,17 @@ const InstructoreHeader = () => {
             <div className="showsidebarnav">
             <ul class="navbar-nav ms-auto"> 
             <li class="nav-item">
-                    <Link  class="nav-link active" aria-current="page" to='/instructorhome'>Home</Link>
+                    {userlogged=== 'instructor'?<Link  class="nav-link active" aria-current="page" to='/instructorhome'>Home</Link>:<Link  class="nav-link active" aria-current="page" to='/trainerhome'>Home</Link>}
                 </li>
                 <li class="nav-item">
-                    <Link class="nav-link" to='/instructorprogresstracking'>Progress Tracking</Link>
+                    {userlogged=== 'instructor'?<Link class="nav-link" to='/instructorprogresstracking'>Progress Tracking</Link>:<Link class="nav-link" to='/trainerprogresstracking'>Progress Tracking</Link>}
                 </li>
                 <li class="nav-item">
                     <Link class="nav-link" to='/instructorsettings' >Settings</Link>
                 </li>
-                
+                <li class="nav-item">
+                    <span class="nav-link" onClick={handleLogout} >Logout</span>
+                </li>
             </ul>
             </div>
             <ul class="navbar-nav ms-auto mb-md-5">

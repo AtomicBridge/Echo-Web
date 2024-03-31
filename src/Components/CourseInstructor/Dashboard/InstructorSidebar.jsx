@@ -39,7 +39,7 @@ const InstructorSidebar = () => {
               <hr />
               <ul className="nav nav-pills flex-column mb-auto">
               <li className="nav-item my-2">
-                  {userlogged === 'intstructor'? <Link to='/instructorhome' className={`nav-link rounded-3 sidebarbtn ${currentURL === '/instructorhome' || currentURL ==='/instructorcreatecourse' || currentURL ==='/instructorcoursedetails' || currentURL ==='/instructorcreatecoursedetails'? 'sidebarbtncolor' : ''}`} >
+                  {userlogged === 'instructor'? <> <Link to='/instructorhome' className={`nav-link rounded-3 sidebarbtn ${currentURL === '/instructorhome' || currentURL ==='/instructorcreatecourse' || currentURL ==='/instructorcoursedetails' || currentURL ==='/instructorcreatecoursedetails'? 'sidebarbtncolor' : ''}`} >
                   <div className="d-flex justify-content-start">
                     <div>
                     {currentURL === '/instructorhome'|| currentURL ==='/instructorcreatecourse' || currentURL ==='/instructorcoursedetails' || currentURL ==='/instructorcreatecoursedetails' ? <img src="./img/courseinstructor/header/Home (1).png" alt="" />:<img src="./img/courseinstructor/header/Home (2).png" alt="" />}
@@ -48,19 +48,19 @@ const InstructorSidebar = () => {
                     <span className='sidebartext mx-2'>Home</span>
                     </div>
                     </div>
-                  </Link>: <Link to='/trainerhome' className={`nav-link rounded-3 sidebarbtn ${currentURL === '/trainerhome' || currentURL ==='/instructorcreatecourse' || currentURL ==='/instructorcoursedetails' || currentURL ==='/instructorcreatecoursedetails'? 'sidebarbtncolor' : ''}`} >
+                  </Link> </>: <> <Link to='/trainerhome' className={`nav-link rounded-3 sidebarbtn ${currentURL === '/trainerhome' || currentURL ==='/trainercreateworkout' || currentURL ==='/trainercoursedetails' || currentURL ==='/trainercreateworkoutdetails'? 'sidebarbtncolor' : ''}`} >
                   <div className="d-flex justify-content-start">
                     <div>
-                    {currentURL === '/trainerhome'|| currentURL ==='/instructorcreatecourse' || currentURL ==='/instructorcoursedetails' || currentURL ==='/instructorcreatecoursedetails' ? <img src="./img/courseinstructor/header/Home (1).png" alt="" />:<img src="./img/courseinstructor/header/Home (2).png" alt="" />}
+                    {currentURL === '/trainerhome'|| currentURL ==='/trainercreateworkout' || currentURL ==='/trainercoursedetails' || currentURL ==='/trainercreateworkoutdetails' ? <img src="./img/courseinstructor/header/Home (1).png" alt="" />:<img src="./img/courseinstructor/header/Home (2).png" alt="" />}
                     </div>
                     <div style={{marginTop:'2px'}}>
                     <span className='sidebartext mx-2'>Home</span>
                     </div>
                     </div>
-                  </Link>}
+                  </Link></>}
                 </li>
                 <li className="nav-item my-2">
-                  <Link to='/instructorprogresstracking' className={`nav-link rounded-3 sidebarbtn ${currentURL === '/instructorprogresstracking' ? 'sidebarbtncolor' : ''}`}>
+                  {userlogged === 'instructor'? <Link to='/instructorprogresstracking' className={`nav-link rounded-3 sidebarbtn ${currentURL === '/instructorprogresstracking' ? 'sidebarbtncolor' : ''}`}>
                   <div className="d-flex justify-content-start">
                     <div>
                   {currentURL === '/instructorprogresstracking' ?<img src="./img/courseinstructor/header/Chart (2).png" alt="" />:<img src="./img/courseinstructor/header/Chart (1).png" alt="" />}
@@ -69,7 +69,16 @@ const InstructorSidebar = () => {
                     <span className='sidebartext mx-2'>Progress Tracking</span>
                     </div>
                     </div>
-                  </Link>
+                  </Link>: <Link to='/trainerprogresstracking' className={`nav-link rounded-3 sidebarbtn ${currentURL === '/trainerprogresstracking' ? 'sidebarbtncolor' : ''}`}>
+                  <div className="d-flex justify-content-start">
+                    <div>
+                  {currentURL === '/trainerprogresstracking' ?<img src="./img/courseinstructor/header/Chart (2).png" alt="" />:<img src="./img/courseinstructor/header/Chart (1).png" alt="" />}
+                  </div>
+                    <div style={{marginTop:'2px'}}>
+                    <span className='sidebartext mx-2'>Progress Tracking</span>
+                    </div>
+                    </div>
+                  </Link>}
                 </li>
                 <li className="nav-item my-2">
                   <Link to='/instructorsettings' className={`nav-link rounded-3 sidebarbtn ${currentURL === '/instructorsettings' ? 'sidebarbtncolor' : ''}`}>
