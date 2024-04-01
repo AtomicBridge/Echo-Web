@@ -135,17 +135,17 @@ const ProgressTrackingCourseContent = () => {
 <div className="d-flex justify-content-start">
     
         <div className='py-4 '>
-        <input class="form-check-input shadow rounded-2" type="checkbox" value="" id="flexCheckDefault" style={{width:'24px', height:'24px'}}/>
+        <input className="form-check-input shadow rounded-2" type="checkbox" value="" id="flexCheckDefault" style={{width:'24px', height:'24px'}}/>
         </div>
     
     
-        <div class="my-3 py-2 shadow rounded-3 w-100" style={{marginLeft:'15px'}}>
-            <div class="d-flex justify-content-between align-items-center px-3 py-1">
-                <div class="d-flex flex-start">
-                    <p class="m-0"><b>Why Using Figma</b></p>
+        <div className="my-3 py-2 shadow rounded-3 w-100" style={{marginLeft:'15px'}}>
+            <div className="d-flex justify-content-between align-items-center px-3 py-1">
+                <div className="d-flex flex-start">
+                    <p className="m-0"><b>Why Using Figma</b></p>
                 </div>
                 <div>
-                    <i class="fa-solid fa-circle-play fa-lg" onClick={() => startvedio()}></i>
+                    <i className="fa-solid fa-circle-play fa-lg" onClick={() => startvedio()}></i>
                 </div>
             </div>
         </div>
@@ -154,17 +154,17 @@ const ProgressTrackingCourseContent = () => {
 <div className="d-flex justify-content-start">
     
         <div className='py-4 '>
-        <input class="form-check-input shadow rounded-2" type="checkbox" value="" id="flexCheckDefault" style={{width:'24px', height:'24px'}}/>
+        <input className="form-check-input shadow rounded-2" type="checkbox" value="" id="flexCheckDefault" style={{width:'24px', height:'24px'}}/>
         </div>
     
     
-        <div class="my-3 py-2 shadow rounded-3 w-100" style={{marginLeft:'15px'}}>
-            <div class="d-flex justify-content-between align-items-center px-3 py-1">
-                <div class="d-flex flex-start">
-                    <p class="m-0"><b>Why Using Figma</b></p>
+        <div className="my-3 py-2 shadow rounded-3 w-100" style={{marginLeft:'15px'}}>
+            <div className="d-flex justify-content-between align-items-center px-3 py-1">
+                <div className="d-flex flex-start">
+                    <p className="m-0"><b>Why Using Figma</b></p>
                 </div>
                 <div>
-                    <i class="fa-solid fa-circle-play fa-lg" onClick={() => startvedio()}></i>
+                    <i className="fa-solid fa-circle-play fa-lg" onClick={() => startvedio()}></i>
                 </div>
             </div>
         </div>
@@ -173,17 +173,17 @@ const ProgressTrackingCourseContent = () => {
 <div className="d-flex justify-content-start">
     
         <div className='py-4 '>
-        <input class="form-check-input shadow rounded-2" type="checkbox" value="" id="flexCheckDefault" style={{width:'24px', height:'24px'}}/>
+        <input className="form-check-input shadow rounded-2" type="checkbox" value="" id="flexCheckDefault" style={{width:'24px', height:'24px'}}/>
         </div>
     
     
-        <div class="my-3 py-2 shadow rounded-3 w-100" style={{marginLeft:'15px'}}>
-            <div class="d-flex justify-content-between align-items-center px-3 py-1">
-                <div class="d-flex flex-start">
-                    <p class="m-0"><b>Why Using Figma</b></p>
+        <div className="my-3 py-2 shadow rounded-3 w-100" style={{marginLeft:'15px'}}>
+            <div className="d-flex justify-content-between align-items-center px-3 py-1">
+                <div className="d-flex flex-start">
+                    <p className="m-0"><b>Why Using Figma</b></p>
                 </div>
                 <div>
-                    <i class="fa-solid fa-circle-play fa-lg" onClick={() => startvedio()}></i>
+                    <i className="fa-solid fa-circle-play fa-lg" onClick={() => startvedio()}></i>
                 </div>
             </div>
         </div>
@@ -192,17 +192,17 @@ const ProgressTrackingCourseContent = () => {
 <div className="d-flex justify-content-start">
     
         <div className='py-4 '>
-        <input class="form-check-input shadow rounded-2" type="checkbox" value="" id="flexCheckDefault" style={{width:'24px', height:'24px'}}/>
+        <input className="form-check-input shadow rounded-2" type="checkbox" value="" id="flexCheckDefault" style={{width:'24px', height:'24px'}}/>
         </div>
     
     
-        <div class="my-3 py-2 shadow rounded-3 w-100" style={{marginLeft:'15px'}}>
-            <div class="d-flex justify-content-between align-items-center px-3 py-1">
-                <div class="d-flex flex-start">
-                    <p class="m-0"><b>Why Using Figma</b></p>
+        <div className="my-3 py-2 shadow rounded-3 w-100" style={{marginLeft:'15px'}}>
+            <div className="d-flex justify-content-between align-items-center px-3 py-1">
+                <div className="d-flex flex-start">
+                    <p className="m-0"><b>Why Using Figma</b></p>
                 </div>
                 <div>
-                    <i class="fa-solid fa-circle-play fa-lg" onClick={() => startvedio()}></i>
+                    <i className="fa-solid fa-circle-play fa-lg" onClick={() => startvedio()}></i>
                 </div>
             </div>
         </div>
@@ -211,17 +211,17 @@ const ProgressTrackingCourseContent = () => {
 <div className="d-flex justify-content-start">
     
         <div className='py-4 '>
-        <input class="form-check-input shadow rounded-2" type="checkbox" value="" id="flexCheckDefault" style={{width:'24px', height:'24px'}}/>
+        <input className="form-check-input shadow rounded-2" type="checkbox" value="" id="flexCheckDefault" style={{width:'24px', height:'24px'}}/>
         </div>
     
     
-        <div class="my-3 py-2 shadow rounded-3 w-100" style={{marginLeft:'15px'}}>
-            <div class="d-flex justify-content-between align-items-center px-3 py-1">
-                <div class="d-flex flex-start">
-                    <p class="m-0"><b>Why Using Figma</b></p>
+        <div className="my-3 py-2 shadow rounded-3 w-100" style={{marginLeft:'15px'}}>
+            <div className="d-flex justify-content-between align-items-center px-3 py-1">
+                <div className="d-flex flex-start">
+                    <p className="m-0"><b>Why Using Figma</b></p>
                 </div>
                 <div>
-                    <i class="fa-solid fa-circle-play fa-lg" onClick={() => startvedio()}></i>
+                    <i className="fa-solid fa-circle-play fa-lg" onClick={() => startvedio()}></i>
                 </div>
             </div>
         </div>
@@ -230,17 +230,17 @@ const ProgressTrackingCourseContent = () => {
 <div className="d-flex justify-content-start">
     
         <div className='py-4 '>
-        <input class="form-check-input shadow rounded-2" type="checkbox" value="" id="flexCheckDefault" style={{width:'24px', height:'24px'}}/>
+        <input className="form-check-input shadow rounded-2" type="checkbox" value="" id="flexCheckDefault" style={{width:'24px', height:'24px'}}/>
         </div>
     
     
-        <div class="my-3 py-2 shadow rounded-3 w-100" style={{marginLeft:'15px'}}>
-            <div class="d-flex justify-content-between align-items-center px-3 py-1">
-                <div class="d-flex flex-start">
-                    <p class="m-0"><b>Why Using Figma</b></p>
+        <div className="my-3 py-2 shadow rounded-3 w-100" style={{marginLeft:'15px'}}>
+            <div className="d-flex justify-content-between align-items-center px-3 py-1">
+                <div className="d-flex flex-start">
+                    <p className="m-0"><b>Why Using Figma</b></p>
                 </div>
                 <div>
-                    <i class="fa-solid fa-circle-play fa-lg" onClick={() => startvedio()}></i>
+                    <i className="fa-solid fa-circle-play fa-lg" onClick={() => startvedio()}></i>
                 </div>
             </div>
         </div>
@@ -249,17 +249,17 @@ const ProgressTrackingCourseContent = () => {
 <div className="d-flex justify-content-start">
     
         <div className='py-4 '>
-        <input class="form-check-input shadow rounded-2" type="checkbox" value="" id="flexCheckDefault" style={{width:'24px', height:'24px'}}/>
+        <input className="form-check-input shadow rounded-2" type="checkbox" value="" id="flexCheckDefault" style={{width:'24px', height:'24px'}}/>
         </div>
     
     
-        <div class="my-3 py-2 shadow rounded-3 w-100" style={{marginLeft:'15px'}}>
-            <div class="d-flex justify-content-between align-items-center px-3 py-1">
-                <div class="d-flex flex-start">
-                    <p class="m-0"><b>Why Using Figma</b></p>
+        <div className="my-3 py-2 shadow rounded-3 w-100" style={{marginLeft:'15px'}}>
+            <div className="d-flex justify-content-between align-items-center px-3 py-1">
+                <div className="d-flex flex-start">
+                    <p className="m-0"><b>Why Using Figma</b></p>
                 </div>
                 <div>
-                    <i class="fa-solid fa-circle-play fa-lg" onClick={() => startvedio()}></i>
+                    <i className="fa-solid fa-circle-play fa-lg" onClick={() => startvedio()}></i>
                 </div>
             </div>
         </div>
@@ -379,8 +379,8 @@ const ProgressTrackingCourseContent = () => {
     </div>
 </div>
 
-                            <div class="progress col-11 mx-auto rounded-3 my-3">
-  <div class="progress-bar  rounded-3" role="progressbar" aria-valuenow="70"
+                            <div className="progress col-11 mx-auto rounded-3 my-3">
+  <div className="progress-bar  rounded-3" role="progressbar" aria-valuenow="70"
   aria-valuemin="0" aria-valuemax="100" style={{width:'75%', backgroundColor:'#1D191C'}}>
     {/* 70% */}
   </div>

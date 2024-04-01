@@ -8,31 +8,31 @@ const CourseDetails = () => {
   }
   return (
     <>
-    <div class="container-fluid">
-    <div class="row my-4">
-    <div class="col-md-5 col-12 ">
-        <div class="banner-container">
-            <h1 class="banner-employes ">UI UX Designer Course</h1>
-            <div class="banner-employes-underline"></div>
+    <div className="container-fluid">
+    <div className="row my-4">
+    <div className="col-md-5 col-12 ">
+        <div className="banner-container">
+            <h1 className="banner-employes ">UI UX Designer Course</h1>
+            <div className="banner-employes-underline"></div>
         </div>
-        <h5 class="banner-employes "> for Absolute Beginners</h5>
+        <h5 className="banner-employes "> for Absolute Beginners</h5>
     </div>
 <div className="col-md-5 col-12 mx-auto">
-<h5 class="text-secondary mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</h5>
+<h5 className="text-secondary mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</h5>
 
 </div>
 </div>
 
 </div>
-<div  class="blog-page">
-    <div class="container-fluid">
-        <div class="row clearfix">
-            <div class="col-lg-7 col-md-7 col-12 left-box">
-                <div class=" single_post ">
-                    <div class="">
+<div  className="blog-page">
+    <div className="container-fluid">
+        <div className="row clearfix">
+            <div className="col-lg-7 col-md-7 col-12 left-box">
+                <div className=" single_post ">
+                    <div className="">
                     <div className="px-md-4 coursedetailsmidborder">
-                    <div class="img-post">
-    <img class="d-block img-fluid w-100" src="./img/courses/coursedetails/coursedetail.png" alt="First slide"/>
+                    <div className="img-post">
+    <img className="d-block img-fluid w-100" src="./img/courses/coursedetails/coursedetail.png" alt="First slide"/>
 </div>
 <div className="d-flex justify-content-between eighteenfont my-2 "><span  style={{ textDecoration: 'none',color:'black' }}><b>UI UX Design Course for Absolute Beginners (Zero to Hero)</b></span>
 <div>
@@ -42,16 +42,16 @@ const CourseDetails = () => {
 </div>
                                         </div>
                                         <div className="d-flex justify-content-between p-price mt-3"><span><b>$48</b></span><span><b>3 Month Course</b></span></div>
-                                        <div class="d-flex flex-wrap justify-content-start my-4 border-bottom">
+                                        <div className="d-flex flex-wrap justify-content-start my-4 border-bottom">
       <div className='col-md-5  my-2'>
         <div className="d-flex justify-content-start">
-        <i class="fa-solid fa-users fa-lg mt-2"></i>
+        <i className="fa-solid fa-users fa-lg mt-2"></i>
         <p className='mx-2'>8,289 Students</p>
         </div>
       </div>
       <div className='col-md-5  my-2'>
         <div className="d-flex justify-content-start">
-        <i class="fa-solid fa-clock fa-lg  mt-2"></i>
+        <i className="fa-solid fa-clock fa-lg  mt-2"></i>
         <p className='mx-2'>3 Month Course</p>
         </div>
       </div>
@@ -67,16 +67,16 @@ const CourseDetails = () => {
     <div className='border-bottom my-3'>
         <h6 className='eighteenfont'><b>Digital Book</b></h6>
         <div className="d-flex justify-content-between p-price mt-3">
-        <div class="d-flex flex-start ">
-                      <a class="me-3" href="#">
-                        <img class="rounded shadow-1-strong mb-3"
+        <div className="d-flex flex-start ">
+                      <a className="me-3" href="#">
+                        <img className="rounded shadow-1-strong mb-3"
                           src="./img/courses/coursedetails/digitalbook.png" alt="avatar"
                           width="60" height="60" />
                       </a>
-                      <div class="flex-grow-1 flex-shrink-1">
+                      <div className="flex-grow-1 flex-shrink-1">
                         <div>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <p class="mb-1">
+                          <div className="d-flex justify-content-between align-items-center">
+                            <p className="mb-1">
                             <b>Basic of UI/UX Design for...</b>
                             </p>
                           </div>
@@ -94,16 +94,16 @@ const CourseDetails = () => {
     <div className='border-bottom my-3'>
         <h6 className='eighteenfont'><b>Course Instructor</b></h6>
         <div className="d-flex justify-content-between p-price mt-3">
-        <div class="d-flex flex-start ">
-                      <a class="me-3" href="#">
-                        <img class="rounded-circle shadow-1-strong mb-3"
+        <div className="d-flex flex-start ">
+                      <a className="me-3" href="#">
+                        <img className="rounded-circle shadow-1-strong mb-3"
                           src="./img/courses/coursedetails/courseinstructor.png" alt="avatar"
                           width="60" height="60" />
                       </a>
-                      <div class="flex-grow-1 flex-shrink-1">
+                      <div className="flex-grow-1 flex-shrink-1">
                         <div>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <p class="mb-1">
+                          <div className="d-flex justify-content-between align-items-center">
+                            <p className="mb-1">
                             <b>Jonathan Williams</b>
                             </p>
                           </div>
@@ -112,7 +112,7 @@ const CourseDetails = () => {
                       </div>
                     </div>
                     <div className='mt-2'>
-                    <i class="fa-solid fa-comment-dots fa-xl"></i>
+                    <i className="fa-solid fa-comment-dots fa-xl"></i>
                     </div>
             </div>
 
@@ -120,14 +120,14 @@ const CourseDetails = () => {
     <div className='border-bottom my-3'>
         <h6 className='eighteenfont'><b>Course Assignment</b></h6>
         <div className="d-flex justify-content-between p-price mt-3">
-        <div class="d-flex flex-start ">
-                      <a class="me-3" href="#">
-                        <img class="rounded shadow-1-strong mb-3"
+        <div className="d-flex flex-start ">
+                      <a className="me-3" href="#">
+                        <img className="rounded shadow-1-strong mb-3"
                           src="./img/courses/coursedetails/courseassignment.png" alt="avatar"
                           width="60" height="60" />
                       </a>
                       
-                            <p class="my-3">
+                            <p className="my-3">
                             <b>Basic of UI/UX Design for Beginners</b>
                             </p>
                           
@@ -139,14 +139,14 @@ const CourseDetails = () => {
     <div className='border-bottom my-3'>
         <h6 className='eighteenfont'><b>Course Quiz</b></h6>
         <div className="d-flex justify-content-between p-price mt-3">
-        <div class="d-flex flex-start ">
-                      <a class="me-3" href="#">
-                        <img class="rounded shadow-1-strong mb-3"
+        <div className="d-flex flex-start ">
+                      <a className="me-3" href="#">
+                        <img className="rounded shadow-1-strong mb-3"
                           src="./img/courses/coursedetails/coursequiz.png" alt="avatar"
                           width="60" height="60" />
                       </a>
                       
-                            <p class="my-3">
+                            <p className="my-3">
                             <b>Basic of UI/UX Design for Beginners</b>
                             </p>
                           
@@ -157,43 +157,43 @@ const CourseDetails = () => {
     </div>
     <div className=' my-3'>
         <h6 className='eighteenfont'><b>Course Content</b></h6>
-        <div class="my-3 py-2 shadow rounded-2">
-    <div class="d-flex justify-content-between align-items-center px-3 py-1">
-        <div class="d-flex flex-start">
-            <p class="m-0"><b>Why Using Figma</b></p>
+        <div className="my-3 py-2 shadow rounded-2">
+    <div className="d-flex justify-content-between align-items-center px-3 py-1">
+        <div className="d-flex flex-start">
+            <p className="m-0"><b>Why Using Figma</b></p>
         </div>
         <div>
-        <i class="fa-solid fa-circle-play fa-lg"></i>
+        <i className="fa-solid fa-circle-play fa-lg"></i>
         </div>
     </div>
 </div>
-<div class="my-3 py-2 shadow rounded-2">
-    <div class="d-flex justify-content-between align-items-center px-3 py-1">
-        <div class="d-flex flex-start">
-            <p class="m-0"><b>Why Using Figma</b></p>
+<div className="my-3 py-2 shadow rounded-2">
+    <div className="d-flex justify-content-between align-items-center px-3 py-1">
+        <div className="d-flex flex-start">
+            <p className="m-0"><b>Why Using Figma</b></p>
         </div>
         <div>
-        <i class="fa-solid fa-circle-play fa-lg"></i>
+        <i className="fa-solid fa-circle-play fa-lg"></i>
         </div>
     </div>
 </div>
-<div class="my-3 py-2 shadow rounded-2">
-    <div class="d-flex justify-content-between align-items-center px-3 py-1">
-        <div class="d-flex flex-start">
-            <p class="m-0"><b>Why Using Figma</b></p>
+<div className="my-3 py-2 shadow rounded-2">
+    <div className="d-flex justify-content-between align-items-center px-3 py-1">
+        <div className="d-flex flex-start">
+            <p className="m-0"><b>Why Using Figma</b></p>
         </div>
         <div>
-        <i class="fa-solid fa-circle-play fa-lg"></i>
+        <i className="fa-solid fa-circle-play fa-lg"></i>
         </div>
     </div>
 </div>
-<div class="my-3 py-2 shadow rounded-2">
-    <div class="d-flex justify-content-between align-items-center px-3 py-1">
-        <div class="d-flex flex-start">
-            <p class="m-0"><b>Why Using Figma</b></p>
+<div className="my-3 py-2 shadow rounded-2">
+    <div className="d-flex justify-content-between align-items-center px-3 py-1">
+        <div className="d-flex flex-start">
+            <p className="m-0"><b>Why Using Figma</b></p>
         </div>
         <div>
-        <i class="fa-solid fa-circle-play fa-lg"></i>
+        <i className="fa-solid fa-circle-play fa-lg"></i>
         </div>
     </div>
 </div>
@@ -211,33 +211,33 @@ const CourseDetails = () => {
                 
             </div>
         <div className="col-lg-5 col-md-5 col-12">
-        <section class="" >
-  <div class="container-fluid">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="">
+        <section className="" >
+  <div className="container-fluid">
+    <div className="row d-flex justify-content-center align-items-center h-100">
+      <div className="">
 
         
-          <div class=" text-center">
-            <div class="mt-3 mb-2">
+          <div className=" text-center">
+            <div className="mt-3 mb-2">
               <img src="./img/courses/coursedetails/courseinstructor.png"
-                class="rounded-circle img-fluid" height='80' width='80' />
+                className="rounded-circle img-fluid" height='80' width='80' />
             </div>
-            <h6 class=""><b>Jonatham William</b></h6>
+            <h6 className=""><b>Jonatham William</b></h6>
             <p className='text-secondary'>Senior 3D Designer at Google</p>
-            <div class="d-flex justify-content-center text-center mt-3 mb-2 text-secondary">
-              <div class="px-3 " style={{ borderRight:"1px solid #E2E2E2"}}>
-                <p class="mb-2 h5">22</p>
-                <p class="text-muted mb-0">Courses</p>
+            <div className="d-flex justify-content-center text-center mt-3 mb-2 text-secondary">
+              <div className="px-3 " style={{ borderRight:"1px solid #E2E2E2"}}>
+                <p className="mb-2 h5">22</p>
+                <p className="text-muted mb-0">Courses</p>
               </div>
-              <div class="px-3">
-                <p class="mb-2 h5">22,253</p>
-                <p class="text-muted mb-0">Students</p>
+              <div className="px-3">
+                <p className="mb-2 h5">22,253</p>
+                <p className="text-muted mb-0">Students</p>
               </div>
              
             </div>
            
             <div className="col-md-7 mx-auto mb-3 ">
-            <button type="button" class="btn btn-primary rounded-pill btn-info btn-lg w-100 py-3 shadow" style={{fontSize:'16px', fontWeight:'500'}}>
+            <button type="button" className="btn btn-primary rounded-pill btn-info btn-lg w-100 py-3 shadow" style={{fontSize:'16px', fontWeight:'500'}}>
             Chat with Instructor
             </button>
             </div>
@@ -246,11 +246,11 @@ const CourseDetails = () => {
           <span className='eighteenfont '><b>About Instructor</b></span>
           <p className='text-secondary my-2'>Lorem ipsum dolor sit amet, consectetur adipi el sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur.</p>
           <div className='my-4' style={{color:'#1D191C'}}>
-          <p><i class="fa-brands fa-whatsapp fa-xl" style={{ marginRight:'15px'}}></i>https://www.webwhatsapp.com/ECHO</p>
-          <p><i class="fa-brands fa-facebook fa-xl" style={{ marginRight:'15px'}}></i>https://www.facebook.com/ECHO</p>
-          <p><i class="fa-brands fa-twitter fa-xl" style={{ marginRight:'15px'}}></i>https://www.twitter.com/ECHO</p>
-          <p><i class="fa-brands fa-instagram fa-xl" style={{ marginRight:'15px'}}></i>https://www.instagram.com/ECHO</p>
-          <p><i class="fa-solid fa-globe fa-xl" style={{ marginRight:'15px'}}></i>https://www.echo.com</p>
+          <p><i className="fa-brands fa-whatsapp fa-xl" style={{ marginRight:'15px'}}></i>https://www.webwhatsapp.com/ECHO</p>
+          <p><i className="fa-brands fa-facebook fa-xl" style={{ marginRight:'15px'}}></i>https://www.facebook.com/ECHO</p>
+          <p><i className="fa-brands fa-twitter fa-xl" style={{ marginRight:'15px'}}></i>https://www.twitter.com/ECHO</p>
+          <p><i className="fa-brands fa-instagram fa-xl" style={{ marginRight:'15px'}}></i>https://www.instagram.com/ECHO</p>
+          <p><i className="fa-solid fa-globe fa-xl" style={{ marginRight:'15px'}}></i>https://www.echo.com</p>
 
           </div>
           <span className='eighteenfont '><b>Courses</b></span>

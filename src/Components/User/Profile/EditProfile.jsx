@@ -61,7 +61,6 @@ const EditProfile = () => {
       };
       const handlePasswordSuccessful = () => {
         setShowModal(true);
-        // Perform payment processing logic here
     };
     
   
@@ -219,7 +218,7 @@ const handledeleteaccount = () =>{
                 <h1 className="banner-terms">Edit Profile</h1>
                 <div className="banner-terms-underline"></div>
             </div>
-            {/* <h5 class="banner-employes ">saying about us</h5> */}
+            {/* <h5 className="banner-employes ">saying about us</h5> */}
         </div>
     </div>
     <div className="col-md-11 mx-auto text-center my-4">
@@ -591,19 +590,14 @@ const handledeleteaccount = () =>{
                     <div className="modal show" id="paymentModal" tabIndex="-1" aria-labelledby="paymentModalLabel" style={{ display: 'block', backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
                     <div className="modal-dialog " style={{marginTop: '5%'}}>
                         <div className="modal-content my-1">
-                            {/* <div className="modal-header">
-                                <h5 className="modal-title" id="paymentModalLabel">Payment Successful</h5>
-                                <button type="button" className="btn-close" onClick={() => setShowModal(false)} aria-label="Close"></button>
-                            </div> */}
+                            
                             <div className="modal-body text-center">
                                 
                                 <img src="./img/courses/coursepayment/coursepaymentsuccessfull.png" alt="" height='100' width='100'/>
                                 <h4 className='my-3'><b>Password Change Successful!</b></h4>
                                 <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate placerat porta. Ut commodo nulla vitae eleifend sodales. Fusce ornare.</h6>
                             </div>
-                            {/* <div className="modal-footer">
-                                <button type="button" className="btn btn-secondary" onClick={() => setShowModal(false)}>Close</button>
-                            </div> */}
+                           
                         </div>
                     </div>
                 </div>

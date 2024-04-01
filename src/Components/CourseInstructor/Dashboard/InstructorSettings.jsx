@@ -284,8 +284,8 @@ const handledeleteaccount = () =>{
                   <div className='mt-1'>
                   <h6 className='fw-bold'>Notification</h6>
                   </div>
-                  <div class="form-check form-switch">
-  <input class="form-check-input" type="checkbox" style={{ width: '40px', height: '20px' }} role="switch" id="flexSwitchCheckDefault"/>
+                  <div className="form-check form-switch">
+  <input className="form-check-input" type="checkbox" style={{ width: '40px', height: '20px' }} role="switch" id="flexSwitchCheckDefault"/>
 </div>
                   </div>
                   <div className="d-flex justify-content-between mb-3" style={{cursor:'pointer'}} onClick={handlechangepassword}>

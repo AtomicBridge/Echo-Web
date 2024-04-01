@@ -61,15 +61,15 @@ const AboutUs = () => {
                 </section>
 </div>
 <div style={{background: "rgba(29, 25, 28, 0.1)"}} className='mb-5 mt-3'>
-  <div class="container-fluid d-flex align-items-center" style={{minHeight: "67vh"}}>
-    <div class="row">
-      <div class="col-md-4 mx-auto my-3">
-        <img src="./img/aboutus/aboutvedio.png" style={{height:'436px', width:'436px'}} class="img-fluid rounded-5 " alt="Paris Image"/>
+  <div className="container-fluid d-flex align-items-center" style={{minHeight: "67vh"}}>
+    <div className="row">
+      <div className="col-md-4 mx-auto my-3">
+        <img src="./img/aboutus/aboutvedio.png" style={{height:'436px', width:'436px'}} className="img-fluid rounded-5 " alt="Paris Image"/>
       </div>
-      <div class="col-md-8 mx-auto">
+      <div className="col-md-8 mx-auto">
       <div className="col-md-10">
-      <h5><span class="badge py-3 px-3 rounded-3 mt-3" style={{backgroundColor:'#FAFAFA',color:'black'}}><b>Our Mission</b></span></h5>
-        <div class="text my-4">
+      <h5><span className="badge py-3 px-3 rounded-3 mt-3" style={{backgroundColor:'#FAFAFA',color:'black'}}><b>Our Mission</b></span></h5>
+        <div className="text my-4">
           <h1 style={{fontWeight:'600', fontSize:'3.38vw'}}>Attend every class whereever your are staying at.</h1>
           <h5 className='text-secondary my-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed.</h5>
         </div>

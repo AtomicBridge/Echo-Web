@@ -42,14 +42,14 @@ const TrainerHome = () => {
       </div>
       <div className='border-bottom border-top my-3'>
         <div className="d-flex justify-content-between p-price mt-3">
-        <div class="d-flex flex-start ">
-        <a class="me-3" href="#">
-                        <img class="rounded-circle shadow-1-strong mb-3"
+        <div className="d-flex flex-start ">
+        <a className="me-3" href="#">
+                        <img className="rounded-circle shadow-1-strong mb-3"
                           src="./img/user/profile/profile.png" alt="avatar"
                           width="48" height="48" />
                       </a>
                       
-                            <p class="my-2">
+                            <p className="my-2">
                             <b>John Duo</b>
                             </p>
                           

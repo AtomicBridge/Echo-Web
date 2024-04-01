@@ -22,7 +22,6 @@ const Inbox = () => {
         const file = e.target.files[0];
         if (file && file.type.startsWith('image/')) {
             setSelectedImage(file);
-            // You can perform further actions with the selected image here
         } else {
             alert('Please select a valid image file.');
         }
@@ -53,7 +52,6 @@ const Inbox = () => {
 	  };
 
 	useEffect(() => {
-		// Function to scroll to the bottom of the chat container
 		const scrollToBottom = () => {
 		  const chatContainer = document.querySelector('.chat-messages');
 		  if (chatContainer) {
@@ -61,24 +59,21 @@ const Inbox = () => {
 		  }
 		};
 	
-		// Call the scrollToBottom function when the component mounts
 		scrollToBottom();
 		const calculatePerLine = () => {
             const emojiPickerWrapper = document.querySelector('.emoji-picker-wrapper');
             if (emojiPickerWrapper) {
                 const wrapperWidth = emojiPickerWrapper.clientWidth;
-                const emojisPerLine = Math.floor(wrapperWidth / 36); // Assuming each emoji button is 36px wide
+                const emojisPerLine = Math.floor(wrapperWidth / 36); 
                 setPerLine(emojisPerLine);
             }
         };
 
-        // Call the calculatePerLine function when the component mounts
+        
         calculatePerLine();
 
-        // Recalculate the number of emojis per line when the window is resized
         window.addEventListener('resize', calculatePerLine);
 
-        // Cleanup the event listener when the component unmounts
         return () => {
             window.removeEventListener('resize', calculatePerLine);
         };
@@ -95,14 +90,14 @@ const Inbox = () => {
         </div>
       </div>
       </div>
-      <main class="content"  style={{marginBottom:'10%'}}>
-    <div class="container p-0">
+      <main className="content"  style={{marginBottom:'10%'}}>
+    <div className="container p-0">
 
 	
 
-		<div class="card rounded-4">
-			<div class="row g-0">
-				<div class="col-12 col-lg-5 col-xl-3 p-2">
+		<div className="card rounded-4">
+			<div className="row g-0">
+				<div className="col-12 col-lg-5 col-xl-3 p-2">
 
 				<div className='left-chats'>
 				<div className="px-2 ">
@@ -116,13 +111,13 @@ const Inbox = () => {
                   </div>
                 </div>
 
-				{[...Array(15)].map((index) => (<a href="#" class="list-group-item list-group-item-action border-0 p-2">
+				{[...Array(15)].map((index) => (<a href="#" className="list-group-item list-group-item-action border-0 p-2">
 						
-						<div class="d-flex align-items-start border-bottom pb-2">
-						<img src="./img/inbox/Ellipse 2371.png" class="rounded-circle mr-1" alt="Chris Wood" width="44" height="44"/>
+						<div className="d-flex align-items-start border-bottom pb-2">
+						<img src="./img/inbox/Ellipse 2371.png" className="rounded-circle mr-1" alt="Chris Wood" width="44" height="44"/>
 							<div className='mx-2 w-100'>
 							<div className="d-flex justify-content-between "  style={{fontSize:'14px'}}>
-							<div class=" ml-3">
+							<div className=" ml-3">
 								<span><b>Jonatha William</b></span>
 								
 							</div>
@@ -135,170 +130,160 @@ const Inbox = () => {
 					</a>))}
 				</div>
 					
-					{/* <a href="#" class="list-group-item list-group-item-action border-0">
-						<div class="badge bg-success float-right">2</div>
-						<div class="d-flex align-items-start">
-							<img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle mr-1" alt="William Harris" width="40" height="40"/>
-							<div class="flex-grow-1 ml-3">
-								William Harris
-								<div class="small"><span class="fas fa-circle chat-online"></span> Online</div>
-							</div>
-						</div>
-					</a> */}
 					
 				</div>
-				<div class="col-12 col-lg-7 col-xl-9 p-2">
+				<div className="col-12 col-lg-7 col-xl-9 p-2">
 					<div>
-					<div class="py-2 px-2 border-bottom">
-						<div class="d-flex align-items-center py-1">
-							<div class="position-relative">
-								<img src="./img/inbox/Ellipse 2371.png" class="rounded-circle mr-1" alt="Sharon Lessman" width="44" height="44"/>
+					<div className="py-2 px-2 border-bottom">
+						<div className="d-flex align-items-center py-1">
+							<div className="position-relative">
+								<img src="./img/inbox/Ellipse 2371.png" className="rounded-circle mr-1" alt="Sharon Lessman" width="44" height="44"/>
 							</div>
-							<div class="flex-grow-1 pl-3 mx-3">
+							<div className="flex-grow-1 pl-3 mx-3">
 								<strong>Jonathan William</strong>
-								<div class="text-muted small">Active Now <span class="fas fa-circle chat-online fa-xs mx-2" ></span></div>
+								<div className="text-muted small">Active Now <span className="fas fa-circle chat-online fa-xs mx-2" ></span></div>
 							</div>
 							<div>
-                            <i class="fa-solid fa-lg fa-ellipsis-vertical"></i>
+                            <i className="fa-solid fa-lg fa-ellipsis-vertical"></i>
 							</div>
 						</div>
 					</div>
 
-					<div class="position-relative">
-						<div class="chat-messages p-4">
+					<div className="position-relative">
+						<div className="chat-messages p-4">
 
-							<div class="chat-message-right pb-4">
+							<div className="chat-message-right pb-4">
 								<div>
-									<img src="./img/inbox/Ellipse 2373.png" class="rounded-circle mr-1" alt="Chris Wood" width="48" height="48"/>
+									<img src="./img/inbox/Ellipse 2373.png" className="rounded-circle mr-1" alt="Chris Wood" width="48" height="48"/>
 								</div>
 								<div >
 								<div className="flex-shrink-1 bg-dark py-4 px-3 mx-3" style={{ borderRadius: '16px 4px 16px 16px', color:'white' }}>
   Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vixsset te vixsset te vixsset te vixsset te vixsset te vixsset te vix.
-</div><div class="text-muted small text-nowrap mx-3 mt-1">2:33 am <img src="./img/inbox/Group (2).png" alt="" /></div>
+</div><div className="text-muted small text-nowrap mx-3 mt-1">2:33 am <img src="./img/inbox/Group (2).png" alt="" /></div>
 								</div>
 
 							</div>
 
-							<div class="chat-message-left pb-4">
+							<div className="chat-message-left pb-4">
 								<div>
-									<img src="./img/inbox/Ellipse 2374.png" class="rounded-circle mr-1" alt="Sharon Lessman" width="48" height="48"/>
+									<img src="./img/inbox/Ellipse 2374.png" className="rounded-circle mr-1" alt="Sharon Lessman" width="48" height="48"/>
 								</div>
 								<div>
-								<div class="flex-shrink-1 bg-light py-4 px-3 mx-3" style={{ borderRadius: '4px 16px 16px 16px' }}>
+								<div className="flex-shrink-1 bg-light py-4 px-3 mx-3" style={{ borderRadius: '4px 16px 16px 16px' }}>
 									Sit meis deleniti eu, pri vidit meliore docendi ut, an eum erat animal commodo.
 								</div>
-								<div class="text-muted text-end small text-nowrap mt-1 mx-3">2:34 am <img src="./img/inbox/Group (2).png" alt="" /></div>
+								<div className="text-muted text-end small text-nowrap mt-1 mx-3">2:34 am <img src="./img/inbox/Group (2).png" alt="" /></div>
 								</div>
 							</div>
 
-							<div class="chat-message-right pb-4">
+							<div className="chat-message-right pb-4">
 								<div>
-									<img src="./img/inbox/Ellipse 2373.png" class="rounded-circle mr-1" alt="Chris Wood" width="48" height="48"/>
+									<img src="./img/inbox/Ellipse 2373.png" className="rounded-circle mr-1" alt="Chris Wood" width="48" height="48"/>
 								</div>
 								<div >
 								<div className="flex-shrink-1 bg-dark py-4 px-3 mx-3" style={{ borderRadius: '16px 4px 16px 16px', color:'white' }}>
   Lorem ipsum dolor sit amet, vis erat denique in, dicunt prode
-</div><div class="text-muted small text-nowrap mx-3 mt-1">2:33 am <img src="./img/inbox/Group (2).png" alt="" /></div>
+</div><div className="text-muted small text-nowrap mx-3 mt-1">2:33 am <img src="./img/inbox/Group (2).png" alt="" /></div>
 								</div>
 
 							</div>
-							<div class="chat-message-left pb-4">
+							<div className="chat-message-left pb-4">
 								<div>
-									<img src="./img/inbox/Ellipse 2374.png" class="rounded-circle mr-1" alt="Sharon Lessman" width="48" height="48"/>
+									<img src="./img/inbox/Ellipse 2374.png" className="rounded-circle mr-1" alt="Sharon Lessman" width="48" height="48"/>
 								</div>
 								<div>
-								<div class="flex-shrink-1 bg-light py-4 px-3 mx-3" style={{ borderRadius: '4px 16px 16px 16px' }}>
+								<div className="flex-shrink-1 bg-light py-4 px-3 mx-3" style={{ borderRadius: '4px 16px 16px 16px' }}>
 									Siidit meliore docendi ut, an eum erat animal commodo.
 								</div>
-								<div class="text-muted text-end small text-nowrap mt-1 mx-3">2:34 am <img src="./img/inbox/Group (2).png" alt="" /></div>
+								<div className="text-muted text-end small text-nowrap mt-1 mx-3">2:34 am <img src="./img/inbox/Group (2).png" alt="" /></div>
 								</div>
 							</div>
-							<div class="chat-message-right pb-4">
+							<div className="chat-message-right pb-4">
 								<div>
-									<img src="./img/inbox/Ellipse 2373.png" class="rounded-circle mr-1" alt="Chris Wood" width="48" height="48"/>
+									<img src="./img/inbox/Ellipse 2373.png" className="rounded-circle mr-1" alt="Chris Wood" width="48" height="48"/>
 								</div>
 								<div >
 								<div className="flex-shrink-1 bg-dark py-4 px-3 mx-3" style={{ borderRadius: '16px 4px 16px 16px', color:'white' }}>
   Lorem ipsum dolor sit amet, vis 
-</div><div class="text-muted small text-nowrap mx-3 mt-1">2:33 am <img src="./img/inbox/Group (2).png" alt="" /></div>
+</div><div className="text-muted small text-nowrap mx-3 mt-1">2:33 am <img src="./img/inbox/Group (2).png" alt="" /></div>
 								</div>
 
 							</div>
-							<div class="chat-message-left pb-4">
+							<div className="chat-message-left pb-4">
 								<div>
-									<img src="./img/inbox/Ellipse 2374.png" class="rounded-circle mr-1" alt="Sharon Lessman" width="48" height="48"/>
+									<img src="./img/inbox/Ellipse 2374.png" className="rounded-circle mr-1" alt="Sharon Lessman" width="48" height="48"/>
 								</div>
 								<div>
-								<div class="flex-shrink-1 bg-light py-4 px-3 mx-3" style={{ borderRadius: '4px 16px 16px 16px' }}>
+								<div className="flex-shrink-1 bg-light py-4 px-3 mx-3" style={{ borderRadius: '4px 16px 16px 16px' }}>
 									Siti ut, an eum erat animal commodo.
 								</div>
-								<div class="text-muted text-end small text-nowrap mt-1 mx-3">2:34 am <img src="./img/inbox/Group (2).png" alt="" /></div>
+								<div className="text-muted text-end small text-nowrap mt-1 mx-3">2:34 am <img src="./img/inbox/Group (2).png" alt="" /></div>
 								</div>
 							</div>
-							<div class="chat-message-right pb-4">
+							<div className="chat-message-right pb-4">
 								<div>
-									<img src="./img/inbox/Ellipse 2373.png" class="rounded-circle mr-1" alt="Chris Wood" width="48" height="48"/>
+									<img src="./img/inbox/Ellipse 2373.png" className="rounded-circle mr-1" alt="Chris Wood" width="48" height="48"/>
 								</div>
 								<div >
 								<div className="flex-shrink-1 bg-dark py-4 px-3 mx-3" style={{ borderRadius: '16px 4px 16px 16px', color:'white' }}>
   Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset tedicunt prodesset tedicunt prodesset tedicunt prodesset te vixsset te vixsset te vixsset te vixsset te vixsset te vixsset te vix.
-</div><div class="text-muted small text-nowrap mx-3 mt-1">2:33 am <img src="./img/inbox/Group (2).png" alt="" /></div>
+</div><div className="text-muted small text-nowrap mx-3 mt-1">2:33 am <img src="./img/inbox/Group (2).png" alt="" /></div>
 								</div>
 
 							</div>
-							<div class="chat-message-left pb-4">
+							<div className="chat-message-left pb-4">
 								<div>
-									<img src="./img/inbox/Ellipse 2374.png" class="rounded-circle mr-1" alt="Sharon Lessman" width="48" height="48"/>
+									<img src="./img/inbox/Ellipse 2374.png" className="rounded-circle mr-1" alt="Sharon Lessman" width="48" height="48"/>
 								</div>
 								<div>
-								<div class="flex-shrink-1 bg-light py-4 px-3 mx-3" style={{ borderRadius: '4px 16px 16px 16px' }}>
+								<div className="flex-shrink-1 bg-light py-4 px-3 mx-3" style={{ borderRadius: '4px 16px 16px 16px' }}>
 									Sit meis deleniti eu, prdicunt prodesset tedicunt prodesset tei vidit meliore docendi ut, an eum erat animal commodo.
 								</div>
-								<div class="text-muted text-end small text-nowrap mt-1 mx-3">2:34 am <img src="./img/inbox/Group (2).png" alt="" /></div>
+								<div className="text-muted text-end small text-nowrap mt-1 mx-3">2:34 am <img src="./img/inbox/Group (2).png" alt="" /></div>
 								</div>
 							</div>
-							<div class="chat-message-right pb-4">
+							<div className="chat-message-right pb-4">
 								<div>
-									<img src="./img/inbox/Ellipse 2373.png" class="rounded-circle mr-1" alt="Chris Wood" width="48" height="48"/>
+									<img src="./img/inbox/Ellipse 2373.png" className="rounded-circle mr-1" alt="Chris Wood" width="48" height="48"/>
 								</div>
 								<div >
 								<div className="flex-shrink-1 bg-dark py-4 px-3 mx-3" style={{ borderRadius: '16px 4px 16px 16px', color:'white' }}>
   Lorem ipsum dolor sit amet, vrodesset te vixsset te vixsset te vixsset te vixsset te vixsset te vixsset te vix.
-</div><div class="text-muted small text-nowrap mx-3 mt-1">2:33 am <img src="./img/inbox/Group (2).png" alt="" /></div>
+</div><div className="text-muted small text-nowrap mx-3 mt-1">2:33 am <img src="./img/inbox/Group (2).png" alt="" /></div>
 								</div>
 
 							</div>
-							<div class="chat-message-left pb-4">
+							<div className="chat-message-left pb-4">
 								<div>
-									<img src="./img/inbox/Ellipse 2374.png" class="rounded-circle mr-1" alt="Sharon Lessman" width="48" height="48"/>
+									<img src="./img/inbox/Ellipse 2374.png" className="rounded-circle mr-1" alt="Sharon Lessman" width="48" height="48"/>
 								</div>
 								<div>
-								<div class="flex-shrink-1 bg-light py-4 px-3 mx-3" style={{ borderRadius: '4px 16px 16px 16px' }}>
+								<div className="flex-shrink-1 bg-light py-4 px-3 mx-3" style={{ borderRadius: '4px 16px 16px 16px' }}>
 									Sit meis deleniti eu, pdicunt prodesset tedicunt prodesset tedicunt prodesset teri vidit meliore docendi ut, an eum erat animal commodo.
 								</div>
-								<div class="text-muted text-end small text-nowrap mt-1 mx-3">2:34 am <img src="./img/inbox/Group (2).png" alt="" /></div>
+								<div className="text-muted text-end small text-nowrap mt-1 mx-3">2:34 am <img src="./img/inbox/Group (2).png" alt="" /></div>
 								</div>
 							</div>
-							<div class="chat-message-right pb-4">
+							<div className="chat-message-right pb-4">
 								<div>
-									<img src="./img/inbox/Ellipse 2373.png" class="rounded-circle mr-1" alt="Chris Wood" width="48" height="48"/>
+									<img src="./img/inbox/Ellipse 2373.png" className="rounded-circle mr-1" alt="Chris Wood" width="48" height="48"/>
 								</div>
 								<div >
 								<div className="flex-shrink-1 bg-dark py-4 px-3 mx-3" style={{ borderRadius: '16px 4px 16px 16px', color:'white' }}>
   Lorem ipsum dolor sit aodesset te vixsset te vixsset te vixsset te vixsset te vixsset te vixsset te vix.
-</div><div class="text-muted small text-nowrap mx-3 mt-1">2:33 am <img src="./img/inbox/Group (2).png" alt="" /></div>
+</div><div className="text-muted small text-nowrap mx-3 mt-1">2:33 am <img src="./img/inbox/Group (2).png" alt="" /></div>
 								</div>
 
 							</div>	
-							<div class="chat-message-left pb-4">
+							<div className="chat-message-left pb-4">
 								<div>
-									<img src="./img/inbox/Ellipse 2374.png" class="rounded-circle mr-1" alt="Sharon Lessman" width="48" height="48"/>
+									<img src="./img/inbox/Ellipse 2374.png" className="rounded-circle mr-1" alt="Sharon Lessman" width="48" height="48"/>
 								</div>
 								<div>
-								<div class="flex-shrink-1 bg-light py-4 px-3 mx-3" style={{ borderRadius: '4px 16px 16px 16px' }}>
+								<div className="flex-shrink-1 bg-light py-4 px-3 mx-3" style={{ borderRadius: '4px 16px 16px 16px' }}>
 									Sit meis  vidit meliore docendi ut, an eum erat animal commodo.
 								</div>
-								<div class="text-muted text-end small text-nowrap mt-1 mx-3">2:34 am <img src="./img/inbox/Group (2).png" alt="" /></div>
+								<div className="text-muted text-end small text-nowrap mt-1 mx-3">2:34 am <img src="./img/inbox/Group (2).png" alt="" /></div>
 								</div>
 							</div>						
 
@@ -330,7 +315,7 @@ const Inbox = () => {
                 onChange={handleInputChange}
                 onClick={handlepicker}
             />
-            {/* <button className="btn btn-primary" onClick={handleSend}>Send</button> */}
+            
 			
         </div>
         <div>

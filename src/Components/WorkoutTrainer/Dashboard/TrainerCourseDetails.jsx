@@ -16,12 +16,12 @@ const TrainerCourseDetails = () => {
             <InstructoreHeader/>
             <div className='container-fluid my-4'>
               <h3 className='fw-bold'>My Courses</h3>
-              <div class="row clearfix">
+              <div className="row clearfix">
               <div className="col-lg-5 col-md-5 col-12">
-        <section class="" >
-  <div class="mx-3">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="">
+        <section className="" >
+  <div className="mx-3">
+    <div className="row d-flex justify-content-center align-items-center h-100">
+      <div className="">
 
     
           
@@ -51,14 +51,14 @@ const TrainerCourseDetails = () => {
       </div>
       <div className='border-bottom border-top my-3'>
         <div className="d-flex justify-content-between p-price mt-3">
-        <div class="d-flex flex-start ">
-        <a class="me-3" href="#">
-                        <img class="rounded-circle shadow-1-strong mb-3"
+        <div className="d-flex flex-start ">
+        <a className="me-3" href="#">
+                        <img className="rounded-circle shadow-1-strong mb-3"
                           src="./img/user/profile/profile.png" alt="avatar"
                           width="48" height="48" />
                       </a>
                       
-                            <p class="my-2">
+                            <p className="my-2">
                             <b>John Duo</b>
                             </p>
                           
@@ -86,13 +86,13 @@ const TrainerCourseDetails = () => {
   </div>
 </section>
         </div>
-            <div class="col-lg-7 col-md-7 col-12 left-box">
-                <div class=" single_post ">
-                    <div class="px-md-4 instructorcoursedetailsmidborder">
+            <div className="col-lg-7 col-md-7 col-12 left-box">
+                <div className=" single_post ">
+                    <div className="px-md-4 instructorcoursedetailsmidborder">
                     <div className="text-center h-custom-2  mt-4">
                 <img src="./img/user/profile/profile.png" alt="avatar" className="rounded-circle img-fluid mt-md-3" style={{ width: '120px', height:'120px' }} />
                 <h5 className="mt-3 mb-2 eighteenfont"><b>John Duo</b></h5>
-                <p className=" mb-1"><i class="fa-solid fa-location-dot fa-lg mx-2"></i>Time Square NYC, Ney York USA.</p>
+                <p className=" mb-1"><i className="fa-solid fa-location-dot fa-lg mx-2"></i>Time Square NYC, Ney York USA.</p>
                 <div className='border-bottom col-md-11 mx-auto my-4'></div>
                 </div>
                 <div className="col-md-11 mx-auto">

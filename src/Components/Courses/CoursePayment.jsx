@@ -19,17 +19,17 @@ const CoursePayment = () => {
     };
   return (
     <>
-    <div class="container-fluid">
-    <div class="row my-4">
-    <div class="col-md-5 col-12 ">
-        <div class="banner-container">
-            <h1 class="banner-employes ">UI UX Designer Course</h1>
-            <div class="banner-employes-underline"></div>
+    <div className="container-fluid">
+    <div className="row my-4">
+    <div className="col-md-5 col-12 ">
+        <div className="banner-container">
+            <h1 className="banner-employes ">UI UX Designer Course</h1>
+            <div className="banner-employes-underline"></div>
         </div>
-        <h5 class="banner-employes "> for Absolute Beginners</h5>
+        <h5 className="banner-employes "> for Absolute Beginners</h5>
     </div>
 <div className="col-md-5 col-12 mx-auto">
-<h5 class="text-secondary mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</h5>
+<h5 className="text-secondary mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</h5>
 
 </div>
 </div>
@@ -92,21 +92,21 @@ const CoursePayment = () => {
 </div>
 </div>
 <div className="row my-3">
-<div class="col-md-6">
-    <label class="form-label" for="formNameOnCard"><b>Card Name</b></label>
-    <input type="text" id="formNameOnCard" class="form-control bg-light border-0 rounded-3 py-2"/>
+<div className="col-md-6">
+    <label className="form-label" for="formNameOnCard"><b>Card Name</b></label>
+    <input type="text" id="formNameOnCard" className="form-control bg-light border-0 rounded-3 py-2"/>
   </div>
-  <div class="col-md-6">
-    <label class="form-label" for="formCardNumber"><b>Card Number</b></label>
-    <input type="text" id="formCardNumber" class="form-control bg-light border-0 rounded-3 py-2"/>
+  <div className="col-md-6">
+    <label className="form-label" for="formCardNumber"><b>Card Number</b></label>
+    <input type="text" id="formCardNumber" className="form-control bg-light border-0 rounded-3 py-2"/>
   </div>
-  <div class="col-md-6 my-3">
-    <label class="form-label" for="formNameOnCard"><b>Expiry Date</b></label>
-    <input type="date" id="formNameOnCard" class="form-control bg-light border-0 rounded-3 py-2"/>
+  <div className="col-md-6 my-3">
+    <label className="form-label" for="formNameOnCard"><b>Expiry Date</b></label>
+    <input type="date" id="formNameOnCard" className="form-control bg-light border-0 rounded-3 py-2"/>
   </div>
-  <div class="col-md-6 my-3">
-    <label class="form-label" for="formCardNumber"><b>Expiry Date</b></label>
-    <input type="date" id="formCardNumber" class="form-control bg-light border-0 rounded-3 py-2"/>
+  <div className="col-md-6 my-3">
+    <label className="form-label" for="formCardNumber"><b>Expiry Date</b></label>
+    <input type="date" id="formCardNumber" className="form-control bg-light border-0 rounded-3 py-2"/>
   </div>
   
 </div>

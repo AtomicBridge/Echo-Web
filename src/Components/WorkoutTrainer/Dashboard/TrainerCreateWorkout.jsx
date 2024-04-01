@@ -159,7 +159,7 @@ const TrainerCreateWorkout = () => {
             )}
         </div>
 <div className="formfieldwidth">
-<div class="d-flex justify-content-center align-items-center my-3">
+<div className="d-flex justify-content-center align-items-center my-3">
   <img src="./img/courseinstructor/home/Group 1686554024.png" className='img-fluid' alt="" />
   
 </div>

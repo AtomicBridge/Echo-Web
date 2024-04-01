@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 const PopularCourses = () => {
   return (
     <>
-    <div class="col-md-6 col-12 ">
-        <div class="banner-container">
-            <h1 class="banner ">Popular Courses for you</h1>
-            <div class="banner-underline"></div>
+    <div className="col-md-6 col-12 ">
+        <div className="banner-container">
+            <h1 className="banner ">Popular Courses for you</h1>
+            <div className="banner-underline"></div>
         </div>
-<h5 class="text-secondary mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur.  </h5>
+<h5 className="text-secondary mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur.  </h5>
        
     
 

@@ -32,36 +32,37 @@ navigate('/login')
                 localStorage.removeItem('loggedInUser');
                 // Update the userlogged state to false
                 setuserlogged(false);
+                navigate('/');
             };
   return (
     <>
     { currentURL === '/' || currentURL === '/aboutus' || currentURL === '/courses' || currentURL === '/contactus'
         ?(
-            <nav class="navbar navbar-expand-lg navbar-light ">
-    <div class="container-fluid" style={{maxWidth: "90%"}}>
-        {/* <a class="navbar-brand" href="#">LOGO</a> */}
-        <img src="./img/Navbar/echologo.png" class="navbar-brand" alt="" />
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-lg navbar-light ">
+    <div className="container-fluid" style={{maxWidth: "90%"}}>
+        {/* <a className="navbar-brand" href="#">LOGO</a> */}
+        <img src="./img/Navbar/echologo.png" className="navbar-brand" alt="" />
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" style={{marginLeft:'10%'}} id="navbarSupportedContent">
+        <div className="collapse navbar-collapse" style={{marginLeft:'10%'}} id="navbarSupportedContent">
            
-            <ul class="navbar-nav ms-auto"> 
-            <li class="nav-item">
-                    <Link class="nav-link active" aria-current="page" to='/'>Home</Link>
+            <ul className="navbar-nav ms-auto"> 
+            <li className="nav-item">
+                    <Link className="nav-link active" aria-current="page" to='/'>Home</Link>
                 </li>
-                <li class="nav-item">
-                    <Link class="nav-link" to='/aboutus'>About Us</Link>
+                <li className="nav-item">
+                    <Link className="nav-link" to='/aboutus'>About Us</Link>
                 </li>
-                <li class="nav-item">
-                    <Link class="nav-link" to='/courses'>Our Courses</Link>
+                <li className="nav-item">
+                    <Link className="nav-link" to='/courses'>Our Courses</Link>
                 </li>
-                <li class="nav-item">
-                    <Link class="nav-link" to='/contactus'>Contact Us</Link>
+                <li className="nav-item">
+                    <Link className="nav-link" to='/contactus'>Contact Us</Link>
                 </li>
             </ul>
-            {userlogged=== 'user'?<ul class="navbar-nav ms-auto">
-    <li class="nav-item my-2 mx-md-4 ">
+            {userlogged=== 'user'?<ul className="navbar-nav ms-auto">
+    <li className="nav-item my-2 mx-md-4 ">
         <img className='mx-2' onClick={handleinbox} style={{cursor:'pointer'}} src="./img/Navbar/Group 5.png" alt="" />
         <img onClick={ handlenotification} style={{cursor:'pointer'}} src="./img/Navbar/Group 6.png"  alt="" />
     </li>
@@ -86,12 +87,12 @@ navigate('/login')
 
 
 </ul>:
-<ul class="navbar-nav ms-auto">
-    <li class="nav-item">
-        <button class="btn btn-outline-dark mx-md-2 rounded-pill  my-1" onClick={navigatelogin} style={{height:'48px', width:'100px'}}>Login</button>
+<ul className="navbar-nav ms-auto">
+    <li className="nav-item">
+        <button className="btn btn-outline-dark mx-md-2 rounded-pill  my-1" onClick={navigatelogin} style={{height:'48px', width:'100px'}}>Login</button>
     </li>
-    <li class="nav-item">
-        <button class="btn btn-dark rounded-pill mx-md-2  my-1 "  onClick={navigatesignup} style={{height:'48px', width:'100px'}}>Sign Up</button>
+    <li className="nav-item">
+        <button className="btn btn-dark rounded-pill mx-md-2  my-1 "  onClick={navigatesignup} style={{height:'48px', width:'100px'}}>Sign Up</button>
     </li>
 </ul>
 }
@@ -102,29 +103,29 @@ navigate('/login')
         </div>
     </div>
 </nav>
-        ):(<nav class="navbar navbar-expand-lg" style={{ backgroundColor: '#1D191C', color: 'white' }}>
-        <div class="container-fluid" style={{ maxWidth: "90%" }}>
-            <img src="./img/Navbar/echologo2.png" class="navbar-brand" alt="" />
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        ):(<nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#1D191C', color: 'white' }}>
+        <div className="container-fluid" style={{ maxWidth: "90%" }}>
+            <img src="./img/Navbar/echologo2.png" className="navbar-brand" alt="" />
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" style={{ marginLeft: '10%' }} id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item" >
-                        <Link class="nav-link active" style={{color:'white'}} aria-current="page" to='/'>Home</Link>
+            <div className="collapse navbar-collapse" style={{ marginLeft: '10%' }} id="navbarSupportedContent">
+                <ul className="navbar-nav ms-auto">
+                    <li className="nav-item" >
+                        <Link className="nav-link active" style={{color:'white'}} aria-current="page" to='/'>Home</Link>
                     </li>
-                    <li class="nav-item">
-                        <Link class="nav-link" style={{color:'white'}} to='/aboutus'>About Us</Link>
+                    <li className="nav-item">
+                        <Link className="nav-link" style={{color:'white'}} to='/aboutus'>About Us</Link>
                     </li>
-                    <li class="nav-item">
-                        <Link class="nav-link" style={{color:'white'}} to='/courses'>Our Courses</Link>
+                    <li className="nav-item">
+                        <Link className="nav-link" style={{color:'white'}} to='/courses'>Our Courses</Link>
                     </li>
-                    <li class="nav-item">
-                        <Link class="nav-link" style={{color:'white'}} to='/contactus'>Contact Us</Link>
+                    <li className="nav-item">
+                        <Link className="nav-link" style={{color:'white'}} to='/contactus'>Contact Us</Link>
                     </li>
                 </ul>
-                {userlogged=== 'user'?<ul class="navbar-nav ms-auto">
-    <li class="nav-item my-2 mx-md-4 ">
+                {userlogged=== 'user'?<ul className="navbar-nav ms-auto">
+    <li className="nav-item my-2 mx-md-4 ">
         <img className='mx-2' onClick={handleinbox} style={{cursor:'pointer'}} src="./img/Navbar/Group 5.png" alt="" />
         <img src="./img/Navbar/Group 6.png" onClick={ handlenotification} style={{cursor:'pointer'}} alt="" />
     </li>
@@ -149,12 +150,12 @@ navigate('/login')
 
 
 </ul>:
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <button class="btn btn-outline-light mx-md-2 rounded-pill my-1" onClick={navigatelogin} style={{ height: '48px', width: '100px' }}>Login</button>
+                <ul className="navbar-nav ms-auto">
+                    <li className="nav-item">
+                        <button className="btn btn-outline-light mx-md-2 rounded-pill my-1" onClick={navigatelogin} style={{ height: '48px', width: '100px' }}>Login</button>
                     </li>
-                    <li class="nav-item">
-                        <button class="btn btn-light rounded-pill mx-md-2 my-1" onClick={navigatesignup} style={{ height: '48px', width: '100px' }}>Sign Up</button>
+                    <li className="nav-item">
+                        <button className="btn btn-light rounded-pill mx-md-2 my-1" onClick={navigatesignup} style={{ height: '48px', width: '100px' }}>Sign Up</button>
                     </li>
                 </ul>}
             </div>

@@ -67,69 +67,69 @@ const Home = () => {
                 <PopularCourses/>
                 
     <PopularWorkout/>
-    <div class="">
-    <div class="row ">
-    <div class="col-md-5 col-12 ">
-        <div class="banner-container">
-            <h1 class="banner-employes ">What our Employees</h1>
-            <div class="banner-employes-underline"></div>
+    <div className="">
+    <div className="row ">
+    <div className="col-md-5 col-12 ">
+        <div className="banner-container">
+            <h1 className="banner-employes ">What our Employees</h1>
+            <div className="banner-employes-underline"></div>
         </div>
-        <h5 class="banner-employes ">saying about us</h5>
+        <h5 className="banner-employes ">saying about us</h5>
     </div>
 <div className="col-md-5 col-12 mx-auto">
-<h5 class="text-secondary mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</h5>
+<h5 className="text-secondary mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</h5>
 
 </div>
 </div>
 
 </div>
 <section style={{color: "#000"}}>
-  <div class=" py-5">
+  <div className=" py-5">
 
-    <div class="row scrolling-wrapper-flexbox">
-      <div class="col-10 col-md-5 col-lg-3 mb-3">
-        <div class="card rounded-4 employes-card" >
-          <div class="card-body py-4 mt-2">
+    <div className="row scrolling-wrapper-flexbox">
+      <div className="col-10 col-md-5 col-lg-3 mb-3">
+        <div className="card rounded-4 employes-card" >
+          <div className="card-body py-4 mt-2">
             
-            <h5 class="font-weight-bold" style={{fontSize:'18px'}}>Great Platform</h5>
+            <h5 className="font-weight-bold" style={{fontSize:'18px'}}>Great Platform</h5>
             
             <div className="row ">
                 <div className="col-md-1">
-                <i class="fa-solid fa-quote-left p-1 rounded-circle employes-card-quote" ></i>
+                <i className="fa-solid fa-quote-left p-1 rounded-circle employes-card-quote" ></i>
            
                 </div>
                 <div className="col-md-10 ">
-                <p class="mb-2 border-bottom pb-2">
+                <p className="mb-2 border-bottom pb-2">
               Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusmod tem incididunt ut labore consectetur eius tem incididunt ut labore cons .eiusme tem incididunt labore consecte.Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusm
             </p>
-            <div class="d-flex flex-start mt-4">
-                      <a class="me-3" href="#">
-                        <img class="rounded-circle shadow-1-strong"
+            <div className="d-flex flex-start mt-4">
+                      <a className="me-3" href="#">
+                        <img className="rounded-circle shadow-1-strong"
                           src="./img/Employees/employe1.png" alt="avatar"
                           width="60" height="60" />
                       </a>
-                      <div class="flex-grow-1 flex-shrink-1">
+                      <div className="flex-grow-1 flex-shrink-1">
                         <div>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <p class="mb-1">
+                          <div className="d-flex justify-content-between align-items-center">
+                            <p className="mb-1">
                             Kyle Mayers
                             </p>
                           </div>
-                          <ul class="list-unstyled d-flex justify-content-start">
+                          <ul className="list-unstyled d-flex justify-content-start">
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+                <i className="fas fa-star-half-alt fa-sm text-warning"></i>
               </li>
             </ul>
                         </div>
@@ -141,49 +141,49 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div class="col-10 col-md-5 col-lg-3 mb-3">
-        <div class="card rounded-4 employes-card" >
-          <div class="card-body py-4 mt-2">
+      <div className="col-10 col-md-5 col-lg-3 mb-3">
+        <div className="card rounded-4 employes-card" >
+          <div className="card-body py-4 mt-2">
             
-            <h5 class="font-weight-bold" style={{fontSize:'18px'}}>Great Platform</h5>
+            <h5 className="font-weight-bold" style={{fontSize:'18px'}}>Great Platform</h5>
             
             <div className="row ">
                 <div className="col-md-1">
-                <i class="fa-solid fa-quote-left p-1 rounded-circle employes-card-quote" ></i>
+                <i className="fa-solid fa-quote-left p-1 rounded-circle employes-card-quote" ></i>
            
                 </div>
                 <div className="col-md-10 ">
-                <p class="mb-2 border-bottom pb-2">
+                <p className="mb-2 border-bottom pb-2">
               Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusmod tem incididunt ut labore consectetur eius tem incididunt ut labore cons .eiusme tem incididunt labore consecte.Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusm
             </p>
-            <div class="d-flex flex-start mt-4">
-                      <a class="me-3" href="#">
-                        <img class="rounded-circle shadow-1-strong"
+            <div className="d-flex flex-start mt-4">
+                      <a className="me-3" href="#">
+                        <img className="rounded-circle shadow-1-strong"
                           src="./img/Employees/employe2.png" alt="avatar"
                           width="60" height="60" />
                       </a>
-                      <div class="flex-grow-1 flex-shrink-1">
+                      <div className="flex-grow-1 flex-shrink-1">
                         <div>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <p class="mb-1">
+                          <div className="d-flex justify-content-between align-items-center">
+                            <p className="mb-1">
                             Kyle Mayers
                             </p>
                           </div>
-                          <ul class="list-unstyled d-flex justify-content-start">
+                          <ul className="list-unstyled d-flex justify-content-start">
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+                <i className="fas fa-star-half-alt fa-sm text-warning"></i>
               </li>
             </ul>
                         </div>
@@ -195,49 +195,49 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div class="col-10 col-md-5 col-lg-3 mb-3">
-        <div class="card rounded-4 employes-card" >
-          <div class="card-body py-4 mt-2">
+      <div className="col-10 col-md-5 col-lg-3 mb-3">
+        <div className="card rounded-4 employes-card" >
+          <div className="card-body py-4 mt-2">
             
-            <h5 class="font-weight-bold" style={{fontSize:'18px'}}>Great Platform</h5>
+            <h5 className="font-weight-bold" style={{fontSize:'18px'}}>Great Platform</h5>
             
             <div className="row ">
                 <div className="col-md-1">
-                <i class="fa-solid fa-quote-left p-1 rounded-circle employes-card-quote" ></i>
+                <i className="fa-solid fa-quote-left p-1 rounded-circle employes-card-quote" ></i>
            
                 </div>
                 <div className="col-md-10 ">
-                <p class="mb-2 border-bottom pb-2">
+                <p className="mb-2 border-bottom pb-2">
               Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusmod tem incididunt ut labore consectetur eius tem incididunt ut labore cons .eiusme tem incididunt labore consecte.Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusm
             </p>
-            <div class="d-flex flex-start mt-4">
-                      <a class="me-3" href="#">
-                        <img class="rounded-circle shadow-1-strong"
+            <div className="d-flex flex-start mt-4">
+                      <a className="me-3" href="#">
+                        <img className="rounded-circle shadow-1-strong"
                           src="./img/Employees/employe3.png" alt="avatar"
                           width="60" height="60" />
                       </a>
-                      <div class="flex-grow-1 flex-shrink-1">
+                      <div className="flex-grow-1 flex-shrink-1">
                         <div>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <p class="mb-1">
+                          <div className="d-flex justify-content-between align-items-center">
+                            <p className="mb-1">
                             Kyle Mayers
                             </p>
                           </div>
-                          <ul class="list-unstyled d-flex justify-content-start">
+                          <ul className="list-unstyled d-flex justify-content-start">
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+                <i className="fas fa-star-half-alt fa-sm text-warning"></i>
               </li>
             </ul>
                         </div>
@@ -249,49 +249,49 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div class="col-10 col-md-5 col-lg-3 mb-3">
-        <div class="card rounded-4 employes-card" >
-          <div class="card-body py-4 mt-2">
+      <div className="col-10 col-md-5 col-lg-3 mb-3">
+        <div className="card rounded-4 employes-card" >
+          <div className="card-body py-4 mt-2">
             
-            <h5 class="font-weight-bold" style={{fontSize:'18px'}}>Great Platform</h5>
+            <h5 className="font-weight-bold" style={{fontSize:'18px'}}>Great Platform</h5>
             
             <div className="row ">
                 <div className="col-md-1">
-                <i class="fa-solid fa-quote-left p-1 rounded-circle employes-card-quote" ></i>
+                <i className="fa-solid fa-quote-left p-1 rounded-circle employes-card-quote" ></i>
            
                 </div>
                 <div className="col-md-10 ">
-                <p class="mb-2 border-bottom pb-2">
+                <p className="mb-2 border-bottom pb-2">
               Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusmod tem incididunt ut labore consectetur eius tem incididunt ut labore cons .eiusme tem incididunt labore consecte.Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusm
             </p>
-            <div class="d-flex flex-start mt-4">
-                      <a class="me-3" href="#">
-                        <img class="rounded-circle shadow-1-strong"
+            <div className="d-flex flex-start mt-4">
+                      <a className="me-3" href="#">
+                        <img className="rounded-circle shadow-1-strong"
                           src="./img/Employees/employe2.png" alt="avatar"
                           width="60" height="60" />
                       </a>
-                      <div class="flex-grow-1 flex-shrink-1">
+                      <div className="flex-grow-1 flex-shrink-1">
                         <div>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <p class="mb-1">
+                          <div className="d-flex justify-content-between align-items-center">
+                            <p className="mb-1">
                             Kyle Mayers
                             </p>
                           </div>
-                          <ul class="list-unstyled d-flex justify-content-start">
+                          <ul className="list-unstyled d-flex justify-content-start">
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+                <i className="fas fa-star-half-alt fa-sm text-warning"></i>
               </li>
             </ul>
                         </div>
@@ -303,49 +303,49 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div class="col-10 col-md-5 col-lg-3 mb-3">
-        <div class="card rounded-4 employes-card" >
-          <div class="card-body py-4 mt-2">
+      <div className="col-10 col-md-5 col-lg-3 mb-3">
+        <div className="card rounded-4 employes-card" >
+          <div className="card-body py-4 mt-2">
             
-            <h5 class="font-weight-bold" style={{fontSize:'18px'}}>Great Platform</h5>
+            <h5 className="font-weight-bold" style={{fontSize:'18px'}}>Great Platform</h5>
             
             <div className="row ">
                 <div className="col-md-1">
-                <i class="fa-solid fa-quote-left p-1 rounded-circle employes-card-quote" ></i>
+                <i className="fa-solid fa-quote-left p-1 rounded-circle employes-card-quote" ></i>
            
                 </div>
                 <div className="col-md-10 ">
-                <p class="mb-2 border-bottom pb-2">
+                <p className="mb-2 border-bottom pb-2">
               Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusmod tem incididunt ut labore consectetur eius tem incididunt ut labore cons .eiusme tem incididunt labore consecte.Lorem ipsum dolor sit amet, conse adi elit, sed do eiusmod tempor incididunt ut labore consectetur. eiusm
             </p>
-            <div class="d-flex flex-start mt-4">
-                      <a class="me-3" href="#">
-                        <img class="rounded-circle shadow-1-strong"
+            <div className="d-flex flex-start mt-4">
+                      <a className="me-3" href="#">
+                        <img className="rounded-circle shadow-1-strong"
                           src="./img/Employees/employe1.png" alt="avatar"
                           width="60" height="60" />
                       </a>
-                      <div class="flex-grow-1 flex-shrink-1">
+                      <div className="flex-grow-1 flex-shrink-1">
                         <div>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <p class="mb-1">
+                          <div className="d-flex justify-content-between align-items-center">
+                            <p className="mb-1">
                             Kyle Mayers
                             </p>
                           </div>
-                          <ul class="list-unstyled d-flex justify-content-start">
+                          <ul className="list-unstyled d-flex justify-content-start">
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+                <i className="fas fa-star-half-alt fa-sm text-warning"></i>
               </li>
             </ul>
                         </div>
@@ -361,26 +361,26 @@ const Home = () => {
   </div>
 </section>
 
-<div class="container-fluid">
-  <div class="row">
-  <div class="col-md-5">
-  <div class="container position-relative">
-    <img src="./img/home/3lines.png" alt="" class='position-absolute top-0 end-0 '/>
-    <div class="text">
+<div className="container-fluid">
+  <div className="row">
+  <div className="col-md-5">
+  <div className="container position-relative">
+    <img src="./img/home/3lines.png" alt="" className='position-absolute top-0 end-0 '/>
+    <div className="text">
       <h1 style={{fontSize:'48px', fontWeight:600, fontFamily:'Poppins', color:'black',paddingTop:'40px'}}>Lorem Ipsum Dolor Set Amet Consecteur Utisem</h1>
     </div>
   </div>
   <h5 className='text-secondary my-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ipsum urna, rhoncus et malesuada eget, finibus eget ex.</h5>
-  <div class="container-fluid">
-    <div class="d-flex flex-wrap justify-content-start mt-4">
-      <img src="./img/home/image 133.png" alt="" class='img-fluid mx-2 my-2'/>
-      <img src="./img/home/image 134.png" alt="" class='img-fluid mx-2 my-2'/>
+  <div className="container-fluid">
+    <div className="d-flex flex-wrap justify-content-start mt-4">
+      <img src="./img/home/image 133.png" alt="" className='img-fluid mx-2 my-2'/>
+      <img src="./img/home/image 134.png" alt="" className='img-fluid mx-2 my-2'/>
     </div>
   </div>
 </div>
 
-    <div class="col-md-7">
-      <img src="./img/home/mobileapp.png" class="img-fluid float-md-end" alt="Mobile Image"/>
+    <div className="col-md-7">
+      <img src="./img/home/mobileapp.png" className="img-fluid float-md-end" alt="Mobile Image"/>
     </div>
   </div>
 </div>

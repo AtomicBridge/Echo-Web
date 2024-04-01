@@ -36,10 +36,17 @@ const InstructorHome = () => {
                         Beginners 
                     </span>
                     </div>
-                    <div className='mt-1'>
-                    <i class="fa-solid fa-xl  fa-ellipsis-vertical"></i>
+                    <div className='mt-1 position-relative'>
+  <i className="fa-solid fa-xl fa-ellipsis-vertical " style={{cursor:'pointer'}}
+    data-bs-toggle="dropdown"
+    aria-expanded="false"></i>
+  <ul className="dropdown-menu px-2 border-0 mt-2" style={{ left: '-100%' }}>
+    <li><button className="dropdown-item border-bottom px-2 my-1" > <img className='mb-1 ' src="./img/Navbar/Edit.png" alt="" /> Edit </button></li>
+    <li><button className="dropdown-item  px-2 my-1" ><img className='mb-1' src="./img/courseinstructor/home/Delete.png" alt="" /> Delete</button></li>
+   
+  </ul>
+</div>
 
-                    </div>
                     </div>
                     </div>
                     <div className="d-flex justify-content-between p-price mt-3">

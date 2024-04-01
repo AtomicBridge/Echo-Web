@@ -89,18 +89,18 @@ const WorkoutStart = () => {
                     <h4 className='my-3'><b>Congratulations!</b></h4>
                     <h6>You have completed the workout!</h6>
                     </div>
-                    <div class="d-flex justify-content-center text-center mt-3 mb-2 text-secondary">
-              <div class="px-3 mx-2">
-                <p class="mb-2 h5">10</p>
-                <p class="text-muted mb-0">Workout</p>
+                    <div className="d-flex justify-content-center text-center mt-3 mb-2 text-secondary">
+              <div className="px-3 mx-2">
+                <p className="mb-2 h5">10</p>
+                <p className="text-muted mb-0">Workout</p>
               </div>
-              <div class="px-3 mx-2">
-                <p class="mb-2 h5">340</p>
-                <p class="text-muted mb-0">Cal</p>
+              <div className="px-3 mx-2">
+                <p className="mb-2 h5">340</p>
+                <p className="text-muted mb-0">Cal</p>
               </div>
-              <div class="px-3 mx-2">
-                <p class="mb-2 h5">10:00</p>
-                <p class="text-muted mb-0">Minutes</p>
+              <div className="px-3 mx-2">
+                <p className="mb-2 h5">10:00</p>
+                <p className="text-muted mb-0">Minutes</p>
               </div>
              
             </div>

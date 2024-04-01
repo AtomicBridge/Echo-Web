@@ -9,31 +9,31 @@ const WorkoutDetails = () => {
   }
   return (
     <>
-    <div class="container-fluid">
-    <div class="row my-4">
-    <div class="col-md-5 col-12 ">
-        <div class="banner-container">
-            <h1 class="banner-employes ">Yoga Body Stretching</h1>
-            <div class="banner-employes-underline"></div>
+    <div className="container-fluid">
+    <div className="row my-4">
+    <div className="col-md-5 col-12 ">
+        <div className="banner-container">
+            <h1 className="banner-employes ">Yoga Body Stretching</h1>
+            <div className="banner-employes-underline"></div>
         </div>
-        <h5 class="banner-employes "> for Absolute Beginners</h5>
+        <h5 className="banner-employes "> for Absolute Beginners</h5>
     </div>
 <div className="col-md-5 col-12 mx-auto">
-<h5 class="text-secondary mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</h5>
+<h5 className="text-secondary mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</h5>
 
 </div>
 </div>
 
 </div>
-<div  class="blog-page">
-    <div class="container-fluid">
-        <div class="row clearfix">
-            <div class="col-lg-7 col-md-7 col-12 left-box">
-                <div class=" single_post ">
-                    <div class="">
+<div  className="blog-page">
+    <div className="container-fluid">
+        <div className="row clearfix">
+            <div className="col-lg-7 col-md-7 col-12 left-box">
+                <div className=" single_post ">
+                    <div className="">
                     <div className="px-md-4 coursedetailsmidborder">
-                    <div class="img-post">
-    <img class="d-block img-fluid w-100" src="./img/courses/workoutdetails/workoutdetail.png" alt="First slide"/>
+                    <div className="img-post">
+    <img className="d-block img-fluid w-100" src="./img/courses/workoutdetails/workoutdetail.png" alt="First slide"/>
 </div>
 <div className=" eighteenfont my-2 "><span  style={{ textDecoration: 'none',color:'black' }}><b>Yoga Body Stretching for Absolute Beginners (Zero to Hero)</b></span>
 
@@ -193,33 +193,33 @@ const WorkoutDetails = () => {
                 
             </div>
         <div className="col-lg-5 col-md-5 col-12">
-        <section class="" >
-  <div class="container-fluid">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="">
+        <section className="" >
+  <div className="container-fluid">
+    <div className="row d-flex justify-content-center align-items-center h-100">
+      <div className="">
 
         
-          <div class=" text-center">
-            <div class="mt-3 mb-2">
+          <div className=" text-center">
+            <div className="mt-3 mb-2">
               <img src="./img/courses/workoutdetails/Ellipse 2328.png"
-                class="rounded-circle img-fluid" height='80' width='80' />
+                className="rounded-circle img-fluid" height='80' width='80' />
             </div>
-            <h6 class=""><b>Arnold Strong</b></h6>
+            <h6 className=""><b>Arnold Strong</b></h6>
             <p className='text-secondary'>GYM Trainer</p>
-            <div class="d-flex justify-content-center text-center mt-3 mb-2 text-secondary">
-              <div class="px-3 " style={{ borderRight:"1px solid #E2E2E2"}}>
-                <p class="mb-2 h5">25</p>
-                <p class="text-muted mb-0">Courses</p>
+            <div className="d-flex justify-content-center text-center mt-3 mb-2 text-secondary">
+              <div className="px-3 " style={{ borderRight:"1px solid #E2E2E2"}}>
+                <p className="mb-2 h5">25</p>
+                <p className="text-muted mb-0">Courses</p>
               </div>
-              <div class="px-3">
-                <p class="mb-2 h5">22,253</p>
-                <p class="text-muted mb-0">Students</p>
+              <div className="px-3">
+                <p className="mb-2 h5">22,253</p>
+                <p className="text-muted mb-0">Students</p>
               </div>
              
             </div>
            
             <div className="col-md-7 mx-auto mb-3 ">
-            <button type="button" class="btn btn-primary rounded-pill btn-info btn-lg w-100 py-3 shadow" style={{fontSize:'16px', fontWeight:'500'}}>
+            <button type="button" className="btn btn-primary rounded-pill btn-info btn-lg w-100 py-3 shadow" style={{fontSize:'16px', fontWeight:'500'}}>
             Chat with Instructor
             </button>
             </div>

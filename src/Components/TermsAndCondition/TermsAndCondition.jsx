@@ -10,7 +10,7 @@ const TermsAndCondition = () => {
                 <h1 className="banner-terms">Terms of Use</h1>
                 <div className="banner-terms-underline"></div>
             </div>
-            {/* <h5 class="banner-employes ">saying about us</h5> */}
+            {/* <h5 className="banner-employes ">saying about us</h5> */}
         </div>
     </div>
  

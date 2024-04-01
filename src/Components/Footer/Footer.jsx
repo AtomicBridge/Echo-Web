@@ -65,7 +65,7 @@ const Footer = () => {
           <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
             <h5 className=" mb-4 "><b>Support</b></h5>
 
-            <p><i class="fa-solid fa-phone" style={{ marginRight:'15px'}}></i>+1 - 202 -55-0179</p>
+            <p><i className="fa-solid fa-phone" style={{ marginRight:'15px'}}></i>+1 - 202 -55-0179</p>
             <p><i className="fa-regular fa-envelope fa-lg" style={{ marginRight:'15px'}}></i>support@smartinterion.com</p>
             <p><i className="fa-solid fa-location-dot fa-lg" style={{ marginRight:'15px'}}></i>1840 E Garvey Avenue Street West Covina, CA 91791, US</p>
           </div>
@@ -75,7 +75,7 @@ const Footer = () => {
 
     <div
          className="text-center p-3 container border-top mt-3" style={{fontFamily:'Poppins'}} >
-      <i class="fa-regular fa-copyright"></i> 2023 Digital Craft. All Right Reserved
+      <i className="fa-regular fa-copyright"></i> 2023 Digital Craft. All Right Reserved
     </div>
   </footer>
 </div>

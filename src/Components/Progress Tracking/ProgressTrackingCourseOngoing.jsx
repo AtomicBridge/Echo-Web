@@ -26,8 +26,8 @@ const ProgressTrackingCourseOngoing = () => {
                     </div>
                     </div>
                     <div className="d-flex justify-content-between p-price mt-3">
-                    <div class="progress col-10 rounded-3">
-  <div class="progress-bar bg-success rounded-3" role="progressbar" aria-valuenow="70"
+                    <div className="progress col-10 rounded-3">
+  <div className="progress-bar bg-success rounded-3" role="progressbar" aria-valuenow="70"
   aria-valuemin="0" aria-valuemax="100" style={{width:'75%'}}>
     {/* 70% */}
   </div>
@@ -58,8 +58,8 @@ const ProgressTrackingCourseOngoing = () => {
                     </div>
                     </div>
                     <div className="d-flex justify-content-between p-price mt-3">
-                    <div class="progress col-10 rounded-3">
-  <div class="progress-bar bg-primary rounded-3" role="progressbar" aria-valuenow="70"
+                    <div className="progress col-10 rounded-3">
+  <div className="progress-bar bg-primary rounded-3" role="progressbar" aria-valuenow="70"
   aria-valuemin="0" aria-valuemax="100" style={{width:'75%'}}>
     {/* 70% */}
   </div>
@@ -90,8 +90,8 @@ const ProgressTrackingCourseOngoing = () => {
                     </div>
                     </div>
                     <div className="d-flex justify-content-between p-price mt-3">
-                    <div class="progress col-10 rounded-3">
-  <div class="progress-bar bg-warning rounded-3" role="progressbar" aria-valuenow="70"
+                    <div className="progress col-10 rounded-3">
+  <div className="progress-bar bg-warning rounded-3" role="progressbar" aria-valuenow="70"
   aria-valuemin="0" aria-valuemax="100" style={{width:'75%'}}>
     {/* 70% */}
   </div>
@@ -122,8 +122,8 @@ const ProgressTrackingCourseOngoing = () => {
                     </div>
                     </div>
                     <div className="d-flex justify-content-between p-price mt-3">
-                    <div class="progress col-10 rounded-3">
-  <div class="progress-bar bg-danger rounded-3" role="progressbar" aria-valuenow="70"
+                    <div className="progress col-10 rounded-3">
+  <div className="progress-bar bg-danger rounded-3" role="progressbar" aria-valuenow="70"
   aria-valuemin="0" aria-valuemax="100" style={{width:'75%'}}>
     {/* 70% */}
   </div>
@@ -154,8 +154,8 @@ const ProgressTrackingCourseOngoing = () => {
                     </div>
                     </div>
                     <div className="d-flex justify-content-between p-price mt-3">
-                    <div class="progress col-10 rounded-3">
-  <div class="progress-bar bg-warning rounded-3" role="progressbar" aria-valuenow="70"
+                    <div className="progress col-10 rounded-3">
+  <div className="progress-bar bg-warning rounded-3" role="progressbar" aria-valuenow="70"
   aria-valuemin="0" aria-valuemax="100" style={{width:'75%'}}>
     {/* 70% */}
   </div>
@@ -186,8 +186,8 @@ const ProgressTrackingCourseOngoing = () => {
                     </div>
                     </div>
                     <div className="d-flex justify-content-between p-price mt-3">
-                    <div class="progress col-10 rounded-3">
-  <div class="progress-bar bg-primary rounded-3" role="progressbar" aria-valuenow="70"
+                    <div className="progress col-10 rounded-3">
+  <div className="progress-bar bg-primary rounded-3" role="progressbar" aria-valuenow="70"
   aria-valuemin="0" aria-valuemax="100" style={{width:'75%'}}>
     {/* 70% */}
   </div>
@@ -218,8 +218,8 @@ const ProgressTrackingCourseOngoing = () => {
                     </div>
                     </div>
                     <div className="d-flex justify-content-between p-price mt-3">
-                    <div class="progress col-10 rounded-3">
-  <div class="progress-bar bg-success rounded-3" role="progressbar" aria-valuenow="70"
+                    <div className="progress col-10 rounded-3">
+  <div className="progress-bar bg-success rounded-3" role="progressbar" aria-valuenow="70"
   aria-valuemin="0" aria-valuemax="100" style={{width:'75%'}}>
     {/* 70% */}
   </div>
@@ -250,8 +250,8 @@ const ProgressTrackingCourseOngoing = () => {
                     </div>
                     </div>
                     <div className="d-flex justify-content-between p-price mt-3">
-                    <div class="progress col-10 rounded-3">
-  <div class="progress-bar bg-primary rounded-3" role="progressbar" aria-valuenow="70"
+                    <div className="progress col-10 rounded-3">
+  <div className="progress-bar bg-primary rounded-3" role="progressbar" aria-valuenow="70"
   aria-valuemin="0" aria-valuemax="100" style={{width:'75%'}}>
     {/* 70% */}
   </div>
@@ -282,8 +282,8 @@ const ProgressTrackingCourseOngoing = () => {
                     </div>
                     </div>
                     <div className="d-flex justify-content-between p-price mt-3">
-                    <div class="progress col-10 rounded-3">
-  <div class="progress-bar bg-warning rounded-3" role="progressbar" aria-valuenow="70"
+                    <div className="progress col-10 rounded-3">
+  <div className="progress-bar bg-warning rounded-3" role="progressbar" aria-valuenow="70"
   aria-valuemin="0" aria-valuemax="100" style={{width:'75%'}}>
     {/* 70% */}
   </div>

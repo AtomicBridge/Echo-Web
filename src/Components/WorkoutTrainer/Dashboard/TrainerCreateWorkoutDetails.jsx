@@ -38,11 +38,11 @@ const TrainerCreateWorkoutDetails = () => {
             <h3 className='fw-bold'>Create Workout Plan</h3>
             <div className='row'>
            <div className="col-md-6 col-12 ">
-           <div class=" single_post ">
-                    <div class="">
+           <div className=" single_post ">
+                    <div className="">
                     <div className=" mt-3">
-                    <div class="img-post">
-    <img class="d-block img-fluid w-100" src="./img/courses/workoutdetails/workoutdetail.png" alt="First slide"/>
+                    <div className="img-post">
+    <img className="d-block img-fluid w-100" src="./img/courses/workoutdetails/workoutdetail.png" alt="First slide"/>
 </div>
 <div className="d-flex justify-content-between">
 <div className=" eighteenfont my-2 "><h5  style={{ textDecoration: 'none',color:'black' }}><b>Yoga Body Stretching</b></h5>
