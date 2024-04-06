@@ -53,9 +53,11 @@ const ForgotNewPassword = () => {
                 <div className="w-100">
                   <div className="px-xl-5 ms-xl-4 mt-4 mb-5">
                     <img
-                      className="mb-2"
+                      className="mb-2 img-fluid"
                       src="./img/user/login/logo 1 (1).png"
                       alt=""
+                      height='28'
+                      width='66'
                     />
                     <span className="fw-bold eighteenfont mx-2">
                       Powering Your Platform
@@ -101,7 +103,7 @@ const ForgotNewPassword = () => {
                                 className="position-absolute top-0 start-0 bottom-0 py-3 px-2 text-secondary"
                               >
                                 <img
-                                  src="./img/user/login/lock.png"
+                                  src="./img/user/login/Lock.png"
                                   alt=""
                                   className="mx-2"
                                 />
@@ -148,7 +150,7 @@ const ForgotNewPassword = () => {
                                 className="position-absolute top-0 start-0 bottom-0 py-3 px-2 text-secondary"
                               >
                                 <img
-                                  src="./img/user/login/lock.png"
+                                  src="./img/user/login/Lock.png"
                                   alt=""
                                   className="mx-2"
                                 />{" "}
@@ -185,7 +187,7 @@ const ForgotNewPassword = () => {
                                 color: "white",
                               }}
                             >
-                              Continue
+                              Save New Password
                             </button>
                           </div>
                         </div>
@@ -193,40 +195,36 @@ const ForgotNewPassword = () => {
                     </form>
                     {showModal && (
                       <div
-                        className="modal show"
-                        id="paymentModal"
-                        tabIndex="-1"
-                        aria-labelledby="paymentModalLabel"
-                        style={{
-                          display: "block",
-                          backgroundColor: "rgba(0, 0, 0, 0.5)",
-                        }}
-                      >
-                        <div
-                          className="modal-dialog "
-                          style={{ marginTop: "5%" }}
-                        >
-                          <div className="modal-content my-1">
-                            <div className="modal-body text-center">
-                              <img
-                                src="./img/courses/coursepayment/coursepaymentsuccessfull.png"
-                                alt=""
-                                height="100"
-                                width="100"
-                              />
-                              <h4 className="my-3">
-                                <b>Reset Password Successful!</b>
-                              </h4>
-                              <h6>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Pellentesque vulputate placerat
-                                porta. Ut commodo nulla vitae eleifend sodales.
-                                Fusce ornare.
-                              </h6>
-                            </div>
+                      className="modal show d-flex align-items-center justify-content-center"
+                      id="paymentModal"
+                      tabIndex="-1"
+                      aria-labelledby="paymentModalLabel"
+                      style={{
+                        display: "block",
+                        backgroundColor: "rgba(0, 0, 0, 0.5)",
+                      }}
+                    >
+                      <div className="modal-dialog" role="document">
+                        <div className="modal-content my-1">
+                          <div className="modal-body text-center">
+                            <img
+                              src="./img/courses/coursepayment/coursepaymentsuccessfull.png"
+                              alt=""
+                              height="100"
+                              width="100"
+                            />
+                            <h4 className="my-3">
+                              <b>Reset Password Successfuly!</b>
+                            </h4>
+                            <h6>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate placerat
+                              porta. Ut commodo nulla vitae eleifend sodales. Fusce ornare.
+                            </h6>
                           </div>
                         </div>
                       </div>
+                    </div>
+                    
                     )}
                   </div>
                 </div>

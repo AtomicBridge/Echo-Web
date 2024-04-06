@@ -42,4 +42,6 @@
   .show {
     display: block;
   }
-  
+  ::placeholder{
+    color: #9E9E9E !important;
+   }

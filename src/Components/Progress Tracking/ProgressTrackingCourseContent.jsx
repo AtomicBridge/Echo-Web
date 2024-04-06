@@ -101,7 +101,7 @@ const ProgressTrackingCourseContent = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 mx-auto text-center my-4">
-                                <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit, consectetur adipiscing elit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore</p>
+                                <p className="text-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit, consectetur adipiscing elit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore</p>
                             </div>
                         </div>
                     </div>

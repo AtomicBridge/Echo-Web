@@ -18,8 +18,8 @@ const WorkoutDetails = () => {
         </div>
         <h5 className="banner-employes "> for Absolute Beginners</h5>
     </div>
-<div className="col-md-5 col-12 mx-auto">
-<h5 className="text-secondary mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</h5>
+<div className="col-md-5 col-12 mx-auto mt-4">
+<span className="text-subheading ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</span>
 
 </div>
 </div>
@@ -35,29 +35,29 @@ const WorkoutDetails = () => {
                     <div className="img-post">
     <img className="d-block img-fluid w-100" src="./img/courses/workoutdetails/workoutdetail.png" alt="First slide"/>
 </div>
-<div className=" eighteenfont my-2 "><span  style={{ textDecoration: 'none',color:'black' }}><b>Yoga Body Stretching for Absolute Beginners (Zero to Hero)</b></span>
+<div className=" eighteenfont my-3 "><span  style={{ textDecoration: 'none',color:'black' }}><b>Yoga Body Stretching for Absolute Beginners (Zero to Hero)</b></span>
 
                                         </div>
                                         <div className=" p-price mt-3"><span><b>$48</b></span></div>
-                                        <div className="d-flex justify-content-start  border-bottom">
+                                        <div className="d-flex justify-content-start py-2 border-bottom">
                                         <div>
-<span className="badge py-2 my-3 px-3 mx-1 rounded-pill" style={{ fontSize: '12px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+<span className="badge py-2 my-3 px-3 mx-1 rounded-pill" style={{ fontSize: '14px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                                             <span className='py-1'>Beginners</span>
                                         </span>
 </div>
 <div>
-<span className="badge py-2 my-3 px-3 mx-1 rounded-pill" style={{ fontSize: '12px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
-                                            <span className='py-1'><i className="fa-solid fa-circle-play fa-lg mx-1"></i>10 workout</span>
+<span className="badge py-2 my-3 px-4 mx-1 rounded-pill" style={{ fontSize: '14px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+                                            <span className='py-1'><i className="fa-solid fa-circle-play fa-lg mx-1"></i> 10 workout</span>
                                         </span>
 </div>
 <div>
-<span className="badge py-2 my-3 px-3 mx-1 rounded-pill" style={{ fontSize: '12px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
-                                    <span className='py-1'><i className="fa-solid fa-clock fa-lg mx-1"></i>10 minutes</span>
+<span className="badge py-2 my-3 px-3 mx-1 rounded-pill" style={{ fontSize: '14px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+                                    <span className='py-1'><i className="fa-solid fa-clock fa-lg mx-1"></i> 10 minutes</span>
                                         </span>
 </div>
                                         </div>
                                         
-                                        <div className="row">
+                                        <div className="row mt-2">
                                           <div className="col-md-6">
                                           <div className="d-flex justify-content-center  mt-3 ">
         <div className="card   border-0 rounded-4 d-flex flex-row align-items-center w-100" style={{backgroundColor:'#1D191C1A'}}>
@@ -184,7 +184,7 @@ const WorkoutDetails = () => {
     
     
     
-    <div className='mt-4 mb-5 col-md-5 mx-3'>
+    <div className='mt-5 mb-5 col-md-6 mx-3'>
                     <button className='btn rounded-pill px-5 py-3 shadow w-100' onClick={courseenroll} style={{backgroundColor:'#1D191C', color:'white'}}>Enroll Course</button>
                     </div>
                     </div>                        
@@ -225,15 +225,17 @@ const WorkoutDetails = () => {
             </div>
             
           </div>
+          <div className='mt-4'>
           <span className='eighteenfont '><b>About Instructor</b></span>
-          <p className='text-secondary my-2'>Lorem ipsum dolor sit amet, consectetur adipi el sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur.</p>
+          </div>
+          <p className='text-secondary my-3'>Lorem ipsum dolor sit amet, consectetur adipi el sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur.</p>
           
-          <div className='mt-3'>
+          <div className='mt-4'>
           <span className='eighteenfont '><b>Workout Session</b></span>
           </div>
           
             <div className=" my-3">
-    <div className="col-md-10 mx-auto">
+    <div className="col-md-12 mx-auto">
     <div className="workout-card" >
               <div className="workout-card-image" style={{ backgroundImage: "url('./img/workout/workout1.png')" }}>
                 {/* <div className="workout-card-category">City</div> */}

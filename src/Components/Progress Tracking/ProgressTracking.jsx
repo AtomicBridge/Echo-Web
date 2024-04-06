@@ -20,11 +20,11 @@ const ProgressTracking = () => {
     <>
       <div className="container-fluid" style={{ minHeight: "488px" }}>
         <div className="mt-5">
-          <h1 className="how-it-works-title">Progress Tracking</h1>
+          <h1 className="how-it-works-title" style={{fontSize:'56px'}}>Progress Tracking</h1>
           <div className="container">
             <div className="row">
-              <div className="col-md-12 mx-auto text-center my-4">
-                <p className="">
+              <div className="col-md-12 mx-auto text-center my-3">
+                <p className="text-subheading">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   consectetur adipiscing elit, consectetur adipiscing elit,
                   consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -35,7 +35,7 @@ const ProgressTracking = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center mb-4">
           <button
             className={`btn  mx-2 rounded-pill my-1 ${
               activecourseButton === "course"

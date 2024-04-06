@@ -43,9 +43,11 @@ const SignUpAccountType = () => {
                 <div className="w-100">
                   <div className="px-xl-5 ms-xl-4 mt-4 mb-5">
                     <img
-                      className="mb-2"
+                      className="mb-2 img-fluid"
                       src="./img/user/login/logo 1 (1).png"
                       alt=""
+                      height="100"
+                      width="100"
                     />
                     <span className="fw-bold eighteenfont mx-2">
                       Powering Your Platform

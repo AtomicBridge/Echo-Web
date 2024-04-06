@@ -56,11 +56,13 @@ const UserSignUpProfile1 = () => {
                   <div className="w-100">
                     <div className="px-xl-5 ms-xl-4 mt-4 mb-5">
                       <img
-                        className="mb-2"
-                        src="./img/user/login/logo 1 (1).png"
-                        alt=""
-                      />
-                      <span className="fw-bold eighteenfont mx-2">
+                      className="mb-2 img-fluid"
+                      src="./img/user/login/logo 1 (1).png"
+                      alt=""
+                      height="100"
+                      width="100"
+                    />
+                      <span className="fw-bold eighteenfont mx-3">
                         Powering Your Platform
                       </span>
                     </div>
@@ -93,7 +95,7 @@ const UserSignUpProfile1 = () => {
                             />
                           </div>
                         </div>
-                        <div className="text-center">
+                        <div className="text-center my-3">
                           <span className="eighteenfont">
                             <b>Profile Picture</b>
                           </span>
@@ -118,7 +120,7 @@ const UserSignUpProfile1 = () => {
                             onChange={(e) => setFullName(e.target.value)}
                           />
                         </div>
-                        <div className="form-group mb-3 mt-3">
+                        <div className="form-group mb-3 mt-4">
                           <label
                             className="form-label fw-bold"
                             htmlFor="location"
@@ -143,7 +145,7 @@ const UserSignUpProfile1 = () => {
                             </span>
                           </div>
                         </div>
-                        <div className="form-group mb-3 mt-3">
+                        <div className="form-group mb-5 mt-4">
                           <label
                             className="form-label fw-bold"
                             htmlFor="description"

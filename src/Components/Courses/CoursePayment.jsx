@@ -19,35 +19,34 @@ const CoursePayment = () => {
     };
   return (
     <>
-    <div className="container-fluid">
-    <div className="row my-4">
-    <div className="col-md-5 col-12 ">
-        <div className="banner-container">
-            <h1 className="banner-employes ">UI UX Designer Course</h1>
-            <div className="banner-employes-underline"></div>
+    <div class="container-fluid ">
+    <div class="row my-4 justify-content-center">
+        <div class="col-md-5 col-12 px-0">
+            <div class="banner-container">
+                <h1 class="banner-employes">UI UX Designer Course</h1>
+                <div class="banner-employes-underline"></div>
+            </div>
+            <h5 class="banner-employes">for Absolute Beginners</h5>
         </div>
-        <h5 className="banner-employes "> for Absolute Beginners</h5>
+        <div class="col-md-5 col-12 mt-4 px-0">
+            <span class="text-subheading  px-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</span>
+        </div>
     </div>
-<div className="col-md-5 col-12 mx-auto">
-<h5 className="text-secondary mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</h5>
-
-</div>
 </div>
 
-</div>
     <div className='container  py-3 col-md-6'>
         <div className="text-center align-items-center">
 
         
-<h4><b>Select Payment Method</b></h4>
-<h4 className='text-secondary'>Kindly choose your preferred payment method for making the payment!</h4>
-<div className="my-3">
+<h4 className='my-3'><b>Select Payment Method</b></h4>
+<h4 className='text-low'>Kindly choose your preferred payment method for making the payment!</h4>
+<div className="my-4">
     <div className="my-3 py-2 shadow rounded-4">
         <div className="d-flex justify-content-between align-items-center px-3 ">
             <div className="d-flex flex-start mt-1">
                 <h6>
                     <img src="./img/courses/coursepayment/credit-card (1) 1.png" alt="" className='mx-2'/>
-                    <b>Credit Card</b>
+                    <b className='mx-2'>Credit Card</b>
                 </h6>
             </div>
             <div>
@@ -61,7 +60,7 @@ const CoursePayment = () => {
             <div className="d-flex flex-start mt-1">
                 <h6>
                     <img src="./img/courses/coursepayment/credit-card (1) 2.png" alt="" className='mx-2'/>
-                    <b>Visa Pay</b>
+                    <b className='mx-2'>Visa Pay</b>
                 </h6>
             </div>
             <div>
@@ -75,7 +74,7 @@ const CoursePayment = () => {
             <div className="d-flex flex-start mt-1">
                 <h6>
                     <img src="./img/courses/coursepayment/credit-card (1) 2 (1).png" alt="" className='mx-2'/>
-                    <b>PayPal</b>
+                    <b className='mx-2'>PayPal</b>
                 </h6>
             </div>
             <div>
@@ -87,11 +86,11 @@ const CoursePayment = () => {
     </div>
 </div>
 <div className='mt-5'>
-<h4><b>Select Payment Method</b></h4>
-<h4 className='text-secondary'>Kindly choose your preferred payment method for making the payment!</h4>
+<h4 className='my-3'><b>Select Payment Method</b></h4>
+<h4 className='text-low'>Kindly choose your preferred payment method for making the payment!</h4>
 </div>
 </div>
-<div className="row my-3">
+<div className="row my-4">
 <div className="col-md-6">
     <label className="form-label" for="formNameOnCard"><b>Card Name</b></label>
     <input type="text" id="formNameOnCard" className="form-control bg-light border-0 rounded-3 py-2"/>
@@ -110,8 +109,8 @@ const CoursePayment = () => {
   </div>
   
 </div>
-<div className='mb-4 mb-5 col-md-5 mx-auto'>
-    <button className='btn rounded-pill px-5 py-3 shadow w-100' onClick={handleConfirmPayment} style={{backgroundColor:'#1D191C', color:'white'}} >Confirm Payment</button>
+<div className='mb-4 mt-4 col-md-6 mx-auto'>
+    <button className='btn rounded-pill px-5 py-3 mt-2 shadow w-100' onClick={handleConfirmPayment} style={{backgroundColor:'#1D191C', color:'white'}} >Confirm Payment</button>
 </div>
 
 <div>

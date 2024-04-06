@@ -43,11 +43,13 @@ const SignUp = () => {
                 <div className="w-100">
                   <div className="px-xl-5 ms-xl-4 mt-4 mb-3">
                     <img
-                      className="mb-2"
+                      className="mb-2 img-fluid"
                       src="./img/user/login/logo 1 (1).png"
                       alt=""
+                      height="100"
+                      width="100"
                     />
-                    <span className="fw-bold eighteenfont mx-2">
+                    <span className="fw-bold eighteenfont mx-3">
                       Powering Your Platform
                     </span>
                   </div>
@@ -94,7 +96,7 @@ const SignUp = () => {
                       </div>
                       <div className="form-outline mb-2">
                         <label
-                          className="form-label fw-bold"
+                          className="form-label fw-bold mt-1"
                           htmlFor="form2Example19"
                         >
                           New Password
@@ -134,9 +136,9 @@ const SignUp = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="form-outline mb-2">
+                      <div className="form-outline mb-3">
                         <label
-                          className="form-label fw-bold"
+                          className="form-label fw-bold mt-1"
                           htmlFor="form2Example18"
                         >
                           Re-Enter Password
@@ -178,7 +180,7 @@ const SignUp = () => {
                       </div>
 
                       <div className="container">
-                        <div className="text-center align-items-center">
+                        <div className="text-center align-items-center text-low">
                           <p>
                             Already have an account?{" "}
                             <Link to="/login" className="text-default">
@@ -203,9 +205,9 @@ const SignUp = () => {
                               <img
                                 src="./img/user/login/google.png"
                                 alt=""
-                                class="mx-2"
+                                class="mx-3"
                               />
-                              <span class="mx-auto">Continue with Google</span>
+                              <span class="mx-auto fw-bold">Continue with Google</span>
                             </button>
                           </div>
                           <div class="mb-3 my-1">
@@ -213,9 +215,9 @@ const SignUp = () => {
                               <img
                                 src="./img/user/login/Vector (1).png"
                                 alt=""
-                                class="mx-2"
+                                class="mx-3"
                               />
-                              <span class="mx-auto">Continue with Apple</span>
+                              <span class="mx-auto fw-bold">Continue with Apple</span>
                             </button>
                           </div>
                           <div class="mb-3 my-1">
@@ -223,15 +225,15 @@ const SignUp = () => {
                               <img
                                 src="./img/user/login/Vector (2).png"
                                 alt=""
-                                class="mx-2"
+                                class="mx-3"
                               />
-                              <span class="mx-auto">
+                              <span class="mx-auto fw-bold">
                                 Continue with Facebook
                               </span>
                             </button>
                           </div>
 
-                          <div className="mt-3 mt-xxl-4  mx-auto">
+                          <div className="my-3 mt-xxl-4  mx-auto">
                             <button
                               className="btn rounded-pill px-5 py-3 shadow w-100"
                               onClick={handlesignup}

@@ -54,11 +54,13 @@ const Login = ({ setuserlogged }) => {
                 <div className="w-100">
                   <div className="px-xl-5 ms-xl-4 mt-4 mb-5">
                     <img
-                      className="mb-2"
+                      className="mb-2 img-fluid"
                       src="./img/user/login/logo 1 (1).png"
                       alt=""
+                      height='28'
+                      width='66'
                     />
-                    <span className="fw-bold eighteenfont mx-2">
+                    <span className="fw-bold eighteenfont mx-3">
                       Powering Your Platform
                     </span>
                   </div>
@@ -106,7 +108,7 @@ const Login = ({ setuserlogged }) => {
                       </div>
                       <div className="form-outline mb-2">
                         <label
-                          className="form-label fw-bold"
+                          className="form-label fw-bold mt-1"
                           htmlFor="form2Example18"
                         >
                           Password
@@ -147,7 +149,7 @@ const Login = ({ setuserlogged }) => {
                           </div>
                         </div>
                       </div>
-                      <div className="row mb-2">
+                      <div className="row  mt-3">
                         <div className="col d-flex justify-content-start align-items-center">
                           <div className="form-check">
                             <input
@@ -157,11 +159,12 @@ const Login = ({ setuserlogged }) => {
                               id="form2Example31"
                             />
                             <label
-                              className="form-check-label"
+                              className="form-check-label mx-2"
                               for="form2Example31"
+                              style={{fontWeight:'600'}}
                             >
-                              {" "}
-                              Remember me{" "}
+                              
+                              Remember me
                             </label>
                           </div>
                         </div>
@@ -179,7 +182,7 @@ const Login = ({ setuserlogged }) => {
 
                       <div className="container">
                         <div className="text-center align-items-center">
-                          <p>
+                          <p className="my-4">
                             Don't have an account?{" "}
                             <Link to="/signup" className="text-default">
                               <b>Sign Up</b>
@@ -198,14 +201,14 @@ const Login = ({ setuserlogged }) => {
                               </div>
                             </div>
                           </div>
-                          <div className="mb-3 my-1">
+                          <div className="mb-3 mt-3 ">
                             <button className="btn rounded-pill px-0 py-3 border w-100 d-flex align-items-center justify-content-center">
                               <img
                                 src="./img/user/login/google.png"
                                 alt=""
-                                className="mx-2"
+                                className="mx-2 px-2"
                               />
-                              <span className="mx-auto">Continue with Google</span>
+                              <span className="mx-auto fw-bold">Continue with Google</span>
                             </button>
                           </div>
                           <div className="mb-3 my-1">
@@ -213,9 +216,9 @@ const Login = ({ setuserlogged }) => {
                               <img
                                 src="./img/user/login/Vector (1).png"
                                 alt=""
-                                className="mx-2"
+                                className="mx-2 px-2"
                               />
-                              <span className="mx-auto">Continue with Apple</span>
+                              <span className="mx-auto fw-bold">Continue with Apple</span>
                             </button>
                           </div>
                           <div className="mb-3 my-1">
@@ -223,15 +226,15 @@ const Login = ({ setuserlogged }) => {
                               <img
                                 src="./img/user/login/Vector (2).png"
                                 alt=""
-                                className="mx-2"
+                                className="mx-2 px-2"
                               />
-                              <span className="mx-auto">
+                              <span className="mx-auto fw-bold">
                                 Continue with Facebook
                               </span>
                             </button>
                           </div>
 
-                          <div className="mb-3 mt-5  mx-auto">
+                          <div className="mb-3 mt-4  mx-auto">
                             <button
                               className="btn rounded-pill px-5 py-3 shadow w-100"
                               onClick={(e) => handlelogin(e)}

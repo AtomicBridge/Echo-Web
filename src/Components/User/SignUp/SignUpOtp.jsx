@@ -89,9 +89,11 @@ const SignUpOtp = () => {
                 <div className="w-100">
                   <div className="px-xl-5 ms-xl-4 mt-4 mb-5">
                     <img
-                      className="mb-2"
+                      className="mb-2 img-fluid"
                       src="./img/user/login/logo 1 (1).png"
                       alt=""
+                      height="100"
+                      width="100"
                     />
                     <span className="fw-bold eighteenfont mx-2">
                       Powering Your Platform
@@ -121,11 +123,11 @@ const SignUpOtp = () => {
                         <div className=" mx-md-5 col-md-6">
                           <div className="text-center">
                             <div className=" mt-3">
-                              <p>
-                                You can resend the code in <b>56</b> seconds
+                              <p className="text-low">
+                                You can resend the code in <b className="text-default">56</b> seconds
                               </p>
                             </div>
-                            <div className=" mt-3">
+                            <div className=" mt-3 text-low">
                               <p>Resend code</p>
                             </div>
                           </div>

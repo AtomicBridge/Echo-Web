@@ -81,11 +81,11 @@ const Inbox = () => {
   return (
     <><div className="container-fluid" style={{minHeight:'488px'}}>
     <div className='mt-5'>
-      <h1 className="how-it-works-title">Inbox</h1>
+      <h1 className="how-it-works-title" style={{fontSize:'56px'}}>Inbox</h1>
       <div className="container">
         <div className="row">
           <div className="col-md-12 mx-auto text-center my-4">
-            <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit, consectetur adipiscing elit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore</p>
+            <span className="text-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit, consectetur adipiscing elit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore</span>
           </div>
         </div>
       </div>
@@ -301,12 +301,12 @@ const Inbox = () => {
 						</div>
 					</div>
 
-					<div className="flex-grow-0 py-3 px-4 border-top" >
+					<div className="flex-grow-0 py-3  border-top" >
     <div className="d-flex justify-content-center">
 	<div>
             <img src="./img/inbox/Group 1686553947.png" onClick={togglePicker} alt="" />
         </div>
-        <div className="input-group">
+        <div className="input-group mx-2">
             <input
                 type="text"
                 className="form-control border-0"
@@ -339,7 +339,7 @@ const Inbox = () => {
                 id="imageInput"
                 onChange={handleImageChange}
             />
-            <label htmlFor="imageInput" className='mt-2 mx-2'>
+            <label htmlFor="imageInput" className='mt-2 mx-md-3 mx-1'>
                 <img src="./img/inbox/Camera.png" alt="Upload Image" style={{ cursor: 'pointer' }} />
             </label>
            

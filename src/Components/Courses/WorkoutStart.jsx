@@ -19,28 +19,28 @@ const WorkoutStart = () => {
     
     <>
     
-      <div className="container-fluid">
-        <div className="row my-4">
-          <div className="col-md-5 col-12">
-            <div className="banner-container">
-              <h1 className="banner-employes">Yoga Body Stretching</h1>
-              <div className="banner-employes-underline"></div>
+    <div class="container-fluid ">
+    <div class="row my-4 justify-content-center">
+        <div class="col-md-5 col-12 px-0">
+            <div class="banner-container">
+                <h1 class="banner-employes">UI UX Designer Course</h1>
+                <div class="banner-employes-underline"></div>
             </div>
-            <h5 className="banner-employes"> for Absolute Beginners</h5>
-          </div>
-          <div className="col-md-5 col-12 mx-auto">
-            <h5 className="text-secondary mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</h5>
-          </div>
+            <h5 class="banner-employes">for Absolute Beginners</h5>
         </div>
-      </div>
+        <div class="col-md-5 col-12 mt-4 px-0">
+            <span class="text-subheading  px-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</span>
+        </div>
+    </div>
+</div>
 
       <div className="container text-center align-items-center my-1">
         <div className="d-flex justify-content-center align-items-center my-2">
           <img className='img-fluid rounded-4' src="./img/courses/workoutdetails/workoutstart.png" width="660" height='380' alt="Workout" />
         </div>
-        <div className='my-4 text-center align-items-center container'>
+        <div className='my-5 text-center align-items-center container'>
           <h5><b>Side Plank</b></h5>
-          <div className="d-flex justify-content-center">
+          <div className="d-flex justify-content-center my-4">
             <CountdownCircleTimer
               key={timerKey} // Use timerKey to reset the timer
               ref={countdownRef} // Set ref to access the countdown timer component
@@ -58,11 +58,11 @@ const WorkoutStart = () => {
             </CountdownCircleTimer>
             
           </div>
-          <div className='my-3 col-md-2 mx-auto col-8'>
+          <div className='my-1 col-md-2 mx-auto col-8'>
             <button className='btn rounded-pill px-2 py-3  w-100' onClick={nextworkout} style={{backgroundColor:'#1D191C', color:'white', fontSize:'18px'}}>Pause</button>
 
             </div>
-            <div className=''>
+            <div className='my-5'>
             <div className="d-flex justify-content-center">
                 <div className='mx-2'>
             <button className='btn rounded-pill px-5 py-3  w-100' onClick={nextworkout} style={{backgroundColor:'#e9e8e9', color:'#1D191C', fontSize:'16px'}}><><img src="./img/courses/workoutdetails/skipleft.png" alt="" className='mx-md-2 mb-1'/><b> Pause</b></></button>

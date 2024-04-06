@@ -19,4 +19,12 @@
 .text-default{
   color: #1D191C;
 }
+.text-low{
+  color:#7F7F7F
+}
+.text-subheading{
+  color:#7F7F7F;
+  font-size: 20px;
+  font-weight: 300;
+}
 

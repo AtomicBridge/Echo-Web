@@ -154,6 +154,7 @@ margin-left: 2%;
   .workout-card-description p {
     font-family: 'Montserrat';
     font-size: 16px;
+    font-weight: 400;
   }
   .workout-card-link {
     position: absolute;
@@ -241,7 +242,16 @@ margin-left: 2%;
     background-color: white;
   }
 }
-
+@media (max-width: 460px) {
+  .employes-card-margin-set {
+    margin-right: 50px; /* Adjust the minimum width as needed */
+  }
+}
+@media (max-width: 369px) {
+  .employes-card-margin-set {
+    margin-right: 100px; /* Adjust the minimum width as needed */
+  }
+}
 /* Add more media queries for larger screens if needed */
 
 .scrolling-wrapper-flexbox {
@@ -258,6 +268,8 @@ margin-left: 2%;
 
 .scrolling-wrapper-flexbox .card {
   flex: 0 0 auto;
+  min-width: 400px; /* Adjust the minimum width as needed */
 }
+
 
 

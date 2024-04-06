@@ -49,16 +49,16 @@ navigate('/login')
            
             <ul className="navbar-nav ms-auto"> 
             <li className="nav-item">
-                    <Link className="nav-link active" aria-current="page" to='/'>Home</Link>
+                    <Link className={`nav-link text-default ${currentURL === '/' ? 'fw-bold' : ''}`} aria-current="page" to='/'>Home</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to='/aboutus'>About Us</Link>
+                    <Link className={`nav-link text-default ${currentURL === '/aboutus' ? 'fw-bold' : ''}`} to='/aboutus'>About Us</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to='/courses'>Our Courses</Link>
+                    <Link className={`nav-link text-default ${currentURL === '/courses' ? 'fw-bold' : ''}`} to='/courses'>Our Courses</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to='/contactus'>Contact Us</Link>
+                    <Link className={`nav-link text-default ${currentURL === '/contactus' ? 'fw-bold' : ''}`} to='/contactus'>Contact Us</Link>
                 </li>
             </ul>
             {userlogged=== 'user'?<ul className="navbar-nav ms-auto">
@@ -89,10 +89,10 @@ navigate('/login')
 </ul>:
 <ul className="navbar-nav ms-auto">
     <li className="nav-item">
-        <button className="btn btn-outline-dark mx-md-2 rounded-pill  my-1" onClick={navigatelogin} style={{height:'48px', width:'100px'}}>Login</button>
+        <button className="btn btn-outline-dark mx-md-2 rounded-pill  my-2" onClick={navigatelogin} style={{height:'48px', width:'100px'}}>Login</button>
     </li>
     <li className="nav-item">
-        <button className="btn btn-dark rounded-pill mx-md-2  my-1 "  onClick={navigatesignup} style={{height:'48px', width:'100px'}}>Sign Up</button>
+        <button className="btn btn-dark rounded-pill mx-md-2  my-2 "  onClick={navigatesignup} style={{height:'48px', width:'100px'}}>Sign Up</button>
     </li>
 </ul>
 }
@@ -112,16 +112,16 @@ navigate('/login')
             <div className="collapse navbar-collapse" style={{ marginLeft: '10%' }} id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item" >
-                        <Link className="nav-link active" style={{color:'white'}} aria-current="page" to='/'>Home</Link>
+                        <Link className={`nav-link text-default ${currentURL === '/' ? 'fw-bold' : ''}`} style={{color:'white'}} aria-current="page" to='/'>Home</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" style={{color:'white'}} to='/aboutus'>About Us</Link>
+                        <Link className={`nav-link text-default ${currentURL === '/aboutus' ? 'fw-bold' : ''}`} style={{color:'white'}} to='/aboutus'>About Us</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" style={{color:'white'}} to='/courses'>Our Courses</Link>
+                        <Link className={`nav-link text-default ${currentURL === '/courses' ? 'fw-bold' : ''}`} style={{color:'white'}} to='/courses'>Our Courses</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" style={{color:'white'}} to='/contactus'>Contact Us</Link>
+                        <Link className={`nav-link text-default ${currentURL === '/contactus' ? 'fw-bold' : ''}`} style={{color:'white'}} to='/contactus'>Contact Us</Link>
                     </li>
                 </ul>
                 {userlogged=== 'user'?<ul className="navbar-nav ms-auto">
@@ -152,10 +152,10 @@ navigate('/login')
 </ul>:
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
-                        <button className="btn btn-outline-light mx-md-2 rounded-pill my-1" onClick={navigatelogin} style={{ height: '48px', width: '100px' }}>Login</button>
+                        <button className="btn btn-outline-light mx-md-2 rounded-pill my-2" onClick={navigatelogin} style={{ height: '48px', width: '100px' }}>Login</button>
                     </li>
                     <li className="nav-item">
-                        <button className="btn btn-light rounded-pill mx-md-2 my-1" onClick={navigatesignup} style={{ height: '48px', width: '100px' }}>Sign Up</button>
+                        <button className="btn btn-light rounded-pill mx-md-2 my-2" onClick={navigatesignup} style={{ height: '48px', width: '100px' }}>Sign Up</button>
                     </li>
                 </ul>}
             </div>

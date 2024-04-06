@@ -5,7 +5,11 @@
     background-position: right center;
     background-size: auto 100%;
     }
+    .otp-input.active {
+      background-color: #f31ef3;
+    }
     
+
     @media (min-width: 1025px) {
       .h-custom-2 {
       height: 100%;
@@ -15,3 +19,27 @@
           background-color: #1D191C;
           border-color: #1D191C;
         }
+
+        /* .modal {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        
+        .modal-dialog {
+          max-width: 500px; 
+        } */
+        .btn[disabled] {
+          /* Change the color to red when the button is disabled */
+          background-color: #E2E2E2 !important;
+          /* You can also adjust other styles like text color */
+          color: white !important;
+          border: none;
+        }
+        
+          

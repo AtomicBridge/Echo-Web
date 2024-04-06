@@ -39,7 +39,7 @@ const ProgressTrackingWorkoutContent = () => {
                                             </div>
                                             <div className="stats flex-grow-1">
                                                 <div className="px-3">
-                                                    <Link to={`/workoutstart/${index}`} style={{ textDecoration: 'none', color: 'black' }}>
+                                                    <Link to='/workoutstart' style={{ textDecoration: 'none', color: 'black' }}>
                                                         <h5 className="my-3"><b>Stark Pose</b></h5>
                                                     </Link>
                                                     <p className='text-secondary'>30 seconds</p>

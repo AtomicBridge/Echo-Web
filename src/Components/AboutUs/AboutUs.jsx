@@ -64,15 +64,16 @@ const AboutUs = () => {
   <div className="container-fluid d-flex align-items-center" style={{minHeight: "67vh"}}>
     <div className="row">
       <div className="col-md-4 mx-auto my-3">
-        <img src="./img/aboutus/aboutvedio.png" style={{height:'436px', width:'436px'}} className="img-fluid rounded-5 " alt="Paris Image"/>
+        <img src="./img/aboutus/aboutvedio.png"  className="img-fluid rounded-5 " alt="Paris Image"/>
       </div>
       <div className="col-md-8 mx-auto">
       <div className="col-md-10">
-      <h5><span className="badge py-3 px-3 rounded-3 mt-3" style={{backgroundColor:'#FAFAFA',color:'black'}}><b>Our Mission</b></span></h5>
+      <h5><span className="badge py-3 px-3 rounded-3 mt-5" style={{backgroundColor:'#FAFAFA',color:'black'}}><b>Our Mission</b></span></h5>
         <div className="text my-4">
           <h1 style={{fontWeight:'600', fontSize:'3.38vw'}}>Attend every class whereever your are staying at.</h1>
-          <h5 className='text-secondary my-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed.</h5>
+          <h5 className=' my-4' style={{color:'#7F7F7F'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed.</h5>
         </div>
+        <button type="button" class="btn btn-outline-dark px-4 my-4">Explore Now</button>
       </div>
       </div>
     </div>

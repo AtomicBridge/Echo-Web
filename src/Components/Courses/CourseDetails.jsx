@@ -17,8 +17,8 @@ const CourseDetails = () => {
         </div>
         <h5 className="banner-employes "> for Absolute Beginners</h5>
     </div>
-<div className="col-md-5 col-12 mx-auto">
-<h5 className="text-secondary mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</h5>
+<div className="col-md-5 col-12 mx-auto mt-4">
+<span className="text-subheading ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur. adipi elit, sed do eiusmod tempor incididunt ut labore consectetur.</span>
 
 </div>
 </div>
@@ -34,7 +34,7 @@ const CourseDetails = () => {
                     <div className="img-post">
     <img className="d-block img-fluid w-100" src="./img/courses/coursedetails/coursedetail.png" alt="First slide"/>
 </div>
-<div className="d-flex justify-content-between eighteenfont my-2 "><span  style={{ textDecoration: 'none',color:'black' }}><b>UI UX Design Course for Absolute Beginners (Zero to Hero)</b></span>
+<div className="d-flex justify-content-between eighteenfont my-3 "><span  style={{ textDecoration: 'none',color:'black' }}><b>UI UX Design Course for Absolute Beginners (Zero to Hero)</b></span>
 <div>
 <span className="badge py-2" style={{ fontSize: '14px', background: 'rgba(29, 25, 28, 0.1)', color: 'black', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
                                             Beginners
@@ -46,25 +46,25 @@ const CourseDetails = () => {
       <div className='col-md-5  my-2'>
         <div className="d-flex justify-content-start">
         <i className="fa-solid fa-users fa-lg mt-2"></i>
-        <p className='mx-2'>8,289 Students</p>
+        <p className='mx-3 text-low'>8,289 Students</p>
         </div>
       </div>
       <div className='col-md-5  my-2'>
         <div className="d-flex justify-content-start">
         <i className="fa-solid fa-clock fa-lg  mt-2"></i>
-        <p className='mx-2'>3 Month Course</p>
+        <p className='mx-3 text-low'>3 Month Course</p>
         </div>
       </div>
     </div>
     <div className='border-bottom my-2'>
         <h6 className='eighteenfont'><b>Course Description</b></h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec orci lacinia orci fermentum dapibus id sit amet ligula. Phasellus in placerat leo. Sed ut lorem volutpat, faucibus velit quis, convallis eros. Vestibulum tempor, erat a pulvinar gravida.</p>
+        <p className='text-low my-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec orci lacinia orci fermentum dapibus id sit amet ligula. Phasellus in placerat leo. Sed ut lorem volutpat, faucibus velit quis, convallis eros. Vestibulum tempor, erat a pulvinar gravida.</p>
     </div>
     <div className='border-bottom my-2'>
-        <h6 className='eighteenfont'><b>Course Objective</b></h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec orci lacinia orci fermentum dapibus id sit amet ligula. Phasellus in placerat leo. Sed ut lorem volutpat, faucibus velit quis, convallis eros. Vestibulum tempor, erat a pulvinar gravida.</p>
+        <h6 className='eighteenfont my-3'><b>Course Objective</b></h6>
+        <p className='text-low '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec orci lacinia orci fermentum dapibus id sit amet ligula. Phasellus in placerat leo. Sed ut lorem volutpat, faucibus velit quis, convallis eros. Vestibulum tempor, erat a pulvinar gravida.</p>
     </div>
-    <div className='border-bottom my-3'>
+    <div className='border-bottom my-4 pb-2'>
         <h6 className='eighteenfont'><b>Digital Book</b></h6>
         <div className="d-flex justify-content-between p-price mt-3">
         <div className="d-flex flex-start ">
@@ -84,7 +84,7 @@ const CourseDetails = () => {
                         </div>
                       </div>
                     </div>
-                    <div className='mt-2'>
+                    <div className='mt-1'>
                     <button className='btn rounded-pill px-5 py-2 shadow' onClick={courseenroll} style={{backgroundColor:'#1D191C', color:'white'}}>Buy Now</button>
                     </div>
             </div>
@@ -107,11 +107,11 @@ const CourseDetails = () => {
                             <b>Jonathan Williams</b>
                             </p>
                           </div>
-                          <span>Senior 3D Designer at Google</span>
+                          <span className='text-low'>Senior 3D Designer at Google</span>
                         </div>
                       </div>
                     </div>
-                    <div className='mt-2'>
+                    <div className='mt-2 mx-4'>
                     <i className="fa-solid fa-comment-dots fa-xl"></i>
                     </div>
             </div>
@@ -155,7 +155,7 @@ const CourseDetails = () => {
             </div>
 
     </div>
-    <div className=' my-3'>
+    <div className=' my-4'>
         <h6 className='eighteenfont'><b>Course Content</b></h6>
         <div className="my-3 py-2 shadow rounded-2">
     <div className="d-flex justify-content-between align-items-center px-3 py-1">
@@ -202,7 +202,7 @@ const CourseDetails = () => {
 
 
     </div>
-    <div className='mt-4 mb-5 col-md-5'>
+    <div className='mt-5 mb-5 col-md-6'>
                     <button className='btn rounded-pill px-5 py-3 shadow w-100' onClick={courseenroll} style={{backgroundColor:'#1D191C', color:'white'}}>Enroll Course</button>
                     </div>
                     </div>                        
@@ -243,10 +243,12 @@ const CourseDetails = () => {
             </div>
             
           </div>
+          <div className='mt-4'>
           <span className='eighteenfont '><b>About Instructor</b></span>
-          <p className='text-secondary my-2'>Lorem ipsum dolor sit amet, consectetur adipi el sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur.</p>
+          </div>
+          <p className='text-low my-3'>Lorem ipsum dolor sit amet, consectetur adipi el sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur.</p>
           <div className='my-4' style={{color:'#1D191C'}}>
-          <p><i className="fa-brands fa-whatsapp fa-xl" style={{ marginRight:'15px'}}></i>https://www.webwhatsapp.com/ECHO</p>
+          <p><img src="./img/courses/coursedetails/Frame (2).png" style={{ marginRight:'15px'}} alt="" />https://www.webwhatsapp.com/ECHO</p>
           <p><i className="fa-brands fa-facebook fa-xl" style={{ marginRight:'15px'}}></i>https://www.facebook.com/ECHO</p>
           <p><i className="fa-brands fa-twitter fa-xl" style={{ marginRight:'15px'}}></i>https://www.twitter.com/ECHO</p>
           <p><i className="fa-brands fa-instagram fa-xl" style={{ marginRight:'15px'}}></i>https://www.instagram.com/ECHO</p>

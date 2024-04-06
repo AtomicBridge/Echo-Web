@@ -4,18 +4,18 @@ const Notifications = () => {
   return (
     <div className="container-fluid" style={{minHeight:'488px'}}>
       <div className='mt-5'>
-        <h1 className="how-it-works-title">Notification</h1>
+        <h1 className="how-it-works-title" style={{fontSize:'56px'}}>Notification</h1>
         <div className="container">
           <div className="row">
             <div className="col-md-12 mx-auto text-center my-4">
-              <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit, consectetur adipiscing elit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore</p>
+              <span className="text-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit, consectetur adipiscing elit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore</span>
             </div>
           </div>
         </div>
       </div>
       <div className='container'>
         <div className="col-md-9 mx-auto " style={{marginBottom:'10%'}}>
-          <span className='eighteenfont fw-bold'>Course Content</span>
+          <h3 className=' fw-bold'>Notification</h3>
           <div className="">
             {/* Render 5 notifications */}
             {[...Array(5)].map((index) => (

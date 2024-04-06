@@ -222,7 +222,7 @@ const handledeleteaccount = () =>{
         </div>
     </div>
     <div className="col-md-11 mx-auto text-center my-4">
-                                <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing t, consectetur adipist, consectetur adipist, consectetur adipist, consectetur adipist, consectetur adipis elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore</p>
+                                <p className="text-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing t, consectetur adipist, consectetur adipist, consectetur adipist, consectetur adipist, consectetur adipis elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore</p>
                             </div>
 
                             <div className="">

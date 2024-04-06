@@ -43,14 +43,16 @@ const UserSignUpProfile2 = () => {
   const toggleDropdowngoal = () => {
     setIsDropdowngoalOpen(!isDropdowngoalOpen);
   };
-  const [selectedweight, setSelectedweight] = useState("kg");
+  const [selectedweight, setSelectedweight] = useState("kg ");
 
-  const handleweightClick = (item) => {
+  const handleweightClick = (item, e) => {
+    e.preventDefault();
     setSelectedweight(item);
   };
-  const [selectedheight, setSelectedheight] = useState("cm");
+  const [selectedheight, setSelectedheight] = useState("cm ");
 
-  const handleheightClick = (item) => {
+  const handleheightClick = (item, e) => {
+    e.preventDefault();
     setSelectedheight(item);
   };
 
@@ -84,9 +86,11 @@ const UserSignUpProfile2 = () => {
                 <div className="w-100">
                   <div className="px-xl-5 ms-xl-4 mt-4 mb-4">
                     <img
-                      className="mb-2"
+                      className="mb-2 img-fluid"
                       src="./img/user/login/logo 1 (1).png"
                       alt=""
+                      height="100"
+                      width="100"
                     />
                     <span className="fw-bold eighteenfont mx-2">
                       Powering Your Platform
@@ -96,12 +100,12 @@ const UserSignUpProfile2 = () => {
                     <form style={{ maxWidth: "100%", width: "100%" }}>
                       <h4 className="fw-bold mb-1 pb-1">Build Your Profile</h4>
                       <div className="col-md-9">
-                        <p className="text-secondary eighteenfont">
+                        <p className="text-secondary eighteenfont mt-3">
                           Check your email inbox for the OTP code we sent you.
                           Please enter it below to proceed.
                         </p>
                       </div>
-                      <div className="form-group mb-2">
+                      <div className="form-group mb-3">
                         <label
                           className="form-label fw-bold"
                           htmlFor="interestSelect"
@@ -119,7 +123,7 @@ const UserSignUpProfile2 = () => {
                             >
                               {selectedInterest
                                 ? selectedInterest
-                                : "Dropdown to select"}
+                                : <span className="text-low">Dropdown to select</span>}
                               <span
                                 className="position-absolute top-50 end-0 translate-middle-y pe-3 dropdown-label"
                                 onClick={toggleDropdown}
@@ -254,12 +258,12 @@ const UserSignUpProfile2 = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="form-group mb-2">
+                      <div className="form-group mb-3">
                         <label
                           className="form-label fw-bold"
                           htmlFor="interestSelect"
                         >
-                          Select Your Interest
+                          Select Your Gender
                         </label>
                         <div className="position-relative">
                           <div className="custom-dropdown">
@@ -272,7 +276,7 @@ const UserSignUpProfile2 = () => {
                             >
                               {selectedgender
                                 ? selectedgender
-                                : "Dropdown to select"}
+                                : <span className="text-low">Dropdown to select</span>}
                               <span
                                 className="position-absolute top-50 end-0 translate-middle-y pe-3 dropdown-label"
                                 onClick={toggleDropdowngender}
@@ -332,7 +336,7 @@ const UserSignUpProfile2 = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="form-group mb-2">
+                      <div className="form-group mb-3">
                         <label
                           className="form-label fw-bold"
                           htmlFor="form2Example18"
@@ -379,66 +383,67 @@ const UserSignUpProfile2 = () => {
                                 <div className="btn-group col-md-3 mx-3">
                                   <button
                                     type="button"
-                                    className="btn dropdown-toggle rounded-4 border-0"
+                                    className="btn dropdown-toggle rounded-4 border-0 "
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
                                     style={{
                                       backgroundColor: "#FAFAFA",
                                       height: "52px",
+                                      fontWeight:'600'
                                     }}
                                   >
                                     {selectedweight}
                                   </button>
                                   <ul className="dropdown-menu">
-                                    <li>
-                                      <button
-                                        className="dropdown-item"
-                                        onClick={() => handleweightClick("t")}
-                                      >
-                                        t
-                                      </button>
-                                    </li>
-                                    <li>
-                                      <button
-                                        className="dropdown-item"
-                                        onClick={() => handleweightClick("kg")}
-                                      >
-                                        kg
-                                      </button>
-                                    </li>
-                                    <li>
-                                      <button
-                                        className="dropdown-item"
-                                        onClick={() => handleweightClick("g")}
-                                      >
-                                        g
-                                      </button>
-                                    </li>
-                                    <li>
-                                      <button
-                                        className="dropdown-item"
-                                        onClick={() => handleweightClick("mg")}
-                                      >
-                                        mg
-                                      </button>
-                                    </li>
-                                    <li>
-                                      <button
-                                        className="dropdown-item"
-                                        onClick={() => handleweightClick("lb")}
-                                      >
-                                        lb
-                                      </button>
-                                    </li>
-                                    <li>
-                                      <button
-                                        className="dropdown-item"
-                                        onClick={() => handleweightClick("oz")}
-                                      >
-                                        oz
-                                      </button>
-                                    </li>
-                                  </ul>
+      <li>
+        <button
+          className="dropdown-item"
+          onClick={(e) => handleweightClick("t ", e)}
+        >
+          t
+        </button>
+      </li>
+      <li>
+        <button
+          className="dropdown-item"
+          onClick={(e) => handleweightClick("kg ", e)}
+        >
+          kg
+        </button>
+      </li>
+      <li>
+        <button
+          className="dropdown-item"
+          onClick={(e) => handleweightClick("g ", e)}
+        >
+          g
+        </button>
+      </li>
+      <li>
+        <button
+          className="dropdown-item"
+          onClick={(e) => handleweightClick("mg ", e)}
+        >
+          mg
+        </button>
+      </li>
+      <li>
+        <button
+          className="dropdown-item"
+          onClick={(e) => handleweightClick("lb ", e)}
+        >
+          lb
+        </button>
+      </li>
+      <li>
+        <button
+          className="dropdown-item"
+          onClick={(e) => handleweightClick("oz ", e)}
+        >
+          oz
+        </button>
+      </li>
+    </ul>
                                 </div>
                               </div>
                             </div>
@@ -476,59 +481,61 @@ const UserSignUpProfile2 = () => {
                                     style={{
                                       backgroundColor: "#FAFAFA",
                                       height: "52px",
+                                      fontWeight:'600'
                                     }}
                                   >
                                     {selectedheight}
                                   </button>
                                   <ul className="dropdown-menu">
-                                    <li>
-                                      <button
-                                        className="dropdown-item"
-                                        onClick={() => handleheightClick("m")}
-                                      >
-                                        m
-                                      </button>
-                                    </li>
-                                    <li>
-                                      <button
-                                        className="dropdown-item"
-                                        onClick={() => handleheightClick("yd")}
-                                      >
-                                        yd
-                                      </button>
-                                    </li>
-                                    <li>
-                                      <button
-                                        className="dropdown-item"
-                                        onClick={() => handleheightClick("ft")}
-                                      >
-                                        ft
-                                      </button>
-                                    </li>
-                                    <li>
-                                      <button
-                                        className="dropdown-item"
-                                        onClick={() => handleheightClick("in")}
-                                      >
-                                        in
-                                      </button>
-                                    </li>
-                                    <li>
-                                      <button
-                                        className="dropdown-item"
-                                        onClick={() => handleheightClick("cm")}
-                                      >
-                                        cm
-                                      </button>
-                                    </li>
-                                  </ul>
+  <li>
+    <button
+      className="dropdown-item"
+      onClick={(e) => handleheightClick("m ", e)}
+    >
+      m
+    </button>
+  </li>
+  <li>
+    <button
+      className="dropdown-item"
+      onClick={(e) => handleheightClick("yd ", e)}
+    >
+      yd
+    </button>
+  </li>
+  <li>
+    <button
+      className="dropdown-item"
+      onClick={(e) => handleheightClick("ft ", e)}
+    >
+      ft
+    </button>
+  </li>
+  <li>
+    <button
+      className="dropdown-item"
+      onClick={(e) => handleheightClick("in ", e)}
+    >
+      in
+    </button>
+  </li>
+  <li>
+    <button
+      className="dropdown-item"
+      onClick={(e) => handleheightClick("cm ", e)}
+    >
+      cm
+    </button>
+  </li>
+</ul>
+
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div className="form-group mb-2">
+                      <div className="form-group mb-3">
                         <label
                           className="form-label fw-bold"
                           htmlFor="interestSelect"
@@ -546,7 +553,7 @@ const UserSignUpProfile2 = () => {
                             >
                               {selectedgoal
                                 ? selectedgoal
-                                : "Dropdown to select"}
+                                : <span className="text-low">Dropdown to select</span>}
                               <span
                                 className="position-absolute top-50 end-0 translate-middle-y pe-3 dropdown-label"
                                 onClick={toggleDropdowngoal}
@@ -714,7 +721,7 @@ const UserSignUpProfile2 = () => {
                     </form>
                     {showModal && (
                       <div
-                        className="modal show"
+                        className="modal show d-flex align-items-center justify-content-center"
                         id="paymentModal"
                         tabIndex="-1"
                         aria-labelledby="paymentModalLabel"
@@ -725,7 +732,7 @@ const UserSignUpProfile2 = () => {
                       >
                         <div
                           className="modal-dialog "
-                          style={{ marginTop: "5%" }}
+                          // style={{ marginTop: "5%" }}
                         >
                           <div className="modal-content my-1">
                             <div className="modal-body text-center">
