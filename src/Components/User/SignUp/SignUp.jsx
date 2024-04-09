@@ -233,7 +233,7 @@ const SignUp = () => {
                             </button>
                           </div>
 
-                          <div className="my-3 mt-xxl-4  mx-auto">
+                          <div className="my-3 mb-5 mt-xxl-4  mx-auto">
                             <button
                               className="btn rounded-pill px-5 py-3 shadow w-100"
                               onClick={handlesignup}

@@ -365,7 +365,7 @@ const handledeleteaccount = () =>{
                             </div>
                             <div className="form-group mb-3 mt-1">
                                 <label className="form-label fw-bold" htmlFor="fullName">Full Name</label>
-                                <input type="text" className="form-control rounded-4 py-2 px-2 border-0" id="fullName" placeholder="Full Name" style={{ backgroundColor: '#FAFAFA', height: '52px' }}   />
+                                <input type="text" className="form-control rounded-4 py-2 px-2 border-0" id="fullName" placeholder="Full name" style={{ backgroundColor: '#FAFAFA', height: '52px' }}   />
                             </div>
                             <div className="form-group mb-3 mt-3">
                                 <label className="form-label fw-bold" htmlFor="location">Location</label>
@@ -392,7 +392,7 @@ const handledeleteaccount = () =>{
                                                         type="text"
                                                         className="form-control rounded-4 py-2 px-2 border-0 mx-3"
                                                         id="whatsappLink"
-                                                        placeholder="Add WhatsApp Link"
+                                                        placeholder="Add whatsApp link"
                                                         style={{ backgroundColor: '#FAFAFA', height: '48px' }}
                                                         pattern="^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$"
                                                         title="Please enter a valid URL"
@@ -409,7 +409,7 @@ const handledeleteaccount = () =>{
                                                         type="text"
                                                         className="form-control rounded-4 py-2 px-2 border-0 mx-3"
                                                         id="facebookLink"
-                                                        placeholder="Add Facebook Link"
+                                                        placeholder="Add facebook link"
                                                         style={{ backgroundColor: '#FAFAFA', height: '48px' }}
                                                         pattern="^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$"
                                                         title="Please enter a valid URL"
@@ -426,7 +426,7 @@ const handledeleteaccount = () =>{
                                                         type="text"
                                                         className="form-control rounded-4 py-2 px-2 border-0 mx-3"
                                                         id="twitterLink"
-                                                        placeholder="Add Twitter Link"
+                                                        placeholder="Add twitter link"
                                                         style={{ backgroundColor: '#FAFAFA', height: '48px' }}
                                                         pattern="^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$"
                                                         title="Please enter a valid URL"
@@ -443,7 +443,7 @@ const handledeleteaccount = () =>{
                                                         type="text"
                                                         className="form-control rounded-4 py-2 px-2 border-0 mx-3"
                                                         id="instagramLink"
-                                                        placeholder="Add Instagram Link"
+                                                        placeholder="Add instagram link"
                                                         style={{ backgroundColor: '#FAFAFA', height: '48px' }}
                                                         pattern="^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$"
                                                         title="Please enter a valid URL"
@@ -460,7 +460,7 @@ const handledeleteaccount = () =>{
                                                         type="text"
                                                         className="form-control rounded-4 py-2 px-2 border-0 mx-3"
                                                         id="websiteLink"
-                                                        placeholder="Add Webiste Link"
+                                                        placeholder="Add webiste link"
                                                         style={{ backgroundColor: '#FAFAFA', height: '48px' }}
                                                         pattern="^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$"
                                                         title="Please enter a valid URL"
@@ -510,7 +510,7 @@ const handledeleteaccount = () =>{
                             htmlFor="newpassword"
                             className="position-absolute top-0 start-0 bottom-0 py-3 px-2 text-secondary"
                           >
-                            <img src="./img/user/login/lock.png" alt="" className='mx-2'/>Current Password
+                            <img src="./img/user/login/lock.png" alt="" className='mx-2'/>Current password
                           </label>)}
                           <div className="position-absolute text-secondary top-0 end-0 bottom-0 py-3 px-2">
                             <FontAwesomeIcon
@@ -541,7 +541,7 @@ const handledeleteaccount = () =>{
                             htmlFor="newpassword"
                             className="position-absolute top-0 start-0 bottom-0 py-3 px-2 text-secondary"
                           >
-                            <img src="./img/user/login/lock.png" alt="" className='mx-2'/>New Password
+                            <img src="./img/user/login/lock.png" alt="" className='mx-2'/>New password
                           </label>)}
                           <div className="position-absolute text-secondary top-0 end-0 bottom-0 py-3 px-2">
                             <FontAwesomeIcon

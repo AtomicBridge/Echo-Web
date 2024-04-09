@@ -28,7 +28,7 @@ const InstructorSignUpProfile2 = () => {
                             <div className="container-fluid d-flex justify-content-center align-items-center">
                                 <div className="w-100">
                                     <div className="px-xl-5 ms-xl-4 mt-4 mb-5">
-                                        <img className='mb-2' src="./img/user/login/logo 1 (1).png" alt="" />
+                                        <img className='mb-2 img-fluid' src="./img/user/login/logo 1 (1).png" alt="" height='28' width='66'/>
                                         <span className="fw-bold eighteenfont mx-2">Powering Your Platform</span>
                                     </div>
                                     <div className="d-flex flex-column align-items-center align-items-sm-start h-custom-2 px-xl-5 ms-xl-4" style={{ marginTop: '25%' }}>
@@ -47,7 +47,7 @@ const InstructorSignUpProfile2 = () => {
                                                         type="text"
                                                         className="form-control rounded-4 py-2 px-2 border-0 mx-3"
                                                         id="whatsappLink"
-                                                        placeholder="Add WhatsApp Link"
+                                                        placeholder="Add whatsApp link"
                                                         style={{ backgroundColor: '#FAFAFA', height: '48px' }}
                                                         pattern="^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$"
                                                         title="Please enter a valid URL"
@@ -64,7 +64,7 @@ const InstructorSignUpProfile2 = () => {
                                                         type="text"
                                                         className="form-control rounded-4 py-2 px-2 border-0 mx-3"
                                                         id="facebookLink"
-                                                        placeholder="Add Facebook Link"
+                                                        placeholder="Add facebook link"
                                                         style={{ backgroundColor: '#FAFAFA', height: '48px' }}
                                                         pattern="^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$"
                                                         title="Please enter a valid URL"
@@ -81,7 +81,7 @@ const InstructorSignUpProfile2 = () => {
                                                         type="text"
                                                         className="form-control rounded-4 py-2 px-2 border-0 mx-3"
                                                         id="twitterLink"
-                                                        placeholder="Add Twitter Link"
+                                                        placeholder="Add twitter link"
                                                         style={{ backgroundColor: '#FAFAFA', height: '48px' }}
                                                         pattern="^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$"
                                                         title="Please enter a valid URL"
@@ -98,7 +98,7 @@ const InstructorSignUpProfile2 = () => {
                                                         type="text"
                                                         className="form-control rounded-4 py-2 px-2 border-0 mx-3"
                                                         id="instagramLink"
-                                                        placeholder="Add Instagram Link"
+                                                        placeholder="Add instagram link"
                                                         style={{ backgroundColor: '#FAFAFA', height: '48px' }}
                                                         pattern="^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$"
                                                         title="Please enter a valid URL"
@@ -115,7 +115,7 @@ const InstructorSignUpProfile2 = () => {
                                                         type="text"
                                                         className="form-control rounded-4 py-2 px-2 border-0 mx-3"
                                                         id="websiteLink"
-                                                        placeholder="Add Webiste Link"
+                                                        placeholder="Add webiste link"
                                                         style={{ backgroundColor: '#FAFAFA', height: '48px' }}
                                                         pattern="^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$"
                                                         title="Please enter a valid URL"
@@ -128,7 +128,7 @@ const InstructorSignUpProfile2 = () => {
 
                                             <div className="">
                                                 <div className="text-center align-items-center">
-                                                    <div className='mb-3 mt-5  mx-auto'>
+                                                    <div className='mb-5 mt-5  mx-auto'>
                                                         <button className='btn rounded-pill px-5 py-3 shadow w-100' onClick={(e) => { e.preventDefault(); handleAccountSuccessful(); }} style={{ backgroundColor: '#1D191C', color: 'white' }}>Continue</button>
                                                     </div>
                                                 </div>

@@ -127,7 +127,7 @@ const ForgotNewPassword = () => {
                             className="form-label fw-bold"
                             htmlFor="form2Example18"
                           >
-                            Confirm New Password
+                            Confirm new password
                           </label>
                           <div className="position-relative d-flex align-items-center">
                             <input
@@ -175,7 +175,7 @@ const ForgotNewPassword = () => {
 
                       <div className="">
                         <div className="text-center align-items-center">
-                          <div className="mb-3 mt-5  mx-auto">
+                          <div className="mb-5 mt-5  mx-auto">
                             <button
                               className="btn rounded-pill px-5 py-3 shadow w-100"
                               onClick={(e) => {

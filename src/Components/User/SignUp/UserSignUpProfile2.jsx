@@ -701,7 +701,7 @@ const UserSignUpProfile2 = () => {
                       </div>
                       <div className="">
                         <div className="text-center align-items-center">
-                          <div className=" mt-4 mx-auto">
+                          <div className="mb-5 mt-4 mx-auto">
                             <button
                               className="btn rounded-pill px-5 py-3 shadow w-100"
                               onClick={(e) => {

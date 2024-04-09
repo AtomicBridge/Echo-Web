@@ -111,7 +111,7 @@ const UserSignUpProfile1 = () => {
                             type="text"
                             className="form-control rounded-4 py-2 px-2 border-0"
                             id="fullName"
-                            placeholder="Full Name"
+                            placeholder="Full name"
                             style={{
                               backgroundColor: "#FAFAFA",
                               height: "52px",
@@ -162,7 +162,7 @@ const UserSignUpProfile1 = () => {
                             onChange={(e) => setDescription(e.target.value)}
                           ></textarea>
                         </div>
-                        <div className="text-center mb-3">
+                        <div className="text-center mb-5">
                           <button
                             className="btn rounded-pill px-5 py-3 shadow w-100"
                             onClick={handleContinue}

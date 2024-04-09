@@ -234,7 +234,7 @@ const Login = ({ setuserlogged }) => {
                             </button>
                           </div>
 
-                          <div className="mb-3 mt-4  mx-auto">
+                          <div className="mb-5 mt-4  mx-auto">
                             <button
                               className="btn rounded-pill px-5 py-3 shadow w-100"
                               onClick={(e) => handlelogin(e)}
